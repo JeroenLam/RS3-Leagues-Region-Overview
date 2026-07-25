@@ -63,20 +63,6 @@
         "link": "",
         "hover_text": ""
     },
-    "Silver": {
-        "level_start": 20,
-        "level_end": 30,
-        "sort_weight": 1.1,
-        "region": [
-            "Karamja",
-            "Asgarnia",
-            "Fremennik",
-            "Desert"
-        ],
-        "image": "item/mining/silver_ore.png",
-        "link": "",
-        "hover_text": ""
-    },
     "Mithril": {
         "level_start": 30,
         "level_end": 40,
@@ -122,23 +108,6 @@
             "Anachronia"
         ],
         "image": "item/mining/luminite.webp",
-        "link": "",
-        "hover_text": ""
-    },
-    "Gold": {
-        "level_start": 40,
-        "level_end": 50,
-        "sort_weight": 1.2,
-        "region": [
-            "Misthalin",
-            "Havenhythe",
-            "Karamja",
-            "Asgarnia",
-            "Kandarin",
-            "Fremennik",
-            "Desert"
-        ],
-        "image": "item/mining/gold_ore.png",
         "link": "",
         "hover_text": ""
     },
@@ -261,6 +230,37 @@
             "Wilderness"
         ],
         "image": "item/mining/promethium_ore.png",
+        "link": "",
+        "hover_text": ""
+    },
+    "Silver": {
+        "level_start": 20,
+        "level_end": 30,
+        "sort_weight": 1.1,
+        "region": [
+            "Karamja",
+            "Asgarnia",
+            "Fremennik",
+            "Desert"
+        ],
+        "image": "item/mining/silver_ore.png",
+        "link": "",
+        "hover_text": ""
+    },
+    "Gold": {
+        "level_start": 40,
+        "level_end": 50,
+        "sort_weight": 1.2,
+        "region": [
+            "Misthalin",
+            "Havenhythe",
+            "Karamja",
+            "Asgarnia",
+            "Kandarin",
+            "Fremennik",
+            "Desert"
+        ],
+        "image": "item/mining/gold_ore.png",
         "link": "",
         "hover_text": ""
     },
