@@ -4,57 +4,57 @@
         {
             "name": "Misthalin",
             "default": true,
-            "image": "region_misthalin.webp"
+            "image": "icon/region_misthalin.webp"
         },
         {
             "name": "Havenhythe",
             "default": true,
-            "image": "region_havenhythe.png"
+            "image": "icon/region_havenhythe.png"
         },
         {
             "name": "Karamja",
             "default": false,
-            "image": "region_karamja.webp"
+            "image": "icon/region_karamja.webp"
         },
         {
             "name": "Asgarnia",
             "default": false,
-            "image": "region_asgarnia.webp"
+            "image": "icon/region_asgarnia.webp"
         },
         {
             "name": "Kandarin",
             "default": false,
-            "image": "region_kandarin.webp"
+            "image": "icon/region_kandarin.webp"
         },
         {
             "name": "Fremennik",
             "default": false,
-            "image": "region_fremennik.webp"
+            "image": "icon/region_fremennik.webp"
         },
         {
             "name": "Desert",
             "default": false,
-            "image": "region_desert.webp"
+            "image": "icon/region_desert.webp"
         },
         {
             "name": "Morytania",
             "default": false,
-            "image": "region_morytania.webp"
+            "image": "icon/region_morytania.webp"
         },
         {
             "name": "Wilderness",
             "default": false,
-            "image": "region_wilderness.webp"
+            "image": "icon/region_wilderness.webp"
         },
         {
             "name": "Tirannwn",
             "default": false,
-            "image": "region_tirannwn.webp"
+            "image": "icon/region_tirannwn.webp"
         },
         {
             "name": "Anachronia",
             "default": false,
-            "image": "region_anachronia.webp"
+            "image": "icon/region_anachronia.webp"
         }
     ]
 }

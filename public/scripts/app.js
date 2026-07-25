@@ -100,7 +100,7 @@ function renderEmpty(contentPane) {
   `;
 }
 
-async function renderSelectedGuide({ items, contentPane, enabledRegionNames, selectedIndex, cache, sortMode }) {
+async function renderSelectedGuide({ items, contentPane, enabledRegionNames, selectedIndex, cache, sortMode, regionImageByName }) {
     if (selectedIndex < 0 || selectedIndex >= items.length) {
         renderEmpty(contentPane);
         return;
@@ -110,7 +110,7 @@ async function renderSelectedGuide({ items, contentPane, enabledRegionNames, sel
 
     try {
         const data = await loadGuideData(selectedItem.file, cache);
-        contentPane.innerHTML = renderByType({ selectedItem, data, enabledRegionNames, sortMode });
+        contentPane.innerHTML = renderByType({ selectedItem, data, enabledRegionNames, sortMode, regionImageByName });
     } catch (error) {
         contentPane.innerHTML = `
       <h1>${selectedItem.name}</h1>
@@ -150,6 +150,9 @@ async function start() {
     const dataCache = new Map();
     let sortMode = "default";
     const defaultRegionNames = appData.regions.filter((region) => !!region.default).map((region) => region.name);
+    const regionImageByName = Object.fromEntries(
+        appData.regions.map((region) => [region.name, region.image || ""]),
+    );
     initializeRegions(toggles, defaultRegionNames);
 
     const sync = async () => {
@@ -167,6 +170,7 @@ async function start() {
             selectedIndex,
             cache: dataCache,
             sortMode,
+            regionImageByName,
         });
 
         const sortSelect = contentPane.querySelector("[data-sort-select]");

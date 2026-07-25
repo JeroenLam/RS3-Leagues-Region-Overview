@@ -11,7 +11,7 @@
                 "Morytania"
             ]
         ],
-        "image": "item_copper_ore.png",
+        "image": "item/mining/copper_ore.png",
         "link": "",
         "hover_text": ""
     },
@@ -24,7 +24,7 @@
             "Asgarnia",
             "Tirannwn"
         ],
-        "image": "item_tin_ore.png",
+        "image": "item/mining/tin_ore.png",
         "link": "",
         "hover_text": ""
     }

@@ -197,6 +197,43 @@ body {
     font-size: 1.1rem;
 }
 
+.region-expression {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.region-group {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.15rem;
+}
+
+.region-or {
+    color: var(--muted);
+    font-weight: 700;
+}
+
+.region-mini-icon,
+.region-mini-fallback {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid #3a445a;
+    background: #12182a;
+}
+
+.region-mini-icon {
+    object-fit: cover;
+}
+
+.region-mini-fallback {
+    display: inline-grid;
+    place-items: center;
+    font-size: 0.58rem;
+    color: #d5dae8;
+}
+
 .level-timeline {
     position: relative;
     min-width: 160px;

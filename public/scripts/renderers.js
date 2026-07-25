@@ -47,6 +47,32 @@ function normalizeRegionRequirements(region) {
     return requirements;
 }
 
+function renderRegionRequirementIcons(entry, regionImageByName) {
+    const requirements = normalizeRegionRequirements(entry?.region);
+    if (requirements.length === 0) {
+        return "<span class=\"muted\">-</span>";
+    }
+
+    const groups = requirements.map((group) => {
+        const icons = group
+            .map((regionName) => {
+                const imageName = regionImageByName?.[regionName] || "";
+                if (imageName) {
+                    const imagePath = `/images/${encodeURIComponent(imageName)}`;
+                    return `<img class=\"region-mini-icon\" src=\"${imagePath}\" alt=\"${escapeHtml(regionName)}\" title=\"${escapeHtml(regionName)}\" loading=\"lazy\" onerror=\"this.style.display='none'\" />`;
+                }
+
+                const fallback = regionName.slice(0, 2).toUpperCase();
+                return `<span class=\"region-mini-fallback\" title=\"${escapeHtml(regionName)}\">${escapeHtml(fallback)}</span>`;
+            })
+            .join("");
+
+        return `<span class=\"region-group\">${icons}</span>`;
+    });
+
+    return `<div class=\"region-expression\">${groups.join('<span class="region-or">/</span>')}</div>`;
+}
+
 function getAvailability(entry, enabledRegionSet) {
     const requirements = normalizeRegionRequirements(entry?.region);
     if (requirements.length === 0) {
@@ -142,7 +168,7 @@ function levelTimeline(entry) {
     `;
 }
 
-function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode }) {
+function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, regionImageByName }) {
     const orderedEntries = getEntriesBySort(entries, sortMode, enabledRegionSet);
 
     const rows = orderedEntries
@@ -160,6 +186,7 @@ function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode })
                         ${image ? `<img class="table-item-icon" src="${image}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.style.display='none'" />` : "-"}
                     </td>
                     <td class="status-cell" title="${escapeHtml(title)}">${availabilityDot(availability)}</td>
+                    <td>${renderRegionRequirementIcons(entry, regionImageByName)}</td>
                     <td>${levelTimeline(entry)}</td>
                 </tr>
             `;
@@ -178,8 +205,9 @@ function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode })
                         <tr>
                             <th>Name</th>
                             <th>Image</th>
-                            <th>🟢🟡🔴</th>
-                            <th>Time graph levels</th>
+                            <th>Unlocked</th>
+                            <th>Regions</th>
+                            <th>Level Range</th>
                         </tr>
                     </thead>
                     <tbody>${rows}</tbody>
@@ -280,13 +308,19 @@ function renderBossGearTable({ selectedItem, entries, enabledRegionSet, sortMode
         `}
     `;
 }
-export function renderByType({ selectedItem, data, enabledRegionNames, sortMode }) {
+export function renderByType({ selectedItem, data, enabledRegionNames, sortMode, regionImageByName }) {
     const entries = toDefaultEntries(data);
     const enabledSet = new Set(enabledRegionNames);
 
     switch (selectedItem.render_type) {
         case "skill":
-            return renderSkillTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode });
+            return renderSkillTable({
+                selectedItem,
+                entries,
+                enabledRegionSet: enabledSet,
+                sortMode,
+                regionImageByName,
+            });
         case "boss":
         case "gear":
             return renderBossGearTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode });
