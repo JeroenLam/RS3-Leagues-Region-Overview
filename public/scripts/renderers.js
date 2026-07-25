@@ -257,7 +257,7 @@ function availabilityDot(availability) {
     return "🔴";
 }
 
-function levelTimeline(entry) {
+function levelTimeline(entry, isUnlocked) {
     const start = typeof entry.level_start === "number" ? entry.level_start : null;
     const end = typeof entry.level_end === "number" ? entry.level_end : null;
     if (start === null || end === null) {
@@ -271,7 +271,7 @@ function levelTimeline(entry) {
     const width = ((max - min) / (maxLevel - 1)) * 100;
 
     return `
-        <div class="level-timeline" title="Level ${min} to ${max}">
+        <div class="level-timeline ${isUnlocked ? "" : "level-timeline-locked"}" title="Level ${min} to ${max}">
             <div class="level-track"></div>
             <div class="level-fill" style="left:${left}%; width:${Math.max(width, 2)}%;"></div>
         </div>
@@ -310,7 +310,7 @@ function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, r
                     <td class="status-cell" title="${escapeHtml(title)}">${availabilityDot(availability)}</td>
                     <td>${renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet, baseUrl)}</td>
                     <td>${escapeHtml(levelRangeText(entry))}</td>
-                    <td>${levelTimeline(entry)}</td>
+                    <td>${levelTimeline(entry, availability === "available")}</td>
                 </tr>
             `;
         })

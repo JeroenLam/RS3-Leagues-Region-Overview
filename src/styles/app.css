@@ -287,6 +287,14 @@ body {
     border-radius: 999px;
 }
 
+.level-timeline-locked .level-track {
+    background: #3d4250;
+}
+
+.level-timeline-locked .level-fill {
+    background: linear-gradient(90deg, #8a8f9d 0%, #717785 70%);
+}
+
 .phase-table td {
     min-width: 140px;
 }
