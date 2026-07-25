@@ -1,0 +1,30 @@
+{
+    "Copper": {
+        "level_start": 1,
+        "level_end": 10,
+        "sort_weight": 1,
+        "region": [
+            "Misthalin",
+            "Asgarnia",
+            [
+                "Kandarin",
+                "Morytania"
+            ]
+        ],
+        "image": "copper.png",
+        "link": "",
+        "hover_text": ""
+    },
+    "Tin": {
+        "level_start": 1,
+        "level_end": 10,
+        "sort_weight": 1.1,
+        "region": [
+            "Misthalin",
+            "Asgarnia"
+        ],
+        "image": "tin.png",
+        "link": "",
+        "hover_text": ""
+    }
+}

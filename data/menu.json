@@ -1,0 +1,23 @@
+{
+    "width": 3,
+    "items": [
+        {
+            "name": "Mining",
+            "file": "mining.json",
+            "image": "skill_mining.webp",
+            "render_type": "skill"
+        },
+        {
+            "name": "Bosses",
+            "file": "bosses.json",
+            "image": "combat_hard.webp",
+            "render_type": "boss"
+        },
+        {
+            "name": "Melee Gear",
+            "file": "gear_melee.json",
+            "image": "skill_attack.webp",
+            "render_type": "gear"
+        }
+    ]
+}
