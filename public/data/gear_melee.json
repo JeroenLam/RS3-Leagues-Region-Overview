@@ -3,9 +3,11 @@
         "tier": 3,
         "hover_text": "skilling",
         "sort_weight": 1,
-        "region": [
-            "Wilderness"
-        ],
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
         "image": "item/gear_melee/primal_body.webp",
         "link": ""
     },
@@ -13,9 +15,11 @@
         "tier": 2,
         "hover_text": "Nex",
         "sort_weight": 1,
-        "region": [
-            "Asgarnia"
-        ],
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
         "image": "item/gear_melee/torva_body.webp",
         "link": ""
     }

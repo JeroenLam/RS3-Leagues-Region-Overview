@@ -8,6 +8,12 @@
             "render_type": "skill"
         },
         {
+            "name": "Smithing",
+            "file": "smithing.json",
+            "image": "icon/skill_smithing.webp",
+            "render_type": "skill"
+        },
+        {
             "name": "Bosses",
             "file": "bosses.json",
             "image": "icon/combat_hard.webp",

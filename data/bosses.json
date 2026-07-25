@@ -2,9 +2,11 @@
     "Hermod": {
         "tier": 1,
         "sort_weight": 1,
-        "region": [
-            "Misthalin"
-        ],
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
         "image": "boss/hermod.webp",
         "link": "https://runescape.wiki/w/Hermod,_the_Spirit_of_War",
         "hover_text": "First Nectromancy boss"

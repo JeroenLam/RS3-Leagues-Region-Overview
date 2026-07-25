@@ -7,81 +7,180 @@ function escapeHtml(value) {
         .replaceAll("'", "&#39;");
 }
 
-function flattenRegions(input, result = []) {
-    if (Array.isArray(input)) {
-        input.forEach((value) => flattenRegions(value, result));
-        return result;
+function uniquePush(list, value) {
+    if (!list.includes(value)) {
+        list.push(value);
     }
-    if (typeof input === "string" && input.trim()) {
-        result.push(input.trim());
+}
+
+function parseLegacyClauses(region) {
+    const clauses = [];
+    if (!Array.isArray(region)) {
+        return clauses;
     }
-    return result;
+
+    region.forEach((part) => {
+        if (typeof part === "string" && part.trim()) {
+            clauses.push([part.trim()]);
+            return;
+        }
+
+        if (Array.isArray(part)) {
+            const required = part
+                .map((option) => (typeof option === "string" ? option.trim() : ""))
+                .filter(Boolean);
+            if (required.length > 0) {
+                clauses.push(required);
+            }
+        }
+    });
+
+    return clauses;
+}
+
+function parseRegionExpression(region) {
+    if (!region) {
+        return { kind: "none" };
+    }
+
+    if (Array.isArray(region)) {
+        const clauses = parseLegacyClauses(region);
+        if (clauses.length === 0) {
+            return { kind: "none" };
+        }
+        return { kind: "legacy-or-and", clauses };
+    }
+
+    if (typeof region === "object") {
+        if (Array.isArray(region.anyOf)) {
+            const options = region.anyOf
+                .map((value) => (typeof value === "string" ? value.trim() : ""))
+                .filter(Boolean);
+            if (options.length > 0) {
+                return { kind: "any-of", options };
+            }
+        }
+
+        if (Array.isArray(region.allOf)) {
+            const groups = region.allOf
+                .map((group) => {
+                    if (!group || !Array.isArray(group.anyOf)) {
+                        return [];
+                    }
+                    return group.anyOf
+                        .map((value) => (typeof value === "string" ? value.trim() : ""))
+                        .filter(Boolean);
+                })
+                .filter((group) => group.length > 0);
+
+            if (groups.length > 0) {
+                return { kind: "all-of-any-of", groups };
+            }
+        }
+    }
+
+    return { kind: "none" };
+}
+
+function flattenRegions(regionInput) {
+    const expression = parseRegionExpression(regionInput);
+    const allNames = [];
+
+    if (expression.kind === "legacy-or-and") {
+        expression.clauses.flat().forEach((name) => uniquePush(allNames, name));
+        return allNames;
+    }
+
+    if (expression.kind === "any-of") {
+        expression.options.forEach((name) => uniquePush(allNames, name));
+        return allNames;
+    }
+
+    if (expression.kind === "all-of-any-of") {
+        expression.groups.flat().forEach((name) => uniquePush(allNames, name));
+        return allNames;
+    }
+
+    return allNames;
 }
 
 function toDefaultEntries(rawData) {
     return Object.entries(rawData || {});
 }
 
-function normalizeRegionRequirements(region) {
-    if (!Array.isArray(region)) {
-        return [];
-    }
-
-    const requirements = [];
-    region.forEach((part) => {
-        if (typeof part === "string" && part.trim()) {
-            requirements.push([part.trim()]);
-            return;
-        }
-
-        if (Array.isArray(part)) {
-            const options = part
-                .map((option) => (typeof option === "string" ? option.trim() : ""))
-                .filter(Boolean);
-            if (options.length > 0) {
-                requirements.push(options);
-            }
-        }
-    });
-
-    return requirements;
-}
-
 function renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet) {
-    const requirements = normalizeRegionRequirements(entry?.region);
-    if (requirements.length === 0) {
+    const expression = parseRegionExpression(entry?.region);
+    if (expression.kind === "none") {
         return "<span class=\"muted\">-</span>";
     }
 
-    const groups = requirements.map((group) => {
+    const renderIcon = (regionName) => {
+        const imageName = regionImageByName?.[regionName] || "";
+        const selectedClass = enabledRegionSet.has(regionName) ? " region-mini-selected" : "";
+        if (imageName) {
+            const imagePath = `/images/${encodeURIComponent(imageName)}`;
+            return `<img class=\"region-mini-icon${selectedClass}\" src=\"${imagePath}\" alt=\"${escapeHtml(regionName)}\" title=\"${escapeHtml(regionName)}\" loading=\"lazy\" onerror=\"this.style.display='none'\" />`;
+        }
+
+        const fallback = regionName.slice(0, 2).toUpperCase();
+        return `<span class=\"region-mini-fallback${selectedClass}\" title=\"${escapeHtml(regionName)}\">${escapeHtml(fallback)}</span>`;
+    };
+
+    const renderOrGroup = (group) => {
+        const icons = group.map((regionName) => renderIcon(regionName)).join("");
+        return `<span class=\"region-group\">${icons}</span>`;
+    };
+
+    if (expression.kind === "legacy-or-and") {
+        const groups = expression.clauses.map((group) => renderOrGroup(group));
+        return `<div class=\"region-expression\">${groups.join('<span class="region-or">/</span>')}</div>`;
+    }
+
+    if (expression.kind === "any-of") {
+        const groups = expression.options.map((name) => renderOrGroup([name]));
+        return `<div class=\"region-expression\">${groups.join('<span class="region-or">/</span>')}</div>`;
+    }
+
+    const andGroups = expression.groups.map((group) => {
         const icons = group
-            .map((regionName) => {
-                const imageName = regionImageByName?.[regionName] || "";
-                const selectedClass = enabledRegionSet.has(regionName) ? " region-mini-selected" : "";
-                if (imageName) {
-                    const imagePath = `/images/${encodeURIComponent(imageName)}`;
-                    return `<img class=\"region-mini-icon${selectedClass}\" src=\"${imagePath}\" alt=\"${escapeHtml(regionName)}\" title=\"${escapeHtml(regionName)}\" loading=\"lazy\" onerror=\"this.style.display='none'\" />`;
-                }
-
-                const fallback = regionName.slice(0, 2).toUpperCase();
-                return `<span class=\"region-mini-fallback${selectedClass}\" title=\"${escapeHtml(regionName)}\">${escapeHtml(fallback)}</span>`;
-            })
-            .join("");
-
+            .map((regionName) => renderIcon(regionName))
+            .join('<span class="region-or">/</span>');
         return `<span class=\"region-group\">${icons}</span>`;
     });
 
-    return `<div class=\"region-expression\">${groups.join('<span class="region-or">/</span>')}</div>`;
+    return `<div class=\"region-expression\">${andGroups.join("")}</div>`;
 }
 
 function getAvailability(entry, enabledRegionSet) {
-    const requirements = normalizeRegionRequirements(entry?.region);
-    if (requirements.length === 0) {
+    const expression = parseRegionExpression(entry?.region);
+    if (expression.kind === "none") {
         return "available";
     }
 
+    if (expression.kind === "any-of") {
+        const matched = expression.options.some((name) => enabledRegionSet.has(name));
+        return matched ? "available" : "not";
+    }
+
+    if (expression.kind === "all-of-any-of") {
+        let matchedGroups = 0;
+        expression.groups.forEach((group) => {
+            if (group.some((name) => enabledRegionSet.has(name))) {
+                matchedGroups += 1;
+            }
+        });
+
+        if (matchedGroups === expression.groups.length) {
+            return "available";
+        }
+        if (matchedGroups > 0) {
+            return "almost";
+        }
+        return "not";
+    }
+
     let hasPartial = false;
-    for (const optionGroup of requirements) {
+    for (const optionGroup of expression.clauses) {
         const matchedCount = optionGroup.filter((name) => enabledRegionSet.has(name)).length;
 
         if (matchedCount === optionGroup.length) {

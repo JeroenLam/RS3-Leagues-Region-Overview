@@ -3,13 +3,15 @@
         "level_start": 1,
         "level_end": 10,
         "sort_weight": 1,
-        "region": [
-            "Misthalin",
-            "Havenhythe",
-            "Asgarnia",
-            "Kandarin",
-            "Desert"
-        ],
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Asgarnia",
+                "Kandarin",
+                "Desert"
+            ]
+        },
         "image": "item/mining/copper_ore.png",
         "link": "",
         "hover_text": ""
@@ -18,13 +20,15 @@
         "level_start": 1,
         "level_end": 10,
         "sort_weight": 1.1,
-        "region": [
-            "Misthalin",
-            "Havenhythe",
-            "Asgarnia",
-            "Kandarin",
-            "Desert"
-        ],
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Asgarnia",
+                "Kandarin",
+                "Desert"
+            ]
+        },
         "image": "item/mining/tin_ore.png",
         "link": "",
         "hover_text": ""
@@ -33,13 +37,15 @@
         "level_start": 10,
         "level_end": 20,
         "sort_weight": 1,
-        "region": [
-            "Misthalin",
-            "Havenhythe",
-            "Asgarnia",
-            "Fremennik",
-            "Desert"
-        ],
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Asgarnia",
+                "Fremennik",
+                "Desert"
+            ]
+        },
         "image": "item/mining/iron_ore.png",
         "link": "",
         "hover_text": ""
@@ -48,17 +54,19 @@
         "level_start": 20,
         "level_end": 30,
         "sort_weight": 1,
-        "region": [
-            "Misthalin",
-            "Havenhythe",
-            "Karamja",
-            "Asgarnia",
-            "Kandarin",
-            "Fremennik",
-            "Desert",
-            "Morytania",
-            "Tirannwn"
-        ],
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Karamja",
+                "Asgarnia",
+                "Kandarin",
+                "Fremennik",
+                "Desert",
+                "Morytania",
+                "Tirannwn"
+            ]
+        },
         "image": "item/mining/coal.webp",
         "link": "",
         "hover_text": ""
@@ -67,15 +75,17 @@
         "level_start": 30,
         "level_end": 40,
         "sort_weight": 1,
-        "region": [
-            "Misthalin",
-            "Karamja",
-            "Asgarnia",
-            "Kandarin",
-            "Fremennik",
-            "Desert",
-            "Tirannwn"
-        ],
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Karamja",
+                "Asgarnia",
+                "Kandarin",
+                "Fremennik",
+                "Desert",
+                "Tirannwn"
+            ]
+        },
         "image": "item/mining/mithril_ore.png",
         "link": "",
         "hover_text": ""
@@ -84,14 +94,16 @@
         "level_start": 40,
         "level_end": 50,
         "sort_weight": 1,
-        "region": [
-            "Misthalin",
-            "Karamja",
-            "Asgarnia",
-            "Kandarin",
-            "Desert",
-            "Tirannwn"
-        ],
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Karamja",
+                "Asgarnia",
+                "Kandarin",
+                "Desert",
+                "Tirannwn"
+            ]
+        },
         "image": "item/mining/adamantite_ore.png",
         "link": "",
         "hover_text": ""
@@ -100,13 +112,15 @@
         "level_start": 40,
         "level_end": 50,
         "sort_weight": 1.1,
-        "region": [
-            "Asgarnia",
-            "Kandarin",
-            "Fremennik",
-            "Morytania",
-            "Anachronia"
-        ],
+        "region": {
+            "anyOf": [
+                "Asgarnia",
+                "Kandarin",
+                "Fremennik",
+                "Morytania",
+                "Anachronia"
+            ]
+        },
         "image": "item/mining/luminite.webp",
         "link": "",
         "hover_text": ""
@@ -115,13 +129,15 @@
         "level_start": 50,
         "level_end": 60,
         "sort_weight": 1,
-        "region": [
-            "Karamja",
-            "Asgarnia",
-            "Kandarin",
-            "Wilderness",
-            "Tirannwn"
-        ],
+        "region": {
+            "anyOf": [
+                "Karamja",
+                "Asgarnia",
+                "Kandarin",
+                "Wilderness",
+                "Tirannwn"
+            ]
+        },
         "image": "item/mining/runite_ore.png",
         "link": "",
         "hover_text": ""
@@ -130,11 +146,13 @@
         "level_start": 60,
         "level_end": 70,
         "sort_weight": 1,
-        "region": [
-            "Asgarnia",
-            "Wilderness",
-            "Tirannwn"
-        ],
+        "region": {
+            "anyOf": [
+                "Asgarnia",
+                "Wilderness",
+                "Tirannwn"
+            ]
+        },
         "image": "item/mining/orichalcite_ore.webp",
         "link": "",
         "hover_text": ""
@@ -143,16 +161,18 @@
         "level_start": 60,
         "level_end": 70,
         "sort_weight": 1.1,
-        "region": [
-            "Misthalin",
-            "Karamja",
-            "Asgarnia",
-            "Fremennik",
-            "Desert",
-            "Morytania",
-            "Wilderness",
-            "Anachronia"
-        ],
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Karamja",
+                "Asgarnia",
+                "Fremennik",
+                "Desert",
+                "Morytania",
+                "Wilderness",
+                "Anachronia"
+            ]
+        },
         "image": "item/mining/drakolith.webp",
         "link": "",
         "hover_text": ""
@@ -161,12 +181,14 @@
         "level_start": 70,
         "level_end": 80,
         "sort_weight": 1,
-        "region": [
-            "Havenhythe",
-            "Kandarin",
-            "Desert",
-            "Wilderness"
-        ],
+        "region": {
+            "anyOf": [
+                "Havenhythe",
+                "Kandarin",
+                "Desert",
+                "Wilderness"
+            ]
+        },
         "image": "item/mining/necrite_ore.webp",
         "link": "",
         "hover_text": ""
@@ -175,12 +197,14 @@
         "level_start": 70,
         "level_end": 80,
         "sort_weight": 1.1,
-        "region": [
-            "Havenhythe",
-            "Asgarnia",
-            "Morytania",
-            "Wilderness"
-        ],
+        "region": {
+            "anyOf": [
+                "Havenhythe",
+                "Asgarnia",
+                "Morytania",
+                "Wilderness"
+            ]
+        },
         "image": "item/mining/phasmatite.webp",
         "link": "",
         "hover_text": ""
@@ -189,10 +213,12 @@
         "level_start": 80,
         "level_end": 90,
         "sort_weight": 1,
-        "region": [
-            "Fremennik",
-            "Wilderness"
-        ],
+        "region": {
+            "anyOf": [
+                "Fremennik",
+                "Wilderness"
+            ]
+        },
         "image": "item/mining/banite_ore.webp",
         "link": "",
         "hover_text": ""
@@ -201,11 +227,13 @@
         "level_start": 90,
         "level_end": 100,
         "sort_weight": 1,
-        "region": [
-            "Desert",
-            "Tirannwn",
-            "Anachronia"
-        ],
+        "region": {
+            "anyOf": [
+                "Desert",
+                "Tirannwn",
+                "Anachronia"
+            ]
+        },
         "image": "item/mining/light_animica.webp",
         "link": "",
         "hover_text": ""
@@ -214,10 +242,12 @@
         "level_start": 90,
         "level_end": 100,
         "sort_weight": 1.1,
-        "region": [
-            "Misthalin",
-            "Anachronia"
-        ],
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Anachronia"
+            ]
+        },
         "image": "item/mining/dark_animica.webp",
         "link": "",
         "hover_text": ""
@@ -226,9 +256,11 @@
         "level_start": 100,
         "level_end": 120,
         "sort_weight": 1,
-        "region": [
-            "Wilderness"
-        ],
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
         "image": "item/mining/promethium_ore.png",
         "link": "",
         "hover_text": ""
@@ -237,12 +269,14 @@
         "level_start": 20,
         "level_end": 30,
         "sort_weight": 1.1,
-        "region": [
-            "Karamja",
-            "Asgarnia",
-            "Fremennik",
-            "Desert"
-        ],
+        "region": {
+            "anyOf": [
+                "Karamja",
+                "Asgarnia",
+                "Fremennik",
+                "Desert"
+            ]
+        },
         "image": "item/mining/silver_ore.png",
         "link": "",
         "hover_text": ""
@@ -251,15 +285,17 @@
         "level_start": 40,
         "level_end": 50,
         "sort_weight": 1.2,
-        "region": [
-            "Misthalin",
-            "Havenhythe",
-            "Karamja",
-            "Asgarnia",
-            "Kandarin",
-            "Fremennik",
-            "Desert"
-        ],
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Karamja",
+                "Asgarnia",
+                "Kandarin",
+                "Fremennik",
+                "Desert"
+            ]
+        },
         "image": "item/mining/gold_ore.png",
         "link": "",
         "hover_text": ""
@@ -268,11 +304,13 @@
         "level_start": 104,
         "level_end": 120,
         "sort_weight": 1,
-        "region": [
-            "Havenhythe",
-            "Kandarin",
-            "Desert"
-        ],
+        "region": {
+            "anyOf": [
+                "Havenhythe",
+                "Kandarin",
+                "Desert"
+            ]
+        },
         "image": "item/mining/platinum_ore.png",
         "link": "",
         "hover_text": ""
