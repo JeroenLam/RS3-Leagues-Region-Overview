@@ -164,9 +164,20 @@ function levelTimeline(entry) {
         <div class="level-timeline" title="Level ${min} to ${max}">
             <div class="level-track"></div>
             <div class="level-fill" style="left:${left}%; width:${Math.max(width, 2)}%;"></div>
-            <span class="level-label">${min}-${max}</span>
         </div>
     `;
+}
+
+function levelRangeText(entry) {
+    const start = typeof entry.level_start === "number" ? entry.level_start : null;
+    const end = typeof entry.level_end === "number" ? entry.level_end : null;
+    if (start === null || end === null) {
+        return "-";
+    }
+
+    const min = Math.max(1, Math.min(start, end));
+    const max = Math.max(1, Math.max(start, end));
+    return `${min}-${max}`;
 }
 
 function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, regionImageByName }) {
@@ -188,6 +199,7 @@ function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, r
                     </td>
                     <td class="status-cell" title="${escapeHtml(title)}">${availabilityDot(availability)}</td>
                     <td>${renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet)}</td>
+                    <td>${escapeHtml(levelRangeText(entry))}</td>
                     <td>${levelTimeline(entry)}</td>
                 </tr>
             `;
@@ -209,6 +221,7 @@ function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, r
                             <th>Unlocked</th>
                             <th>Regions</th>
                             <th>Level Range</th>
+                            <th>Level Graph</th>
                         </tr>
                     </thead>
                     <tbody>${rows}</tbody>

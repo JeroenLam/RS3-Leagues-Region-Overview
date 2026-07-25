@@ -246,14 +246,14 @@ body {
     height: 20px;
 }
 
-.skill-table th:nth-child(-n+4),
-.skill-table td:nth-child(-n+4) {
+.skill-table th:nth-child(-n+5),
+.skill-table td:nth-child(-n+5) {
     white-space: nowrap;
     width: 1%;
 }
 
-.skill-table th:nth-child(5),
-.skill-table td:nth-child(5) {
+.skill-table th:nth-child(6),
+.skill-table td:nth-child(6) {
     width: 99%;
 }
 
@@ -273,14 +273,6 @@ body {
     height: 8px;
     background: linear-gradient(90deg, #4eb16a 0%, #d9b45f 70%);
     border-radius: 999px;
-}
-
-.level-label {
-    position: absolute;
-    right: 0;
-    top: -2px;
-    font-size: 0.75rem;
-    color: var(--muted);
 }
 
 .phase-table td {
