@@ -6,5 +6,5 @@ const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
 
 // https://astro.build/config
 export default defineConfig({
-	base: isGithubActions && repoName ? `/${repoName}/` : '/',
+    base: isGithubActions && repoName ? `/${repoName}/` : '/',
 });

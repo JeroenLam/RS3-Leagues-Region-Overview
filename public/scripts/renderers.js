@@ -118,7 +118,7 @@ function renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet
         const imageName = regionImageByName?.[regionName] || "";
         const selectedClass = enabledRegionSet.has(regionName) ? " region-mini-selected" : "";
         if (imageName) {
-                const imagePath = assetUrl(baseUrl, `images/${encodeURIComponent(imageName)}`);
+            const imagePath = assetUrl(baseUrl, `images/${encodeURIComponent(imageName)}`);
             return `<img class=\"region-mini-icon${selectedClass}\" src=\"${imagePath}\" alt=\"${escapeHtml(regionName)}\" title=\"${escapeHtml(regionName)}\" loading=\"lazy\" onerror=\"this.style.display='none'\" />`;
         }
 
