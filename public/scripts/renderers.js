@@ -104,7 +104,11 @@ function toDefaultEntries(rawData) {
     return Object.entries(rawData || {});
 }
 
-function renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet) {
+function assetUrl(baseUrl, relativePath) {
+    return `${baseUrl}${relativePath}`;
+}
+
+function renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet, baseUrl) {
     const expression = parseRegionExpression(entry?.region);
     if (expression.kind === "none") {
         return "<span class=\"muted\">-</span>";
@@ -114,7 +118,7 @@ function renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet
         const imageName = regionImageByName?.[regionName] || "";
         const selectedClass = enabledRegionSet.has(regionName) ? " region-mini-selected" : "";
         if (imageName) {
-            const imagePath = `/images/${encodeURIComponent(imageName)}`;
+                const imagePath = assetUrl(baseUrl, `images/${encodeURIComponent(imageName)}`);
             return `<img class=\"region-mini-icon${selectedClass}\" src=\"${imagePath}\" alt=\"${escapeHtml(regionName)}\" title=\"${escapeHtml(regionName)}\" loading=\"lazy\" onerror=\"this.style.display='none'\" />`;
         }
 
@@ -286,13 +290,13 @@ function levelRangeText(entry) {
     return `${min}-${max}`;
 }
 
-function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, regionImageByName }) {
+function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, regionImageByName, baseUrl }) {
     const orderedEntries = getEntriesBySort(entries, sortMode, enabledRegionSet);
 
     const rows = orderedEntries
         .map(([name, entry]) => {
             const availability = getAvailability(entry, enabledRegionSet);
-            const image = entry.image ? `/images/${encodeURIComponent(entry.image)}` : "";
+            const image = entry.image ? assetUrl(baseUrl, `images/${encodeURIComponent(entry.image)}`) : "";
             const flatRegions = flattenRegions(entry.region).join(", ");
             const hoverText = entry.hover_text ? String(entry.hover_text) : "No note";
             const title = `Regions: ${flatRegions || "None"} | ${hoverText}`;
@@ -304,7 +308,7 @@ function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, r
                         ${image ? `<img class="table-item-icon" src="${image}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.style.display='none'" />` : "-"}
                     </td>
                     <td class="status-cell" title="${escapeHtml(title)}">${availabilityDot(availability)}</td>
-                    <td>${renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet)}</td>
+                    <td>${renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet, baseUrl)}</td>
                     <td>${escapeHtml(levelRangeText(entry))}</td>
                     <td>${levelTimeline(entry)}</td>
                 </tr>
@@ -351,7 +355,7 @@ function getPhaseBucket(entry) {
     return "end";
 }
 
-function renderBossGearTable({ selectedItem, entries, enabledRegionSet, sortMode }) {
+function renderBossGearTable({ selectedItem, entries, enabledRegionSet, sortMode, baseUrl }) {
     const orderedEntries = getEntriesBySort(entries, sortMode, enabledRegionSet);
     const regionRowOrder = [];
     const regionRows = new Map();
@@ -376,7 +380,7 @@ function renderBossGearTable({ selectedItem, entries, enabledRegionSet, sortMode
         }
         const bucket = getPhaseBucket(entry);
         const availability = getAvailability(entry, enabledRegionSet);
-        const image = entry.image ? `/images/${encodeURIComponent(entry.image)}` : "";
+        const image = entry.image ? assetUrl(baseUrl, `images/${encodeURIComponent(entry.image)}`) : "";
         const itemHtml = `
             <div class="bucket-item availability-${availability}" title="${escapeHtml(name)}">
                 ${image ? `<img class="bucket-icon" src="${image}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.style.display='none'" />` : "<span>?</span>"}
@@ -428,7 +432,7 @@ function renderBossGearTable({ selectedItem, entries, enabledRegionSet, sortMode
         `}
     `;
 }
-export function renderByType({ selectedItem, data, enabledRegionNames, sortMode, regionImageByName }) {
+export function renderByType({ selectedItem, data, enabledRegionNames, sortMode, regionImageByName, baseUrl = "/" }) {
     const entries = toDefaultEntries(data);
     const enabledSet = new Set(enabledRegionNames);
 
@@ -440,10 +444,11 @@ export function renderByType({ selectedItem, data, enabledRegionNames, sortMode,
                 enabledRegionSet: enabledSet,
                 sortMode,
                 regionImageByName,
+                baseUrl,
             });
         case "boss":
         case "gear":
-            return renderBossGearTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode });
+            return renderBossGearTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode, baseUrl });
         default:
             return `
         <h1>${escapeHtml(selectedItem.name)}</h1>

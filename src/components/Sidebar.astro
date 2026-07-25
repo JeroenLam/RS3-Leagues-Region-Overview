@@ -17,11 +17,13 @@ const {
   menuWidth,
   regions,
   regionWidth,
+  baseUrl,
 }: {
   items: MenuItem[];
   menuWidth: number;
   regions: RegionItem[];
   regionWidth: number;
+  baseUrl: string;
 } = Astro.props;
 ---
 
@@ -41,7 +43,7 @@ const {
           >
             <div class="icon">
               <img
-                src={`/images/${region.image ?? ""}`}
+                src={`${baseUrl}images/${region.image ?? ""}`}
                 alt={region.name}
                 loading="lazy"
                 onerror="this.style.display='none'"
@@ -60,12 +62,12 @@ const {
       {items.map((item, index) => (
         <a
           class="menu-link guide-link"
-          href={`/?item=${index}`}
+          href={`${baseUrl}?item=${index}`}
           data-guide-index={String(index)}
         >
           <div class="icon">
             <img
-              src={`/images/${item.image ?? ""}`}
+              src={`${baseUrl}images/${item.image ?? ""}`}
               alt={item.name}
               loading="lazy"
               onerror="this.style.display='none'"

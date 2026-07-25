@@ -1,4 +1,4 @@
-import { renderByType } from "/scripts/renderers.js";
+import { renderByType } from "./renderers.js";
 
 const REGION_COOKIE_NAME = "enabled_regions";
 
@@ -71,12 +71,12 @@ function markActiveGuide(guideLinks, selectedIndex) {
     });
 }
 
-async function loadGuideData(fileName, cache) {
+async function loadGuideData(fileName, cache, baseUrl) {
     if (cache.has(fileName)) {
         return cache.get(fileName);
     }
 
-    const response = await fetch(`/data/${fileName}`);
+    const response = await fetch(`${baseUrl}data/${fileName}`);
     if (!response.ok) {
         throw new Error(`Could not load ${fileName}`);
     }
@@ -100,7 +100,7 @@ function renderEmpty(contentPane) {
   `;
 }
 
-async function renderSelectedGuide({ items, contentPane, enabledRegionNames, selectedIndex, cache, sortMode, regionImageByName }) {
+async function renderSelectedGuide({ items, contentPane, enabledRegionNames, selectedIndex, cache, sortMode, regionImageByName, baseUrl }) {
     if (selectedIndex < 0 || selectedIndex >= items.length) {
         renderEmpty(contentPane);
         return;
@@ -109,8 +109,15 @@ async function renderSelectedGuide({ items, contentPane, enabledRegionNames, sel
     const selectedItem = items[selectedIndex];
 
     try {
-        const data = await loadGuideData(selectedItem.file, cache);
-        contentPane.innerHTML = renderByType({ selectedItem, data, enabledRegionNames, sortMode, regionImageByName });
+        const data = await loadGuideData(selectedItem.file, cache, baseUrl);
+        contentPane.innerHTML = renderByType({
+            selectedItem,
+            data,
+            enabledRegionNames,
+            sortMode,
+            regionImageByName,
+            baseUrl,
+        });
     } catch (error) {
         contentPane.innerHTML = `
       <h1>${selectedItem.name}</h1>
@@ -148,6 +155,7 @@ async function start() {
     }
 
     const dataCache = new Map();
+    const baseUrl = appData.baseUrl || "/";
     let sortMode = "default";
     const defaultRegionNames = appData.regions.filter((region) => !!region.default).map((region) => region.name);
     const regionImageByName = Object.fromEntries(
@@ -171,6 +179,7 @@ async function start() {
             cache: dataCache,
             sortMode,
             regionImageByName,
+            baseUrl,
         });
 
         const sortSelect = contentPane.querySelector("[data-sort-select]");
