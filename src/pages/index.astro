@@ -1,6 +1,9 @@
 ---
 import menu from "../../data/menu.json";
 import regions from "../../data/regions.json";
+import Sidebar from "../components/Sidebar.astro";
+import ContentPanel from "../components/ContentPanel.astro";
+import "../styles/app.css";
 
 type MenuItem = {
 	name: string;
@@ -16,27 +19,14 @@ type RegionItem = {
 };
 
 const items = (menu.items ?? []) as MenuItem[];
-const gridWidth = Math.max(1, Number(menu.width) || 1);
+const menuWidth = Math.max(1, Number(menu.width) || 1);
 const regionItems = (regions.items ?? []) as RegionItem[];
-const regionGridWidth = Math.max(1, Number(regions.width) || gridWidth);
+const regionWidth = Math.max(1, Number(regions.width) || menuWidth);
 
-const enabledRegionNames = regionItems
-	.filter((region) => Boolean(region.default))
-	.map((region) => region.name);
-const enabledRegionsCsv = enabledRegionNames.join(",");
-
-const buildItemHref = (index: number) => {
-	const params = new URLSearchParams();
-	params.set("item", String(index));
-	return `/?${params.toString()}`;
+const appData = {
+	items,
+	regions: regionItems,
 };
-
-const selectedFromUrl = Number.parseInt(Astro.url.searchParams.get("item") ?? "", 10);
-const selectedIndex =
-	Number.isNaN(selectedFromUrl) || selectedFromUrl < 0 || selectedFromUrl >= items.length
-		? -1
-		: selectedFromUrl;
-const selectedItem = selectedIndex >= 0 ? items[selectedIndex] : null;
 ---
 
 <html lang="en">
@@ -47,308 +37,13 @@ const selectedItem = selectedIndex >= 0 ? items[selectedIndex] : null;
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>RS3 Regions</title>
-		<style>
-			:root {
-				--bg: #13161e;
-				--panel: #1c2130;
-				--panel-soft: #21283a;
-				--accent: #d1a25d;
-				--text: #f6f0e7;
-				--muted: #a9adbb;
-			}
-
-			* {
-				box-sizing: border-box;
-			}
-
-			body {
-				margin: 0;
-				min-height: 100vh;
-				font-family: "Trebuchet MS", "Segoe UI", sans-serif;
-				background:
-					radial-gradient(1000px 500px at 0% 0%, #273047 0%, transparent 50%),
-					radial-gradient(1200px 600px at 100% 100%, #2a2022 0%, transparent 50%),
-					var(--bg);
-				color: var(--text);
-			}
-
-			.page {
-				display: grid;
-				grid-template-columns: 360px 1fr;
-				min-height: 100vh;
-				gap: 1rem;
-				padding: 1rem;
-			}
-
-			.menu {
-				background: color-mix(in hsl, var(--panel), black 12%);
-				border: 1px solid #30384a;
-				border-radius: 16px;
-				padding: 1rem;
-				display: grid;
-				gap: 1rem;
-				align-content: start;
-			}
-
-			.menu-section-title {
-				margin: 0 0 0.2rem 0;
-				font-size: 0.82rem;
-				font-weight: 700;
-				letter-spacing: 0.05em;
-				text-transform: uppercase;
-				color: var(--muted);
-			}
-
-			.menu-grid {
-				display: grid;
-				grid-template-columns: repeat(var(--grid-width), minmax(0, 1fr));
-				gap: 0.75rem;
-			}
-
-			.menu-link {
-				display: block;
-				text-decoration: none;
-				color: inherit;
-				border-radius: 12px;
-				outline: 1px solid #3a445a;
-				padding: 0.45rem;
-				background: var(--panel-soft);
-				transition: transform 140ms ease, outline-color 140ms ease, background 140ms ease;
-			}
-
-			.menu-link:hover,
-			.menu-link:focus-visible {
-				transform: translateY(-2px);
-				outline-color: var(--accent);
-			}
-
-			.menu-link.active {
-				outline-color: var(--accent);
-				background: #2b3347;
-			}
-
-			.region-toggle {
-				cursor: pointer;
-				border: 0;
-				text-align: inherit;
-				font: inherit;
-			}
-
-			.region-toggle.disabled {
-				opacity: 0.8;
-			}
-
-			.region-toggle.disabled img {
-				filter: grayscale(1) brightness(0.4);
-			}
-
-			.icon {
-				display: grid;
-				place-items: center;
-				aspect-ratio: 1 / 1;
-				border-radius: 8px;
-				overflow: hidden;
-				background: #111726;
-				position: relative;
-			}
-
-			.icon img {
-				height: 100%;
-				width: 100%;
-				object-fit: cover;
-				position: relative;
-				z-index: 2;
-			}
-
-			.label {
-				display: block;
-				margin-top: 0.4rem;
-				font-size: 0.78rem;
-				text-align: center;
-				line-height: 1.2;
-			}
-
-			.content {
-				background: color-mix(in hsl, var(--panel), black 8%);
-				border: 1px solid #30384a;
-				border-radius: 16px;
-				padding: 1.25rem;
-			}
-
-			.content h1 {
-				margin: 0 0 0.85rem 0;
-				font-size: clamp(1.4rem, 2.6vw, 2.4rem);
-			}
-
-			.muted {
-				color: var(--muted);
-			}
-
-			@media (max-width: 900px) {
-				.page {
-					grid-template-columns: 1fr;
-				}
-
-				.menu {
-					order: 1;
-				}
-
-				.content {
-					order: 2;
-				}
-			}
-		</style>
 	</head>
 	<body>
 		<main class="page">
-			<aside class="menu">
-				<section>
-					<h2 class="menu-section-title">Regions</h2>
-					<div class="menu-grid" style={`--grid-width: ${regionGridWidth};`}>
-						{regionItems.map((region) => {
-							const regionEnabled = enabledRegionNames.includes(region.name);
-							return (
-								<button
-									type="button"
-									class={`menu-link region-toggle ${regionEnabled ? "" : "disabled"}`}
-									data-region-name={region.name}
-									data-enabled={regionEnabled ? "true" : "false"}
-									aria-pressed={regionEnabled ? "true" : "false"}
-								>
-									<div class="icon">
-										<img
-											src={`/images/${region.image ?? ""}`}
-											alt={region.name}
-											loading="lazy"
-											onerror="this.style.display='none'"
-										/>
-									</div>
-									<span class="label">{region.name}</span>
-								</button>
-							);
-						})}
-					</div>
-				</section>
-
-				<section>
-					<h2 class="menu-section-title">Guides</h2>
-				<div class="menu-grid" style={`--grid-width: ${gridWidth};`}>
-					{items.map((item, index) => (
-						<a
-							class={`menu-link ${index === selectedIndex ? "active" : ""}`}
-							href={buildItemHref(index)}
-							data-menu-link="true"
-						>
-							<div class="icon">
-								<img
-									src={`/images/${item.image ?? ""}`}
-									alt={item.name}
-									loading="lazy"
-									onerror="this.style.display='none'"
-								/>
-							</div>
-							<span class="label">{item.name}</span>
-						</a>
-					))}
-				</div>
-				</section>
-			</aside>
-
-			<section class="content" id="content-pane" data-enabled-regions={enabledRegionsCsv}>
-				{selectedItem ? (
-					<>
-						<h1>{selectedItem.name}</h1>
-						<h1>{selectedItem.file}</h1>
-						<p class="muted">Debug renderer enabled. Render type: {selectedItem.render_type ?? "unknown"}</p>
-					</>
-				) : (
-					<>
-						<h1>Select an item to begin</h1>
-						<p class="muted">Click one of the elements in the left menu to open its content view.</p>
-					</>
-				)}
-			</section>
+			<Sidebar items={items} menuWidth={menuWidth} regions={regionItems} regionWidth={regionWidth} />
+			<ContentPanel />
 		</main>
-
-		<script>
-			const REGION_COOKIE_NAME = "enabled_regions";
-			const toggles = Array.from(document.querySelectorAll("[data-region-name]"));
-			const contentPane = document.getElementById("content-pane");
-
-			const setToggleState = (toggle, isEnabled) => {
-				toggle.dataset.enabled = isEnabled ? "true" : "false";
-				toggle.classList.toggle("disabled", !isEnabled);
-				toggle.setAttribute("aria-pressed", isEnabled ? "true" : "false");
-			};
-
-			const readRegionCookie = () => {
-				const cookieEntry = document.cookie
-					.split(";")
-					.map((entry) => entry.trim())
-					.find((entry) => entry.startsWith(`${REGION_COOKIE_NAME}=`));
-
-				if (!cookieEntry) {
-					return [];
-				}
-
-				const rawValue = cookieEntry.slice(REGION_COOKIE_NAME.length + 1);
-				const decoded = decodeURIComponent(rawValue || "");
-				return decoded
-					.split(",")
-					.map((name) => name.trim())
-					.filter(Boolean);
-			};
-
-			const writeRegionCookie = (enabledCsv) => {
-				if (!enabledCsv) {
-					document.cookie = `${REGION_COOKIE_NAME}=; path=/; max-age=0; samesite=lax`;
-					return;
-				}
-
-				document.cookie =
-					`${REGION_COOKIE_NAME}=${encodeURIComponent(enabledCsv)}; ` +
-					"path=/; max-age=31536000; samesite=lax";
-			};
-
-			const initializeFromCookie = () => {
-				const cookieRegions = readRegionCookie();
-				if (cookieRegions.length === 0) {
-					return;
-				}
-
-				const cookieSet = new Set(cookieRegions);
-				toggles.forEach((toggle) => {
-					const name = toggle.dataset.regionName;
-					setToggleState(toggle, Boolean(name && cookieSet.has(name)));
-				});
-			};
-
-			const getEnabledRegions = () =>
-				toggles
-					.filter((toggle) => toggle.dataset.enabled === "true")
-					.map((toggle) => toggle.dataset.regionName)
-					.filter(Boolean);
-
-			const syncRegionState = () => {
-				const enabled = getEnabledRegions();
-				const enabledCsv = enabled.join(",");
-				writeRegionCookie(enabledCsv);
-
-				if (contentPane) {
-					contentPane.dataset.enabledRegions = enabledCsv;
-				}
-			};
-
-			toggles.forEach((toggle) => {
-				toggle.addEventListener("click", () => {
-					const isEnabled = toggle.dataset.enabled === "true";
-					setToggleState(toggle, !isEnabled);
-					syncRegionState();
-				});
-			});
-
-			initializeFromCookie();
-			syncRegionState();
-		</script>
+		<script id="app-data" type="application/json" set:html={JSON.stringify(appData)}></script>
+		<script type="module" src="/scripts/app.js"></script>
 	</body>
 </html>

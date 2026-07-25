@@ -9,4 +9,7 @@ if [[ ! -d node_modules ]]; then
   npm ci
 fi
 
+mkdir -p public/data
+cp -f data/*.json public/data/
+
 npm run build

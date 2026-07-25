@@ -1,0 +1,79 @@
+---
+type MenuItem = {
+  name: string;
+  file: string;
+  image?: string;
+  render_type?: string;
+};
+
+type RegionItem = {
+  name: string;
+  default?: boolean;
+  image?: string;
+};
+
+const {
+  items,
+  menuWidth,
+  regions,
+  regionWidth,
+}: {
+  items: MenuItem[];
+  menuWidth: number;
+  regions: RegionItem[];
+  regionWidth: number;
+} = Astro.props;
+---
+
+<aside class="menu" id="left-menu">
+  <section>
+    <h2 class="menu-section-title">Regions</h2>
+    <div class="menu-grid" style={`--grid-width: ${regionWidth};`}>
+      {regions.map((region) => {
+        const regionEnabled = Boolean(region.default);
+        return (
+          <button
+            type="button"
+            class={`menu-link region-toggle ${regionEnabled ? "" : "disabled"}`}
+            data-region-name={region.name}
+            data-enabled={regionEnabled ? "true" : "false"}
+            aria-pressed={regionEnabled ? "true" : "false"}
+          >
+            <div class="icon">
+              <img
+                src={`/images/${region.image ?? ""}`}
+                alt={region.name}
+                loading="lazy"
+                onerror="this.style.display='none'"
+              />
+            </div>
+            <span class="label">{region.name}</span>
+          </button>
+        );
+      })}
+    </div>
+  </section>
+
+  <section>
+    <h2 class="menu-section-title">Guides</h2>
+    <div class="menu-grid" style={`--grid-width: ${menuWidth};`}>
+      {items.map((item, index) => (
+        <a
+          class="menu-link guide-link"
+          href={`/?item=${index}`}
+          data-guide-index={String(index)}
+        >
+          <div class="icon">
+            <img
+              src={`/images/${item.image ?? ""}`}
+              alt={item.name}
+              loading="lazy"
+              onerror="this.style.display='none'"
+            />
+          </div>
+          <span class="label">{item.name}</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</aside>
