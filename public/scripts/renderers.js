@@ -18,107 +18,283 @@ function flattenRegions(input, result = []) {
     return result;
 }
 
-function matchesEnabledRegions(entry, enabledRegionSet) {
-    if (!entry || !entry.region) {
-        return true;
-    }
-    const entryRegions = flattenRegions(entry.region);
-    if (entryRegions.length === 0) {
-        return true;
-    }
-    if (enabledRegionSet.size === 0) {
-        return false;
-    }
-    return entryRegions.some((name) => enabledRegionSet.has(name));
+function toDefaultEntries(rawData) {
+    return Object.entries(rawData || {});
 }
 
-function toSortedEntries(rawData) {
-    return Object.entries(rawData || {}).sort((a, b) => {
-        const aWeight = typeof a[1]?.sort_weight === "number" ? a[1].sort_weight : 0;
-        const bWeight = typeof b[1]?.sort_weight === "number" ? b[1].sort_weight : 0;
-        return aWeight - bWeight;
+function normalizeRegionRequirements(region) {
+    if (!Array.isArray(region)) {
+        return [];
+    }
+
+    const requirements = [];
+    region.forEach((part) => {
+        if (typeof part === "string" && part.trim()) {
+            requirements.push([part.trim()]);
+            return;
+        }
+
+        if (Array.isArray(part)) {
+            const options = part
+                .map((option) => (typeof option === "string" ? option.trim() : ""))
+                .filter(Boolean);
+            if (options.length > 0) {
+                requirements.push(options);
+            }
+        }
     });
+
+    return requirements;
 }
 
-function cardMetaForType(renderType, entry) {
-    if (renderType === "skill") {
-        if (typeof entry.level_start === "number" && typeof entry.level_end === "number") {
-            return `Level ${entry.level_start} - ${entry.level_end}`;
+function getAvailability(entry, enabledRegionSet) {
+    const requirements = normalizeRegionRequirements(entry?.region);
+    if (requirements.length === 0) {
+        return "available";
+    }
+
+    let hasPartial = false;
+    for (const optionGroup of requirements) {
+        const matchedCount = optionGroup.filter((name) => enabledRegionSet.has(name)).length;
+
+        if (matchedCount === optionGroup.length) {
+            return "available";
+        }
+
+        if (matchedCount > 0) {
+            hasPartial = true;
         }
     }
 
-    if (renderType === "boss") {
-        if (typeof entry.tier === "number") {
-            return `Boss tier ${entry.tier}`;
-        }
+    if (hasPartial) {
+        return "almost";
     }
-
-    if (renderType === "gear") {
-        if (typeof entry.tier === "number") {
-            return `Gear tier ${entry.tier}`;
-        }
-    }
-
-    return "";
+    return "not";
 }
 
-function renderCards({ selectedItem, data, enabledRegionNames }) {
-    const renderType = selectedItem.render_type || "unknown";
-    const enabledSet = new Set(enabledRegionNames);
-    const visibleEntries = toSortedEntries(data).filter(([, entry]) =>
-        matchesEnabledRegions(entry, enabledSet),
-    );
+function sortByAvailability(entries, enabledRegionSet) {
+    const buckets = {
+        available: [],
+        almost: [],
+        not: [],
+    };
 
-    if (visibleEntries.length === 0) {
-        return `
-      <h1>${escapeHtml(selectedItem.name)}</h1>
-      <p class="muted">No entries match your selected regions.</p>
+    entries.forEach(([name, entry]) => {
+        const availability = getAvailability(entry, enabledRegionSet);
+        buckets[availability].push([name, entry]);
+    });
+
+    return [
+        ...buckets.available,
+        ...buckets.almost,
+        ...buckets.not,
+    ];
+}
+
+function getEntriesBySort(entries, sortMode, enabledRegionSet) {
+    if (sortMode === "available") {
+        return sortByAvailability(entries, enabledRegionSet);
+    }
+    return entries;
+}
+
+function renderSortControls(sortMode) {
+    return `
+        <div class="sort-controls">
+            <label for="sort-mode" class="sort-label">Sorting</label>
+            <select id="sort-mode" class="sort-select" data-sort-select>
+                <option value="default" ${sortMode === "default" ? "selected" : ""}>Default</option>
+                <option value="available" ${sortMode === "available" ? "selected" : ""}>Available</option>
+            </select>
+        </div>
     `;
+}
+
+function availabilityDot(availability) {
+    if (availability === "available") {
+        return "🟢";
+    }
+    if (availability === "almost") {
+        return "🟡";
+    }
+    return "🔴";
+}
+
+function levelTimeline(entry) {
+    const start = typeof entry.level_start === "number" ? entry.level_start : null;
+    const end = typeof entry.level_end === "number" ? entry.level_end : null;
+    if (start === null || end === null) {
+        return "<span class=\"muted\">-</span>";
     }
 
-    const cards = visibleEntries
-        .map(([name, entry]) => {
-            const meta = cardMetaForType(renderType, entry);
-            const image = entry.image ? `/images/${encodeURIComponent(entry.image)}` : "";
-            const imageTag = image
-                ? `<img class="guide-card-image" src="${image}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.style.display='none'" />`
-                : `<div class="guide-card-image"></div>`;
+    const min = Math.max(1, Math.min(start, end));
+    const max = Math.max(1, Math.max(start, end));
+    const maxLevel = 120;
+    const left = ((min - 1) / (maxLevel - 1)) * 100;
+    const width = ((max - min) / (maxLevel - 1)) * 100;
 
-            const hoverText = entry.hover_text ? `<p class="guide-card-text">${escapeHtml(entry.hover_text)}</p>` : "";
-            const link = entry.link
-                ? `<p class="guide-card-text"><a class="guide-card-link" href="${escapeHtml(entry.link)}" target="_blank" rel="noreferrer">Open guide link</a></p>`
-                : "";
+    return `
+        <div class="level-timeline" title="Level ${min} to ${max}">
+            <div class="level-track"></div>
+            <div class="level-fill" style="left:${left}%; width:${Math.max(width, 2)}%;"></div>
+            <span class="level-label">${min}-${max}</span>
+        </div>
+    `;
+}
+
+function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode }) {
+    const orderedEntries = getEntriesBySort(entries, sortMode, enabledRegionSet);
+
+    const rows = orderedEntries
+        .map(([name, entry]) => {
+            const availability = getAvailability(entry, enabledRegionSet);
+            const image = entry.image ? `/images/${encodeURIComponent(entry.image)}` : "";
+            const flatRegions = flattenRegions(entry.region).join(", ");
+            const hoverText = entry.hover_text ? String(entry.hover_text) : "No note";
+            const title = `Regions: ${flatRegions || "None"} | ${hoverText}`;
 
             return `
-        <article class="guide-card">
-          ${imageTag}
-          <div>
-            <h2 class="guide-card-title">${escapeHtml(name)}</h2>
-            ${meta ? `<p class="guide-card-meta">${escapeHtml(meta)}</p>` : ""}
-            ${hoverText}
-            ${link}
-          </div>
-        </article>
-      `;
+                <tr>
+                    <td>${escapeHtml(name)}</td>
+                    <td>
+                        ${image ? `<img class="table-item-icon" src="${image}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.style.display='none'" />` : "-"}
+                    </td>
+                    <td class="status-cell" title="${escapeHtml(title)}">${availabilityDot(availability)}</td>
+                    <td>${levelTimeline(entry)}</td>
+                </tr>
+            `;
         })
         .join("");
 
+    const noItems = rows.trim().length === 0;
+
     return `
-    <h1>${escapeHtml(selectedItem.name)}</h1>
-    <div class="guide-list">${cards}</div>
-  `;
+        <h1>${escapeHtml(selectedItem.name)}</h1>
+        ${renderSortControls(sortMode)}
+        ${noItems ? `<p class="muted">No entries found.</p>` : `
+            <div class="table-wrap">
+                <table class="guide-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Image</th>
+                            <th>🟢🟡🔴</th>
+                            <th>Time graph levels</th>
+                        </tr>
+                    </thead>
+                    <tbody>${rows}</tbody>
+                </table>
+            </div>
+        `}
+    `;
 }
 
-export function renderByType({ selectedItem, data, enabledRegionNames }) {
+function getPhaseBucket(entry) {
+    const tier = typeof entry.tier === "number" ? entry.tier : 1;
+    if (tier <= 1) {
+        return "early";
+    }
+    if (tier === 2) {
+        return "mid";
+    }
+    if (tier === 3) {
+        return "late";
+    }
+    return "end";
+}
+
+function renderBossGearTable({ selectedItem, entries, enabledRegionSet, sortMode }) {
+    const orderedEntries = getEntriesBySort(entries, sortMode, enabledRegionSet);
+    const regionRowOrder = [];
+    const regionRows = new Map();
+
+    const ensureRegionRow = (regionName) => {
+        if (!regionRows.has(regionName)) {
+            regionRows.set(regionName, {
+                early: [],
+                mid: [],
+                late: [],
+                end: [],
+            });
+            regionRowOrder.push(regionName);
+        }
+        return regionRows.get(regionName);
+    };
+
+    orderedEntries.forEach(([name, entry]) => {
+        const regions = flattenRegions(entry.region);
+        if (regions.length === 0) {
+            regions.push("Unknown");
+        }
+        const bucket = getPhaseBucket(entry);
+        const availability = getAvailability(entry, enabledRegionSet);
+        const image = entry.image ? `/images/${encodeURIComponent(entry.image)}` : "";
+        const itemHtml = `
+            <div class="bucket-item availability-${availability}" title="${escapeHtml(name)}">
+                ${image ? `<img class="bucket-icon" src="${image}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.style.display='none'" />` : "<span>?</span>"}
+            </div>
+        `;
+
+        regions.forEach((regionName) => {
+            const row = ensureRegionRow(regionName);
+            row[bucket].push(itemHtml);
+        });
+    });
+
+    const hasSelectedRegions = enabledRegionSet.size > 0;
+    const rows = regionRowOrder
+        .map((regionName) => {
+            const row = regionRows.get(regionName);
+            return `
+                <tr>
+                    <td>${escapeHtml(regionName)}</td>
+                    <td><div class="bucket-list">${row.early.join("")}</div></td>
+                    <td><div class="bucket-list">${row.mid.join("")}</div></td>
+                    <td><div class="bucket-list">${row.late.join("")}</div></td>
+                    <td><div class="bucket-list">${row.end.join("")}</div></td>
+                </tr>
+            `;
+        })
+        .join("");
+
+    const noItems = rows.trim().length === 0;
+
+    return `
+        <h1>${escapeHtml(selectedItem.name)}</h1>
+        ${renderSortControls(sortMode)}
+        ${noItems ? `<p class="muted">No entries found.</p>` : `
+            <div class="table-wrap ${hasSelectedRegions ? "" : "regionless"}">
+                <table class="guide-table phase-table">
+                    <thead>
+                        <tr>
+                            <th>Region</th>
+                            <th>Early game</th>
+                            <th>Mid game</th>
+                            <th>Late game</th>
+                            <th>End game</th>
+                        </tr>
+                    </thead>
+                    <tbody>${rows}</tbody>
+                </table>
+            </div>
+        `}
+    `;
+}
+export function renderByType({ selectedItem, data, enabledRegionNames, sortMode }) {
+    const entries = toDefaultEntries(data);
+    const enabledSet = new Set(enabledRegionNames);
+
     switch (selectedItem.render_type) {
         case "skill":
+            return renderSkillTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode });
         case "boss":
         case "gear":
-            return renderCards({ selectedItem, data, enabledRegionNames });
+            return renderBossGearTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode });
         default:
             return `
         <h1>${escapeHtml(selectedItem.name)}</h1>
         <h1>${escapeHtml(selectedItem.file)}</h1>
+        ${renderSortControls(sortMode)}
         <p class="muted">Debug renderer enabled. Render type: ${escapeHtml(selectedItem.render_type || "unknown")}</p>
       `;
     }

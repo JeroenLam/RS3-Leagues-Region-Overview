@@ -11,7 +11,7 @@
                 "Morytania"
             ]
         ],
-        "image": "copper.png",
+        "image": "item_copper_ore.png",
         "link": "",
         "hover_text": ""
     },
@@ -21,9 +21,10 @@
         "sort_weight": 1.1,
         "region": [
             "Misthalin",
-            "Asgarnia"
+            "Asgarnia",
+            "Tirannwn"
         ],
-        "image": "tin.png",
+        "image": "item_tin_ore.png",
         "link": "",
         "hover_text": ""
     }

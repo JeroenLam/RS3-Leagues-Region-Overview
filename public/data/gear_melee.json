@@ -6,7 +6,7 @@
         "region": [
             "Wilderness"
         ],
-        "image": "primal_body.png",
+        "image": "item_primal_body.webp",
         "link": ""
     },
     "Torva armour": {
@@ -16,7 +16,7 @@
         "region": [
             "Asgarnia"
         ],
-        "image": "torva_body.png",
+        "image": "item_torva_body.webp",
         "link": ""
     }
 }

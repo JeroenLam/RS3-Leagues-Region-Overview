@@ -100,7 +100,7 @@ function renderEmpty(contentPane) {
   `;
 }
 
-async function renderSelectedGuide({ items, contentPane, enabledRegionNames, selectedIndex, cache }) {
+async function renderSelectedGuide({ items, contentPane, enabledRegionNames, selectedIndex, cache, sortMode }) {
     if (selectedIndex < 0 || selectedIndex >= items.length) {
         renderEmpty(contentPane);
         return;
@@ -110,7 +110,7 @@ async function renderSelectedGuide({ items, contentPane, enabledRegionNames, sel
 
     try {
         const data = await loadGuideData(selectedItem.file, cache);
-        contentPane.innerHTML = renderByType({ selectedItem, data, enabledRegionNames });
+        contentPane.innerHTML = renderByType({ selectedItem, data, enabledRegionNames, sortMode });
     } catch (error) {
         contentPane.innerHTML = `
       <h1>${selectedItem.name}</h1>
@@ -148,6 +148,7 @@ async function start() {
     }
 
     const dataCache = new Map();
+    let sortMode = "default";
     const defaultRegionNames = appData.regions.filter((region) => !!region.default).map((region) => region.name);
     initializeRegions(toggles, defaultRegionNames);
 
@@ -165,7 +166,17 @@ async function start() {
             enabledRegionNames,
             selectedIndex,
             cache: dataCache,
+            sortMode,
         });
+
+        const sortSelect = contentPane.querySelector("[data-sort-select]");
+        if (sortSelect instanceof HTMLSelectElement) {
+            sortSelect.value = sortMode;
+            sortSelect.addEventListener("change", async () => {
+                sortMode = sortSelect.value === "available" ? "available" : "default";
+                await sync();
+            });
+        }
     };
 
     toggles.forEach((toggle) => {
