@@ -47,7 +47,7 @@ function normalizeRegionRequirements(region) {
     return requirements;
 }
 
-function renderRegionRequirementIcons(entry, regionImageByName) {
+function renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet) {
     const requirements = normalizeRegionRequirements(entry?.region);
     if (requirements.length === 0) {
         return "<span class=\"muted\">-</span>";
@@ -57,13 +57,14 @@ function renderRegionRequirementIcons(entry, regionImageByName) {
         const icons = group
             .map((regionName) => {
                 const imageName = regionImageByName?.[regionName] || "";
+                const selectedClass = enabledRegionSet.has(regionName) ? " region-mini-selected" : "";
                 if (imageName) {
                     const imagePath = `/images/${encodeURIComponent(imageName)}`;
-                    return `<img class=\"region-mini-icon\" src=\"${imagePath}\" alt=\"${escapeHtml(regionName)}\" title=\"${escapeHtml(regionName)}\" loading=\"lazy\" onerror=\"this.style.display='none'\" />`;
+                    return `<img class=\"region-mini-icon${selectedClass}\" src=\"${imagePath}\" alt=\"${escapeHtml(regionName)}\" title=\"${escapeHtml(regionName)}\" loading=\"lazy\" onerror=\"this.style.display='none'\" />`;
                 }
 
                 const fallback = regionName.slice(0, 2).toUpperCase();
-                return `<span class=\"region-mini-fallback\" title=\"${escapeHtml(regionName)}\">${escapeHtml(fallback)}</span>`;
+                return `<span class=\"region-mini-fallback${selectedClass}\" title=\"${escapeHtml(regionName)}\">${escapeHtml(fallback)}</span>`;
             })
             .join("");
 
@@ -186,7 +187,7 @@ function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, r
                         ${image ? `<img class="table-item-icon" src="${image}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.style.display='none'" />` : "-"}
                     </td>
                     <td class="status-cell" title="${escapeHtml(title)}">${availabilityDot(availability)}</td>
-                    <td>${renderRegionRequirementIcons(entry, regionImageByName)}</td>
+                    <td>${renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet)}</td>
                     <td>${levelTimeline(entry)}</td>
                 </tr>
             `;
@@ -200,7 +201,7 @@ function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, r
         ${renderSortControls(sortMode)}
         ${noItems ? `<p class="muted">No entries found.</p>` : `
             <div class="table-wrap">
-                <table class="guide-table">
+                <table class="guide-table skill-table">
                     <thead>
                         <tr>
                             <th>Name</th>

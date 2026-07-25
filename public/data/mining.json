@@ -5,11 +5,10 @@
         "sort_weight": 1,
         "region": [
             "Misthalin",
+            "Havenhythe",
             "Asgarnia",
-            [
-                "Kandarin",
-                "Morytania"
-            ]
+            "Kandarin",
+            "Desert"
         ],
         "image": "item/mining/copper_ore.png",
         "link": "",
@@ -21,10 +20,108 @@
         "sort_weight": 1.1,
         "region": [
             "Misthalin",
+            "Havenhythe",
             "Asgarnia",
-            "Tirannwn"
+            "Kandarin",
+            "Desert"
         ],
         "image": "item/mining/tin_ore.png",
+        "link": "",
+        "hover_text": ""
+    },
+    "Iron": {
+        "level_start": 10,
+        "level_end": 20,
+        "sort_weight": 1,
+        "region": [
+            "Misthalin",
+            "Havenhythe",
+            "Asgarnia",
+            "Fremennik",
+            "Desert"
+        ],
+        "image": "item/mining/iron_ore.png",
+        "link": "",
+        "hover_text": ""
+    },
+    "Coal": {
+        "level_start": 20,
+        "level_end": 30,
+        "sort_weight": 1,
+        "region": [
+            "Misthalin",
+            "Havenhythe",
+            "Karamja",
+            "Asgarnia",
+            "Kandarin",
+            "Fremennik",
+            "Desert",
+            "Morytania",
+            "Tirannwn"
+        ],
+        "image": "item/mining/coal.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Silver": {
+        "level_start": 20,
+        "level_end": 30,
+        "sort_weight": 1.1,
+        "region": [
+            "Karamja",
+            "Asgarnia",
+            "Fremennik",
+            "Desert"
+        ],
+        "image": "item/mining/silver_ore.png",
+        "link": "",
+        "hover_text": ""
+    },
+    "Mithril": {
+        "level_start": 30,
+        "level_end": 40,
+        "sort_weight": 1,
+        "region": [
+            "Misthalin",
+            "Karamja",
+            "Asgarnia",
+            "Kandarin",
+            "Fremennik",
+            "Desert",
+            "Tirannwn"
+        ],
+        "image": "item/mining/mithril_ore.png",
+        "link": "",
+        "hover_text": ""
+    },
+    "Adamant": {
+        "level_start": 40,
+        "level_end": 50,
+        "sort_weight": 1,
+        "region": [
+            "Misthalin",
+            "Karamja",
+            "Asgarnia",
+            "Kandarin",
+            "Desert",
+            "Tirannwn"
+        ],
+        "image": "item/mining/adamantite_ore.png",
+        "link": "",
+        "hover_text": ""
+    },
+    "Luminite": {
+        "level_start": 40,
+        "level_end": 50,
+        "sort_weight": 1.1,
+        "region": [
+            "Asgarnia",
+            "Kandarin",
+            "Fremennik",
+            "Morytania",
+            "Anachronia"
+        ],
+        "image": "item/mining/luminite.webp",
         "link": "",
         "hover_text": ""
     }

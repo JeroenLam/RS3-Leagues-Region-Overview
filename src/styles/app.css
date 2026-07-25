@@ -223,6 +223,11 @@ body {
     background: #12182a;
 }
 
+.region-mini-selected {
+    border-color: #4eb16a;
+    box-shadow: 0 0 0 1px #4eb16a;
+}
+
 .region-mini-icon {
     object-fit: cover;
 }
@@ -236,8 +241,20 @@ body {
 
 .level-timeline {
     position: relative;
-    min-width: 160px;
+    width: 100%;
+    min-width: 220px;
     height: 20px;
+}
+
+.skill-table th:nth-child(-n+4),
+.skill-table td:nth-child(-n+4) {
+    white-space: nowrap;
+    width: 1%;
+}
+
+.skill-table th:nth-child(5),
+.skill-table td:nth-child(5) {
+    width: 99%;
 }
 
 .level-track {
