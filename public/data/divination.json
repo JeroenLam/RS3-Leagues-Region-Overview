@@ -1,0 +1,171 @@
+{
+    "Pale": {
+        "level_start": 1,
+        "level_end": 10,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/divination/1.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Flickering": {
+        "level_start": 10,
+        "level_end": 20,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/divination/10.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Bright": {
+        "level_start": 20,
+        "level_end": 30,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/divination/20.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Glowing": {
+        "level_start": 30,
+        "level_end": 40,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "item/divination/30.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Sparkling": {
+        "level_start": 40,
+        "level_end": 50,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Fremennik"
+            ]
+        },
+        "image": "item/divination/40.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Gleaming": {
+        "level_start": 50,
+        "level_end": 60,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "item/divination/50.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Vibrant": {
+        "level_start": 60,
+        "level_end": 70,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "item/divination/60.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Lustrous": {
+        "level_start": 70,
+        "level_end": 80,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "item/divination/70.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Elder": {
+        "level_start": 75,
+        "level_end": 80,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "item/divination/75.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Brilliant": {
+        "level_start": 80,
+        "level_end": 85,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/divination/80.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Radiant": {
+        "level_start": 85,
+        "level_end": 90,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "item/divination/85.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Luminous": {
+        "level_start": 90,
+        "level_end": 95,
+        "sort_weight": 1.1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/divination/90.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Incandescent": {
+        "level_start": 95,
+        "level_end": 99,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "item/divination/95.webp",
+        "link": "",
+        "hover_text": ""
+    }
+}

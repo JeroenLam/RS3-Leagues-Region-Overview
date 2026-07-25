@@ -13,68 +13,67 @@ function uniquePush(list, value) {
     }
 }
 
-function parseLegacyClauses(region) {
-    const clauses = [];
-    if (!Array.isArray(region)) {
-        return clauses;
+function parseRegionExpression(region) {
+    if (typeof region === "string" && region.trim()) {
+        return { kind: "region", name: region.trim() };
     }
 
-    region.forEach((part) => {
-        if (typeof part === "string" && part.trim()) {
-            clauses.push([part.trim()]);
-            return;
-        }
-
-        if (Array.isArray(part)) {
-            const required = part
-                .map((option) => (typeof option === "string" ? option.trim() : ""))
-                .filter(Boolean);
-            if (required.length > 0) {
-                clauses.push(required);
-            }
-        }
-    });
-
-    return clauses;
-}
-
-function parseRegionExpression(region) {
     if (!region) {
         return { kind: "none" };
     }
 
     if (Array.isArray(region)) {
-        const clauses = parseLegacyClauses(region);
-        if (clauses.length === 0) {
+        // Legacy format: top-level OR, nested array means AND.
+        const choices = region
+            .map((part) => {
+                if (typeof part === "string" && part.trim()) {
+                    return { kind: "region", name: part.trim() };
+                }
+
+                if (Array.isArray(part)) {
+                    const andChildren = part
+                        .map((value) => parseRegionExpression(value))
+                        .filter((value) => value.kind !== "none");
+                    if (andChildren.length > 0) {
+                        return { kind: "all-of", children: andChildren };
+                    }
+                }
+
+                return { kind: "none" };
+            })
+            .filter((value) => value.kind !== "none");
+
+        if (choices.length === 0) {
             return { kind: "none" };
         }
-        return { kind: "legacy-or-and", clauses };
+        if (choices.length === 1) {
+            return choices[0];
+        }
+        return { kind: "any-of", children: choices };
     }
 
     if (typeof region === "object") {
         if (Array.isArray(region.anyOf)) {
-            const options = region.anyOf
-                .map((value) => (typeof value === "string" ? value.trim() : ""))
-                .filter(Boolean);
-            if (options.length > 0) {
-                return { kind: "any-of", options };
+            const anyChildren = region.anyOf
+                .map((value) => parseRegionExpression(value))
+                .filter((value) => value.kind !== "none");
+            if (anyChildren.length > 0) {
+                if (anyChildren.length === 1) {
+                    return anyChildren[0];
+                }
+                return { kind: "any-of", children: anyChildren };
             }
         }
 
         if (Array.isArray(region.allOf)) {
-            const groups = region.allOf
-                .map((group) => {
-                    if (!group || !Array.isArray(group.anyOf)) {
-                        return [];
-                    }
-                    return group.anyOf
-                        .map((value) => (typeof value === "string" ? value.trim() : ""))
-                        .filter(Boolean);
-                })
-                .filter((group) => group.length > 0);
-
-            if (groups.length > 0) {
-                return { kind: "all-of-any-of", groups };
+            const allChildren = region.allOf
+                .map((value) => parseRegionExpression(value))
+                .filter((value) => value.kind !== "none");
+            if (allChildren.length > 0) {
+                if (allChildren.length === 1) {
+                    return allChildren[0];
+                }
+                return { kind: "all-of", children: allChildren };
             }
         }
     }
@@ -86,20 +85,17 @@ function flattenRegions(regionInput) {
     const expression = parseRegionExpression(regionInput);
     const allNames = [];
 
-    if (expression.kind === "legacy-or-and") {
-        expression.clauses.flat().forEach((name) => uniquePush(allNames, name));
-        return allNames;
-    }
+    const visit = (node) => {
+        if (node.kind === "region") {
+            uniquePush(allNames, node.name);
+            return;
+        }
+        if (node.kind === "any-of" || node.kind === "all-of") {
+            node.children.forEach((child) => visit(child));
+        }
+    };
 
-    if (expression.kind === "any-of") {
-        expression.options.forEach((name) => uniquePush(allNames, name));
-        return allNames;
-    }
-
-    if (expression.kind === "all-of-any-of") {
-        expression.groups.flat().forEach((name) => uniquePush(allNames, name));
-        return allNames;
-    }
+    visit(expression);
 
     return allNames;
 }
@@ -131,24 +127,35 @@ function renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet
         return `<span class=\"region-group\">${icons}</span>`;
     };
 
-    if (expression.kind === "legacy-or-and") {
-        const groups = expression.clauses.map((group) => renderOrGroup(group));
-        return `<div class=\"region-expression\">${groups.join('<span class="region-or">/</span>')}</div>`;
-    }
+    const renderNode = (node, parentKind = null) => {
+        if (node.kind === "region") {
+            return renderOrGroup([node.name]);
+        }
 
-    if (expression.kind === "any-of") {
-        const groups = expression.options.map((name) => renderOrGroup([name]));
-        return `<div class=\"region-expression\">${groups.join('<span class="region-or">/</span>')}</div>`;
-    }
+        if (node.kind === "none") {
+            return "";
+        }
 
-    const andGroups = expression.groups.map((group) => {
-        const icons = group
-            .map((regionName) => renderIcon(regionName))
-            .join('<span class="region-or">/</span>');
-        return `<span class=\"region-group\">${icons}</span>`;
-    });
+        const separator = node.kind === "any-of"
+            ? '<span class="region-or">/</span>'
+            : '<span class="region-and">&amp;</span>';
+        const inner = node.children
+            .map((child) => renderNode(child, node.kind))
+            .filter(Boolean)
+            .join(separator);
 
-    return `<div class=\"region-expression\">${andGroups.join("")}</div>`;
+        if (!inner) {
+            return "";
+        }
+
+        if (parentKind && (node.kind === "any-of" || node.kind === "all-of")) {
+            return `<span class=\"region-bracket\">(</span>${inner}<span class=\"region-bracket\">)</span>`;
+        }
+
+        return inner;
+    };
+
+    return `<div class=\"region-expression\">${renderNode(expression)}</div>`;
 }
 
 function getAvailability(entry, enabledRegionSet) {
@@ -157,42 +164,42 @@ function getAvailability(entry, enabledRegionSet) {
         return "available";
     }
 
-    if (expression.kind === "any-of") {
-        const matched = expression.options.some((name) => enabledRegionSet.has(name));
-        return matched ? "available" : "not";
-    }
+    const evaluate = (node) => {
+        if (node.kind === "none") {
+            return "full";
+        }
 
-    if (expression.kind === "all-of-any-of") {
-        let matchedGroups = 0;
-        expression.groups.forEach((group) => {
-            if (group.some((name) => enabledRegionSet.has(name))) {
-                matchedGroups += 1;
+        if (node.kind === "region") {
+            return enabledRegionSet.has(node.name) ? "full" : "none";
+        }
+
+        const childStates = node.children.map((child) => evaluate(child));
+
+        if (node.kind === "any-of") {
+            if (childStates.includes("full")) {
+                return "full";
             }
-        });
+            if (childStates.includes("partial")) {
+                return "partial";
+            }
+            return "none";
+        }
 
-        if (matchedGroups === expression.groups.length) {
-            return "available";
+        // all-of
+        if (childStates.every((state) => state === "full")) {
+            return "full";
         }
-        if (matchedGroups > 0) {
-            return "almost";
+        if (childStates.every((state) => state === "none")) {
+            return "none";
         }
-        return "not";
+        return "partial";
+    };
+
+    const state = evaluate(expression);
+    if (state === "full") {
+        return "available";
     }
-
-    let hasPartial = false;
-    for (const optionGroup of expression.clauses) {
-        const matchedCount = optionGroup.filter((name) => enabledRegionSet.has(name)).length;
-
-        if (matchedCount === optionGroup.length) {
-            return "available";
-        }
-
-        if (matchedCount > 0) {
-            hasPartial = true;
-        }
-    }
-
-    if (hasPartial) {
+    if (state === "partial") {
         return "almost";
     }
     return "not";
@@ -404,7 +411,7 @@ function renderBossGearTable({ selectedItem, entries, enabledRegionSet, sortMode
         <h1>${escapeHtml(selectedItem.name)}</h1>
         ${renderSortControls(sortMode)}
         ${noItems ? `<p class="muted">No entries found.</p>` : `
-            <div class="table-wrap ${hasSelectedRegions ? "" : "regionless"}">
+            <div class="table-wrap ${hasSelectedRegions ? "" : "regionless"} ${escapeHtml(selectedItem.render_type || "")}-view">
                 <table class="guide-table phase-table">
                     <thead>
                         <tr>

@@ -9,6 +9,595 @@
         },
         "image": "boss/hermod.webp",
         "link": "https://runescape.wiki/w/Hermod,_the_Spirit_of_War",
-        "hover_text": "First Nectromancy boss"
+        "hover_text": ""
+    },
+    "Gate of Elidinis": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "boss/gate_of_elidinis.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Sanctum of rebirth": {
+        "tier": 4,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "boss/sanctum of rebirth.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Rasial": {
+        "tier": 3,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "boss/rasial.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Zamorak": {
+        "tier": 4,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "boss/zamorak.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "TzKal-Zuk": {
+        "tier": 3,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "boss/zuk.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Croesus": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "boss/croesus.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Arch-glacor": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "boss/arch_glacor.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Kerapac": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "boss/kerapac.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Zemouregal & Vorkath": {
+        "tier": 3,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "boss/zemouregal_vorkath.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Ivar": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "boss/ivar.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Silverquil": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "boss/silverquil.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Jad": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "boss/jad.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Har-akan": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "boss/har_aken.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Gaint mole": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "boss/gaint_mole.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Vorago": {
+        "tier": 4,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "boss/vorago.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Queen Black Dragon": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "boss/queen_black_dragon.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Nex": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "boss/nex.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Nex Angle of Death": {
+        "tier": 4,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "boss/nex_aod.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "K'ril Tsutsaroth": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "boss/kril.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "General Graador": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "boss/graador.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Kree'arra": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "boss/kree.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Commander Zilyana": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "boss/zilyana.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Temple of Aminishi": {
+        "tier": 4,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "boss/temple_of_aminishi.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Legiones": {
+        "tier": 3,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "boss/legiones.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Abomination": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Fremennik"
+            ]
+        },
+        "image": "boss/abomination.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Daganoth Kings": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Fremennik"
+            ]
+        },
+        "image": "boss/dagannoth_kings.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Kalphite Queen": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "boss/kalphite_queen.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Kalphite King": {
+        "tier": 3,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "boss/kalphite_king.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "The Magister": {
+        "tier": 4,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "boss/the_magister.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Amascut": {
+        "tier": 4,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "boss/amascut.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Telos": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "boss/telos.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Gregorovic": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "boss/gregorovic.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Twin Furies": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "boss/twin_furies.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Vindicta": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "boss/vindicta.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Helwyr": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "boss/helwyr.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Libiration of Mazcab": {
+        "tier": 4,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "boss/libiration_of_mazcab.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Barrows": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "boss/barrows.png",
+        "link": "",
+        "hover_text": ""
+    },
+    "Barrows rise of the six": {
+        "tier": 3,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "boss/barrows_rise_of_the_six.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Araxxor": {
+        "tier": 3,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "boss/araxxor.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Tormented Wraith": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "boss/tormented_wrath.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "King Black Dragon": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness",
+                "Asgarnia"
+            ]
+        },
+        "image": "boss/king_black_dragon.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Chaos elemental": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "boss/chaos_elemental.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Flesh-Hatcher Mnekarnahz": {
+        "tier": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "boss/flesh_hatcher_mhekarnahz.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Corporeal beast": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "boss/corporeal_beast.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Dragonkin Laborotory": {
+        "tier": 4,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "boss/dragonkin_laborotory.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "The Shadow Reef": {
+        "tier": 4,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "boss/shadow_reef.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Solak": {
+        "tier": 4,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "boss/solak.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Raksha": {
+        "tier": 4,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "boss/raksha.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Rex Matriarchs": {
+        "tier": 2,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "boss/rex_matriarchs.webp",
+        "link": "",
+        "hover_text": ""
     }
 }
