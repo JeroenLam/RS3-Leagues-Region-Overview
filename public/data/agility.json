@@ -66,7 +66,7 @@
     },
     "Penguin": {
         "level_start": 30,
-        "level_end": 35,
+        "level_end": 50,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -118,7 +118,7 @@
     },
     "Anachronia novice": {
         "level_start": 50,
-        "level_end": 70,
+        "level_end": 60,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -170,7 +170,7 @@
     },
     "Het's Oasis": {
         "level_start": 65,
-        "level_end": 70,
+        "level_end": 77,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -183,7 +183,7 @@
     },
     "Anachronia advanced": {
         "level_start": 70,
-        "level_end": 85,
+        "level_end": 77,
         "sort_weight": 1,
         "region": {
             "anyOf": [

@@ -165,9 +165,9 @@
         },
         {
             "name": "Archaeology",
-            "file": "",
+            "file": "archaeology.json",
             "image": "icon/skill_archaeology.webp",
-            "render_type": ""
+            "render_type": "skill"
         },
         {
             "name": "Necromancy",

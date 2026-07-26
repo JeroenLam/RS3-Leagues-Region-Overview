@@ -1,0 +1,485 @@
+{
+    "Tutorial": {
+        "level_start": 1,
+        "level_end": 5,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/archaeology/tutorial",
+        "link": "",
+        "hover_text": ""
+    },
+    "Zarosian 1": {
+        "level_start": 5,
+        "level_end": 25,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Desert",
+                "Misthalin"
+            ]
+        },
+        "image": "item/archaeology/zaros",
+        "link": "",
+        "hover_text": ""
+    },
+    "Zarosian 2": {
+        "level_start": 47,
+        "level_end": 81,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Desert",
+                "Misthalin"
+            ]
+        },
+        "image": "item/archaeology/zaros",
+        "link": "",
+        "hover_text": ""
+    },
+    "Zarosian 3": {
+        "level_start": 86,
+        "level_end": 107,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Desert",
+                "Misthalin"
+            ]
+        },
+        "image": "item/archaeology/zaros",
+        "link": "",
+        "hover_text": ""
+    },
+    "Zarosian 4": {
+        "level_start": 114,
+        "level_end": 118,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Desert",
+                "Misthalin"
+            ]
+        },
+        "image": "item/archaeology/zaros",
+        "link": "",
+        "hover_text": ""
+    },
+    "Zamorakian 1": {
+        "level_start": 20,
+        "level_end": 36,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/zamorak",
+        "link": "",
+        "hover_text": ""
+    },
+    "Zamorakian 2": {
+        "level_start": 45,
+        "level_end": 81,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/zamorak",
+        "link": "",
+        "hover_text": ""
+    },
+    "Zamorakian 3": {
+        "level_start": 89,
+        "level_end": 104,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/zamorak",
+        "link": "",
+        "hover_text": ""
+    },
+    "Zamorakian 4": {
+        "level_start": 110,
+        "level_end": 116,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/zamorak",
+        "link": "",
+        "hover_text": ""
+    },
+    "Saradominist 1": {
+        "level_start": 42,
+        "level_end": 56,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Morytania",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/saradomin",
+        "link": "",
+        "hover_text": ""
+    },
+    "Saradominist 2": {
+        "level_start": 61,
+        "level_end": 72,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Morytania",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/saradomin",
+        "link": "",
+        "hover_text": ""
+    },
+    "Saradominist 3": {
+        "level_start": 84,
+        "level_end": 100,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Morytania",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/saradomin",
+        "link": "",
+        "hover_text": ""
+    },
+    "Saradominist 4": {
+        "level_start": 105,
+        "level_end": 117,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Morytania",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/saradomin",
+        "link": "",
+        "hover_text": ""
+    },
+    "Guthixian 1": {
+        "level_start": 52,
+        "level_end": 66,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "item/archaeology/havenhythe",
+        "link": "",
+        "hover_text": ""
+    },
+    "Guthixian 2": {
+        "level_start": 75,
+        "level_end": 88,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "item/archaeology/havenhythe",
+        "link": "",
+        "hover_text": ""
+    },
+    "Dragonkin 5": {
+        "level_start": 73,
+        "level_end": 77,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness",
+                "Anachronia"
+            ]
+        },
+        "image": "item/archaeology/deamonheim",
+        "link": "",
+        "hover_text": ""
+    },
+    "Dragonkin 6": {
+        "level_start": 78,
+        "level_end": 87,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness",
+                "Anachronia"
+            ]
+        },
+        "image": "item/archaeology/deamonheim",
+        "link": "",
+        "hover_text": ""
+    },
+    "Dragonkin 7": {
+        "level_start": 103,
+        "level_end": 113,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness",
+                "Anachronia"
+            ]
+        },
+        "image": "item/archaeology/deamonheim",
+        "link": "",
+        "hover_text": ""
+    },
+    "Dragonkin 1": {
+        "level_start": 90,
+        "level_end": 99,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "item/archaeology/anachronia",
+        "link": "",
+        "hover_text": ""
+    },
+    "Dragonkin 2": {
+        "level_start": 101,
+        "level_end": 102,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "item/archaeology/anachronia",
+        "link": "",
+        "hover_text": ""
+    },
+    "Dragonkin 3": {
+        "level_start": 106,
+        "level_end": 108,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "item/archaeology/anachronia",
+        "link": "",
+        "hover_text": ""
+    },
+    "Dragonkin 4": {
+        "level_start": 113,
+        "level_end": 120,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "item/archaeology/anachronia",
+        "link": "",
+        "hover_text": ""
+    },
+    "Armadylean 1": {
+        "level_start": 70,
+        "level_end": 81,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/armadyl",
+        "link": "",
+        "hover_text": ""
+    },
+    "Armadylean 2": {
+        "level_start": 85,
+        "level_end": 98,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/armadyl",
+        "link": "",
+        "hover_text": ""
+    },
+    "Armadylean 3": {
+        "level_start": 103,
+        "level_end": 118,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/armadyl",
+        "link": "",
+        "hover_text": ""
+    },
+    "Green Gobbo Goodies 1": {
+        "level_start": 70,
+        "level_end": 81,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/bandos",
+        "link": "",
+        "hover_text": ""
+    },
+    "Green Gobbo Goodies 2": {
+        "level_start": 89,
+        "level_end": 97,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/bandos",
+        "link": "",
+        "hover_text": ""
+    },
+    "Green Gobbo Goodies 3": {
+        "level_start": 100,
+        "level_end": 119,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/bandos",
+        "link": "",
+        "hover_text": ""
+    },
+    "Red Rum Relics 1": {
+        "level_start": 81,
+        "level_end": 94,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/bandos",
+        "link": "",
+        "hover_text": ""
+    },
+    "Red Rum Relics 2": {
+        "level_start": 97,
+        "level_end": 110,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/bandos",
+        "link": "",
+        "hover_text": ""
+    },
+    "Red Rum Relics 3": {
+        "level_start": 115,
+        "level_end": 119,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/archaeology/bandos",
+        "link": "",
+        "hover_text": ""
+    },
+    "Finery of the Inquisition": {
+        "level_start": 64,
+        "level_end": 64,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Desert"
+            ]
+        },
+        "image": "item/archaeology/senntisten",
+        "link": "",
+        "hover_text": ""
+    },
+    "Entertaining the Masses": {
+        "level_start": 63,
+        "level_end": 67,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Desert"
+            ]
+        },
+        "image": "item/archaeology/senntisten",
+        "link": "",
+        "hover_text": ""
+    },
+    "Religious Iconography": {
+        "level_start": 60,
+        "level_end": 67,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Desert"
+            ]
+        },
+        "image": "item/archaeology/senntisten",
+        "link": "",
+        "hover_text": ""
+    },
+    "Urns of the Empire": {
+        "level_start": 60,
+        "level_end": 67,
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Desert"
+            ]
+        },
+        "image": "item/archaeology/senntisten",
+        "link": "",
+        "hover_text": ""
+    }
+}
