@@ -59,23 +59,26 @@ const {
   <section>
     <h2 class="menu-section-title">Guides</h2>
     <div class="menu-grid" style={`--grid-width: ${menuWidth};`}>
-      {items.map((item, index) => (
-        <a
-          class="menu-link guide-link"
-          href={`${baseUrl}?item=${index}`}
-          data-guide-index={String(index)}
-        >
-          <div class="icon">
-            <img
-              src={`${baseUrl}images/${item.image ?? ""}`}
-              alt={item.name}
-              loading="lazy"
-              onerror="this.style.display='none'"
-            />
-          </div>
-          <span class="label">{item.name}</span>
-        </a>
-      ))}
+      {items.map((item, index) => {
+        const isWip = typeof item.render_type === "string" && item.render_type.trim() === "";
+        return (
+          <a
+            class={`menu-link guide-link ${isWip ? "guide-link-wip" : ""}`}
+            href={`${baseUrl}?item=${index}`}
+            data-guide-index={String(index)}
+          >
+            <div class="icon">
+              <img
+                src={`${baseUrl}images/${item.image ?? ""}`}
+                alt={item.name}
+                loading="lazy"
+                onerror="this.style.display='none'"
+              />
+            </div>
+            <span class="label">{item.name}</span>
+          </a>
+        );
+      })}
     </div>
   </section>
 </aside>

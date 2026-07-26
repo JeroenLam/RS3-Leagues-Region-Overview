@@ -24,7 +24,7 @@ body {
 
 .page {
     display: grid;
-    grid-template-columns: 360px 1fr;
+    grid-template-columns: 252px 1fr;
     min-height: 100vh;
     gap: 1rem;
     padding: 1rem;
@@ -77,6 +77,10 @@ body {
     background: #2b3347;
 }
 
+.guide-link-wip .icon img {
+    filter: grayscale(1) brightness(0.45);
+}
+
 .region-toggle {
     cursor: pointer;
     border: 0;
@@ -117,6 +121,10 @@ body {
     font-size: 0.78rem;
     text-align: center;
     line-height: 1.2;
+}
+
+.menu .label {
+    display: none;
 }
 
 .content {
@@ -235,10 +243,6 @@ body {
     background: #12182a;
 }
 
-.region-mini-selected {
-    border-color: #4eb16a;
-    box-shadow: 0 0 0 1px #4eb16a;
-}
 
 .region-mini-icon {
     object-fit: cover;

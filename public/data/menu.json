@@ -2,9 +2,33 @@
     "width": 3,
     "items": [
         {
+            "name": "Attack",
+            "file": "",
+            "image": "icon/skill_attack.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Constitution",
+            "file": "",
+            "image": "icon/skill_constitution.webp",
+            "render_type": ""
+        },
+        {
             "name": "Mining",
             "file": "mining.json",
             "image": "icon/skill_mining.webp",
+            "render_type": "skill"
+        },
+        {
+            "name": "Strength",
+            "file": "",
+            "image": "icon/skill_strength.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Agility",
+            "file": "agility.json",
+            "image": "icon/skill_agility.webp",
             "render_type": "skill"
         },
         {
@@ -14,16 +38,148 @@
             "render_type": "skill"
         },
         {
+            "name": "Defence",
+            "file": "",
+            "image": "icon/skill_defence.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Herblore",
+            "file": "",
+            "image": "icon/skill_herblore.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Fishing",
+            "file": "",
+            "image": "icon/skill_fishing.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Ranged",
+            "file": "",
+            "image": "icon/skill_ranged.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Thieving",
+            "file": "",
+            "image": "icon/skill_thieving.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Cooking",
+            "file": "",
+            "image": "icon/skill_cooking.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Prayer",
+            "file": "",
+            "image": "icon/skill_prayer.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Crafting",
+            "file": "",
+            "image": "icon/skill_crafting.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Firemaking",
+            "file": "",
+            "image": "icon/skill_firemaking.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Magic",
+            "file": "",
+            "image": "icon/skill_magic.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Fletching",
+            "file": "",
+            "image": "icon/skill_fletching.webp",
+            "render_type": ""
+        },
+        {
             "name": "Woodcutting",
             "file": "woodcutting.json",
             "image": "icon/skill_woodcutting.webp",
             "render_type": "skill"
         },
         {
+            "name": "Runecrafting",
+            "file": "",
+            "image": "icon/skill_runecrafting.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Slayer",
+            "file": "",
+            "image": "icon/skill_slayer.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Farming",
+            "file": "",
+            "image": "icon/skill_farming.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Construction",
+            "file": "",
+            "image": "icon/skill_construction.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Hunter",
+            "file": "",
+            "image": "icon/skill_hunter.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Summoning",
+            "file": "",
+            "image": "icon/skill_summoning.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Dungeoneering",
+            "file": "",
+            "image": "icon/skill_dungeoneering.webp",
+            "render_type": ""
+        },
+        {
             "name": "Divination",
             "file": "divination.json",
             "image": "icon/skill_divination.webp",
             "render_type": "skill"
+        },
+        {
+            "name": "Invention",
+            "file": "",
+            "image": "icon/skill_invention.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Archaeology",
+            "file": "",
+            "image": "icon/skill_archaeology.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Necromancy",
+            "file": "",
+            "image": "icon/skill_necromancy.webp",
+            "render_type": ""
+        },
+        {
+            "name": "",
+            "file": "",
+            "image": "",
+            "render_type": ""
         },
         {
             "name": "Bosses",
@@ -36,6 +192,24 @@
             "file": "gear_melee.json",
             "image": "icon/skill_attack.webp",
             "render_type": "gear"
+        },
+        {
+            "name": "Ranged Gear",
+            "file": "gear_range.json",
+            "image": "icon/skill_ranged.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Magic Gear",
+            "file": "gear_magic.json",
+            "image": "icon/skill_magic.webp",
+            "render_type": ""
+        },
+        {
+            "name": "Necromancy Gear",
+            "file": "gear_necromancy.json",
+            "image": "icon/skill_necromancy.webp",
+            "render_type": ""
         }
     ]
 }

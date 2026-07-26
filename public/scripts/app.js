@@ -108,6 +108,18 @@ async function renderSelectedGuide({ items, contentPane, enabledRegionNames, sel
 
     const selectedItem = items[selectedIndex];
 
+    if (typeof selectedItem.render_type === "string" && selectedItem.render_type.trim() === "") {
+        contentPane.innerHTML = renderByType({
+            selectedItem,
+            data: {},
+            enabledRegionNames,
+            sortMode,
+            regionImageByName,
+            baseUrl,
+        });
+        return;
+    }
+
     try {
         const data = await loadGuideData(selectedItem.file, cache, baseUrl);
         contentPane.innerHTML = renderByType({

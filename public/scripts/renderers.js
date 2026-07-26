@@ -437,6 +437,11 @@ export function renderByType({ selectedItem, data, enabledRegionNames, sortMode,
     const enabledSet = new Set(enabledRegionNames);
 
     switch (selectedItem.render_type) {
+        case "":
+            return `
+        <h1>${escapeHtml(selectedItem.name)}</h1>
+        <p class="muted">Work in progress, this page is not yet implemented</p>
+      `;
         case "skill":
             return renderSkillTable({
                 selectedItem,
