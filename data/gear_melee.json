@@ -1,7 +1,8 @@
 {
     "Primal armour": {
         "level": 99,
-        "hover_text": "skilling",
+        "type": "Armour",
+        "source": "skilling",
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -13,7 +14,8 @@
     },
     "Torva armour": {
         "level": 80,
-        "hover_text": "Nex",
+        "type": "Armour",
+        "source": "Nex",
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -21,6 +23,32 @@
             ]
         },
         "image": "item/gear_melee/torva_body.webp",
+        "link": ""
+    },
+    "Primal 2H sword": {
+        "level": 99,
+        "type": "Weapon",
+        "source": "skilling",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_melee/primal_2h.png",
+        "link": ""
+    },
+    "Primal armour spikes": {
+        "level": 99,
+        "type": "Other",
+        "source": "skilling",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_melee/primal_spikes.webp",
         "link": ""
     }
 }

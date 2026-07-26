@@ -100,6 +100,38 @@ function flattenRegions(regionInput) {
     return allNames;
 }
 
+function formatRegionExpressionText(regionInput) {
+    const expression = parseRegionExpression(regionInput);
+
+    const renderNode = (node, parentKind = null) => {
+        if (node.kind === "none") {
+            return "";
+        }
+
+        if (node.kind === "region") {
+            return node.name;
+        }
+
+        const separator = node.kind === "any-of" ? " / " : " & ";
+        const inner = node.children
+            .map((child) => renderNode(child, node.kind))
+            .filter(Boolean)
+            .join(separator);
+
+        if (!inner) {
+            return "";
+        }
+
+        if (parentKind) {
+            return `(${inner})`;
+        }
+
+        return inner;
+    };
+
+    return renderNode(expression) || "Unknown";
+}
+
 function toDefaultEntries(rawData) {
     return Object.entries(rawData || {});
 }
@@ -355,7 +387,7 @@ function getPhaseBucket(entry) {
     return "end";
 }
 
-function renderBossGearTable({ selectedItem, entries, enabledRegionSet, sortMode, baseUrl }) {
+function renderBossTable({ selectedItem, entries, enabledRegionSet, sortMode, baseUrl }) {
     const orderedEntries = getEntriesBySort(entries, sortMode, enabledRegionSet);
     const regionRowOrder = [];
     const regionRows = new Map();
@@ -432,6 +464,145 @@ function renderBossGearTable({ selectedItem, entries, enabledRegionSet, sortMode
         `}
     `;
 }
+
+function getGearLevel(entry) {
+    return typeof entry.level === "number" ? entry.level : -1;
+}
+
+function getGearBucketKey(entry) {
+    const level = getGearLevel(entry);
+    if (level < 0) {
+        return "0-9";
+    }
+
+    const start = Math.max(0, Math.min(90, Math.floor(level / 10) * 10));
+    const end = start + 9;
+    return `${start}-${end}`;
+}
+
+function getGearEntriesBySort(entries, sortMode, enabledRegionSet) {
+    const withIndex = entries.map(([name, entry], index) => ({ name, entry, index }));
+    const byLevel = (left, right) => {
+        const levelDiff = getGearLevel(left.entry) - getGearLevel(right.entry);
+        if (levelDiff !== 0) {
+            return levelDiff;
+        }
+        return left.index - right.index;
+    };
+
+    if (sortMode === "available") {
+        const buckets = {
+            available: [],
+            almost: [],
+            not: [],
+        };
+
+        withIndex.forEach((item) => {
+            const availability = getAvailability(item.entry, enabledRegionSet);
+            buckets[availability].push(item);
+        });
+
+        return [
+            ...buckets.available.sort(byLevel),
+            ...buckets.almost.sort(byLevel),
+            ...buckets.not.sort(byLevel),
+        ];
+    }
+
+    return withIndex.sort(byLevel);
+}
+
+function renderGearTable({ selectedItem, entries, enabledRegionSet, sortMode, baseUrl }) {
+    const orderedEntries = getGearEntriesBySort(entries, sortMode, enabledRegionSet);
+    const levelBuckets = Array.from({ length: 10 }, (_, index) => `${index * 10}-${index * 10 + 9}`);
+    const hasSelectedRegions = enabledRegionSet.size > 0;
+    const typeOrder = [];
+    const itemsByType = new Map();
+
+    orderedEntries.forEach((item) => {
+        const typeName = typeof item.entry.type === "string" && item.entry.type.trim() ? item.entry.type.trim() : "Other";
+        if (!itemsByType.has(typeName)) {
+            itemsByType.set(typeName, []);
+            typeOrder.push(typeName);
+        }
+        itemsByType.get(typeName).push(item);
+    });
+
+    const headerCells = levelBuckets.map((bucket) => `<th>${bucket}</th>`).join("");
+    const tables = typeOrder
+        .map((typeName) => {
+            const statusRows = new Map([
+                ["Unlocked", Object.fromEntries(levelBuckets.map((bucket) => [bucket, []]))],
+                ["Locked", Object.fromEntries(levelBuckets.map((bucket) => [bucket, []]))],
+            ]);
+
+            itemsByType.get(typeName).forEach(({ name, entry }) => {
+                const bucket = getGearBucketKey(entry);
+                const availability = getAvailability(entry, enabledRegionSet);
+                const rowKey = availability === "available" ? "Unlocked" : "Locked";
+                const image = entry.image ? assetUrl(baseUrl, `images/${encodeURIComponent(entry.image)}`) : "";
+                const source = entry.source ? String(entry.source) : "Unknown source";
+                const regionText = formatRegionExpressionText(entry.region);
+                const itemHtml = `
+                    <div class="bucket-item gear-bucket-item availability-${availability}">
+                        <div class="gear-bucket-image">
+                            ${image ? `<img class="bucket-icon" src="${image}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.style.display='none'" />` : "<span>?</span>"}
+                        </div>
+                        <div class="gear-tooltip" role="tooltip">
+                            <strong>${escapeHtml(name)}</strong><br />
+                            ${escapeHtml(source)}<br />
+                            ${escapeHtml(regionText)}
+                        </div>
+                    </div>
+                `;
+
+                statusRows.get(rowKey)[bucket].push(itemHtml);
+            });
+
+            const rows = ["Unlocked", "Locked"]
+                .map((rowName) => {
+                    const row = statusRows.get(rowName);
+                    const bucketCells = levelBuckets
+                        .map((bucket) => `<td><div class="bucket-list">${row[bucket].join("")}</div></td>`)
+                        .join("");
+
+                    return `
+                        <tr>
+                            <td>${escapeHtml(rowName)}</td>
+                            ${bucketCells}
+                        </tr>
+                    `;
+                })
+                .join("");
+
+            return `
+                <section class="gear-type-section">
+                    <h2 class="gear-type-heading">${escapeHtml(typeName)}</h2>
+                    <div class="table-wrap ${hasSelectedRegions ? "" : "regionless"} gear-view">
+                        <table class="guide-table gear-table">
+                            <thead>
+                                <tr>
+                                    <th>Status</th>
+                                    ${headerCells}
+                                </tr>
+                            </thead>
+                            <tbody>${rows}</tbody>
+                        </table>
+                    </div>
+                </section>
+            `;
+        })
+        .join("");
+
+    const noItems = tables.trim().length === 0;
+
+    return `
+        <h1>${escapeHtml(selectedItem.name)}</h1>
+        ${renderSortControls(sortMode)}
+        ${noItems ? `<p class="muted">No entries found.</p>` : tables}
+    `;
+}
+
 export function renderByType({ selectedItem, data, enabledRegionNames, sortMode, regionImageByName, baseUrl = "/" }) {
     const entries = toDefaultEntries(data);
     const enabledSet = new Set(enabledRegionNames);
@@ -452,8 +623,9 @@ export function renderByType({ selectedItem, data, enabledRegionNames, sortMode,
                 baseUrl,
             });
         case "boss":
+            return renderBossTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode, baseUrl });
         case "gear":
-            return renderBossGearTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode, baseUrl });
+            return renderGearTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode, baseUrl });
         default:
             return `
         <h1>${escapeHtml(selectedItem.name)}</h1>
