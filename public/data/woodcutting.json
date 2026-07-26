@@ -62,7 +62,7 @@
                 "Morytania"
             ]
         },
-        "image": "item/woodcutting/teak.webp",
+        "image": "item/woodcutting/teak.png",
         "link": "",
         "hover_text": ""
     },
@@ -75,7 +75,7 @@
                 "Havenhythe"
             ]
         },
-        "image": "item/woodcutting/creeping_ivy.webp",
+        "image": "item/woodcutting/creeping_ivy.png",
         "link": "",
         "hover_text": ""
     },
@@ -92,7 +92,7 @@
                 "Wilderness"
             ]
         },
-        "image": "item/woodcutting/maple.webp",
+        "image": "item/woodcutting/maple.png",
         "link": "",
         "hover_text": ""
     },
@@ -105,7 +105,7 @@
                 "Desert"
             ]
         },
-        "image": "item/woodcutting/acadia.webp",
+        "image": "item/woodcutting/acadia.png",
         "link": "",
         "hover_text": ""
     },
@@ -118,7 +118,7 @@
                 "Fremennik"
             ]
         },
-        "image": "item/woodcutting/arctic.webp",
+        "image": "item/woodcutting/arctic.png",
         "link": "",
         "hover_text": ""
     },
@@ -162,7 +162,7 @@
                 "Tirannwn"
             ]
         },
-        "image": "item/woodcutting/choking_ivy.webp",
+        "image": "item/woodcutting/choking_ivy.png",
         "link": "",
         "hover_text": ""
     },
@@ -271,7 +271,7 @@
                 "Kandarin"
             ]
         },
-        "image": "item/woodcutting/ethernal_magic.webp",
+        "image": "item/woodcutting/eternal_magic.png",
         "link": "",
         "hover_text": ""
     }

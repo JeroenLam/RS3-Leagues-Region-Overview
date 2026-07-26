@@ -14,6 +14,12 @@
             "render_type": "skill"
         },
         {
+            "name": "Woodcutting",
+            "file": "woodcutting.json",
+            "image": "icon/skill_woodcutting.webp",
+            "render_type": "skill"
+        },
+        {
             "name": "Divination",
             "file": "divination.json",
             "image": "icon/skill_divination.webp",
