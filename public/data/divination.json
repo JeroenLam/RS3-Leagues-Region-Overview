@@ -12,6 +12,19 @@
         "link": "",
         "hover_text": ""
     },
+    "Gate of elidinis": {
+        "level_start": 1,
+        "level_end": 99,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "boss/gate_of_elidinis.webp",
+        "link": "",
+        "hover_text": ""
+    },
     "Flickering": {
         "level_start": 10,
         "level_end": 20,

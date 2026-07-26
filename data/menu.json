@@ -2,10 +2,10 @@
     "width": 3,
     "items": [
         {
-            "name": "Attack",
-            "file": "",
+            "name": "Melee gear",
+            "file": "gear_melee.json",
             "image": "icon/skill_attack.webp",
-            "render_type": ""
+            "render_type": "gear"
         },
         {
             "name": "Constitution",
@@ -20,10 +20,10 @@
             "render_type": "skill"
         },
         {
-            "name": "Strength",
-            "file": "",
+            "name": "Melee gear",
+            "file": "gear_melee.json",
             "image": "icon/skill_strength.webp",
-            "render_type": ""
+            "render_type": "gear"
         },
         {
             "name": "Agility",
@@ -57,7 +57,7 @@
         },
         {
             "name": "Ranged",
-            "file": "",
+            "file": "gear_range.json",
             "image": "icon/skill_ranged.webp",
             "render_type": ""
         },
@@ -93,7 +93,7 @@
         },
         {
             "name": "Magic",
-            "file": "",
+            "file": "gear_magic.json",
             "image": "icon/skill_magic.webp",
             "render_type": ""
         },
@@ -171,14 +171,8 @@
         },
         {
             "name": "Necromancy",
-            "file": "",
+            "file": "gear_necromancy.json",
             "image": "icon/skill_necromancy.webp",
-            "render_type": ""
-        },
-        {
-            "name": "",
-            "file": "",
-            "image": "",
             "render_type": ""
         },
         {
@@ -186,30 +180,6 @@
             "file": "bosses.json",
             "image": "icon/combat_hard.webp",
             "render_type": "boss"
-        },
-        {
-            "name": "Melee Gear",
-            "file": "gear_melee.json",
-            "image": "icon/skill_attack.webp",
-            "render_type": "gear"
-        },
-        {
-            "name": "Ranged Gear",
-            "file": "gear_range.json",
-            "image": "icon/skill_ranged.webp",
-            "render_type": ""
-        },
-        {
-            "name": "Magic Gear",
-            "file": "gear_magic.json",
-            "image": "icon/skill_magic.webp",
-            "render_type": ""
-        },
-        {
-            "name": "Necromancy Gear",
-            "file": "gear_necromancy.json",
-            "image": "icon/skill_necromancy.webp",
-            "render_type": ""
         }
     ]
 }

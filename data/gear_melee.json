@@ -1,6 +1,6 @@
 {
     "Primal armour": {
-        "tier": 3,
+        "level": 99,
         "hover_text": "skilling",
         "sort_weight": 1,
         "region": {
@@ -12,7 +12,7 @@
         "link": ""
     },
     "Torva armour": {
-        "tier": 2,
+        "level": 80,
         "hover_text": "Nex",
         "sort_weight": 1,
         "region": {
