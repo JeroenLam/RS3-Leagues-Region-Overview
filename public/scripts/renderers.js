@@ -512,7 +512,7 @@ function getGearEntriesBySort(entries, sortMode, enabledRegionSet) {
     return withIndex.sort(byLevel);
 }
 
-function renderGearTable({ selectedItem, entries, enabledRegionSet, sortMode, baseUrl }) {
+function renderGearTable({ selectedItem, entries, enabledRegionSet, sortMode, baseUrl, regionImageByName }) {
     const orderedEntries = getGearEntriesBySort(entries, sortMode, enabledRegionSet);
     const levelBuckets = Array.from({ length: 10 }, (_, index) => `${index * 10}-${index * 10 + 9}`);
     const hasSelectedRegions = enabledRegionSet.size > 0;
@@ -542,7 +542,7 @@ function renderGearTable({ selectedItem, entries, enabledRegionSet, sortMode, ba
                 const rowKey = availability === "available" ? "Unlocked" : "Locked";
                 const image = entry.image ? assetUrl(baseUrl, `images/${encodeURIComponent(entry.image)}`) : "";
                 const source = entry.source ? String(entry.source) : "Unknown source";
-                const regionText = formatRegionExpressionText(entry.region);
+                const regionIcons = renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet, baseUrl);
                 const itemHtml = `
                     <div class="bucket-item gear-bucket-item availability-${availability}">
                         <div class="gear-bucket-image">
@@ -551,7 +551,7 @@ function renderGearTable({ selectedItem, entries, enabledRegionSet, sortMode, ba
                         <div class="gear-tooltip" role="tooltip">
                             <strong>${escapeHtml(name)}</strong><br />
                             ${escapeHtml(source)}<br />
-                            ${escapeHtml(regionText)}
+                            ${regionIcons}
                         </div>
                     </div>
                 `;
@@ -625,7 +625,7 @@ export function renderByType({ selectedItem, data, enabledRegionNames, sortMode,
         case "boss":
             return renderBossTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode, baseUrl });
         case "gear":
-            return renderGearTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode, baseUrl });
+            return renderGearTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode, baseUrl, regionImageByName });
         default:
             return `
         <h1>${escapeHtml(selectedItem.name)}</h1>

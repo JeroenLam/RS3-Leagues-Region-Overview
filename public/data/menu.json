@@ -171,9 +171,9 @@
         },
         {
             "name": "Necromancy",
-            "file": "gear_necromancy.json",
+            "file": "gear_necro.json",
             "image": "icon/skill_necromancy.webp",
-            "render_type": ""
+            "render_type": "gear"
         },
         {
             "name": "Bosses",

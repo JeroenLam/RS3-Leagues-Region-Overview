@@ -366,6 +366,11 @@ body {
     text-align: left;
 }
 
+.gear-tooltip .region-expression {
+    margin-top: 0.25rem;
+    flex-wrap: wrap;
+}
+
 .gear-bucket-item:hover .gear-tooltip,
 .gear-bucket-item:focus-within .gear-tooltip {
     opacity: 1;

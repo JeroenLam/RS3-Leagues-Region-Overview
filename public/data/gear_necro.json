@@ -1,0 +1,478 @@
+{
+    "Deathwarden T10": {
+        "level": 1,
+        "type": "Armour",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/0_body.webp",
+        "link": ""
+    },
+    "Deathwarden T20": {
+        "level": 20,
+        "type": "Armour",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/20_body.webp",
+        "link": ""
+    },
+    "Deathwarden T30": {
+        "level": 30,
+        "type": "Armour",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/30_body.webp",
+        "link": ""
+    },
+    "Deathwarden T40": {
+        "level": 40,
+        "type": "Armour",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/40_body.webp",
+        "link": ""
+    },
+    "Deathwarden T50": {
+        "level": 50,
+        "type": "Armour",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/50_body.webp",
+        "link": ""
+    },
+    "Deathwarden T60": {
+        "level": 60,
+        "type": "Armour",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Kandarin"
+            ]
+        },
+        "image": "item/gear_necro/60_body.webp",
+        "link": ""
+    },
+    "Deathwarden T70": {
+        "level": 70,
+        "type": "Armour",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Kandarin"
+            ]
+        },
+        "image": "item/gear_necro/70_body_tank.webp",
+        "link": ""
+    },
+    "Deathwarden T80": {
+        "level": 80,
+        "type": "Armour",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_necro/80_body_tank.webp",
+        "link": ""
+    },
+    "Deathwarden T90": {
+        "level": 90,
+        "type": "Armour",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_necro/90_body_tank.webp",
+        "link": ""
+    },
+    "Deathdealer T70": {
+        "level": 70,
+        "type": "Armour",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Kandarin"
+            ]
+        },
+        "image": "item/gear_necro/70_body_power.webp",
+        "link": ""
+    },
+    "Deathdealer T80": {
+        "level": 80,
+        "type": "Armour",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_necro/80_body_power.webp",
+        "link": ""
+    },
+    "Deathdealer T90": {
+        "level": 90,
+        "type": "Armour",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_necro/90_body_power.webp",
+        "link": ""
+    },
+    "Robes of the First Necromancer": {
+        "level": 95,
+        "type": "Armour",
+        "source": "Radial",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/95_body_power.webp",
+        "link": ""
+    },
+    "Misalionar's death mask": {
+        "level": 95,
+        "type": "Armour",
+        "source": "Radial",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_necro/95_mask.webp",
+        "link": ""
+    },
+    "Death guard T10": {
+        "level": 1,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/10_dg.webp",
+        "link": ""
+    },
+    "Soul lantern T10": {
+        "level": 1,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/10_sl.webp",
+        "link": ""
+    },
+    "Death guard T20": {
+        "level": 20,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/20_dg.webp",
+        "link": ""
+    },
+    "Soul lantern T20": {
+        "level": 20,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/20_sl.webp",
+        "link": ""
+    },
+    "Death guard T30": {
+        "level": 30,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/30_dg.webp",
+        "link": ""
+    },
+    "Soul lantern T30": {
+        "level": 30,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/30_sl.webp",
+        "link": ""
+    },
+    "Death guard T40": {
+        "level": 40,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/40_dg.webp",
+        "link": ""
+    },
+    "Soul lantern T40": {
+        "level": 40,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/40_sl.webp",
+        "link": ""
+    },
+    "Death guard T50": {
+        "level": 50,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/50_dg.webp",
+        "link": ""
+    },
+    "Soul lantern T50": {
+        "level": 50,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/50_sl.webp",
+        "link": ""
+    },
+    "Death guard T60": {
+        "level": 60,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                {
+                    "anyOf": [
+                        "Karamja",
+                        "Asgarnia",
+                        "Kandarin",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Kandarin",
+                        "Fremennik",
+                        "Morytania",
+                        "Anachronia"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                }
+            ]
+        },
+        "image": "item/gear_necro/60_dg.webp",
+        "link": ""
+    },
+    "Soul lantern T60": {
+        "level": 60,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                {
+                    "anyOf": [
+                        "Karamja",
+                        "Asgarnia",
+                        "Kandarin",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Kandarin",
+                        "Fremennik",
+                        "Morytania",
+                        "Anachronia"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                }
+            ]
+        },
+        "image": "item/gear_necro/60_sl.webp",
+        "link": ""
+    },
+    ,
+    "Death guard T70": {
+        "level": 70,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                {
+                    "anyOf": [
+                        "Karamja",
+                        "Asgarnia",
+                        "Kandarin",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Kandarin",
+                        "Fremennik",
+                        "Morytania",
+                        "Anachronia"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                }
+            ]
+        },
+        "image": "item/gear_necro/70_dg.webp",
+        "link": ""
+    },
+    "Soul lantern T70": {
+        "level": 70,
+        "type": "Weapon",
+        "source": "Shop",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                {
+                    "anyOf": [
+                        "Karamja",
+                        "Asgarnia",
+                        "Kandarin",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Kandarin",
+                        "Fremennik",
+                        "Morytania",
+                        "Anachronia"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                }
+            ]
+        },
+        "image": "item/gear_necro/70_sl.webp",
+        "link": ""
+    }
+}
