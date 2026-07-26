@@ -18,8 +18,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Desert",
-                "Misthalin"
+                "Desert"
             ]
         },
         "image": "item/archaeology/zaros.webp",
@@ -32,8 +31,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Misthalin",
-                "Asgarnia"
+                "Misthalin"
             ]
         },
         "image": "item/archaeology/zamorak.webp",
@@ -46,8 +44,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Morytania",
-                "Asgarnia"
+                "Morytania"
             ]
         },
         "image": "item/archaeology/saradomin.webp",
@@ -60,8 +57,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Misthalin",
-                "Asgarnia"
+                "Misthalin"
             ]
         },
         "image": "item/archaeology/zamorak.webp",
@@ -74,8 +70,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Desert",
-                "Misthalin"
+                "Desert"
             ]
         },
         "image": "item/archaeology/zaros.webp",
@@ -101,8 +96,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Misthalin",
-                "Desert"
+                "Misthalin"
             ]
         },
         "image": "item/archaeology/senntisten.webp",
@@ -115,8 +109,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Misthalin",
-                "Desert"
+                "Misthalin"
             ]
         },
         "image": "item/archaeology/senntisten.webp",
@@ -129,8 +122,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Morytania",
-                "Asgarnia"
+                "Morytania"
             ]
         },
         "image": "item/archaeology/saradomin.webp",
@@ -143,8 +135,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Misthalin",
-                "Desert"
+                "Misthalin"
             ]
         },
         "image": "item/archaeology/senntisten.webp",
@@ -157,8 +148,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Misthalin",
-                "Desert"
+                "Misthalin"
             ]
         },
         "image": "item/archaeology/senntisten.webp",
@@ -171,8 +161,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Kandarin",
-                "Asgarnia"
+                "Kandarin"
             ]
         },
         "image": "item/archaeology/armadyl.webp",
@@ -185,8 +174,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Kandarin",
-                "Asgarnia"
+                "Kandarin"
             ]
         },
         "image": "item/archaeology/bandos.webp",
@@ -199,8 +187,7 @@
         "sort_weight": 1,
         "region": {
             "anyOf": [
-                "Wilderness",
-                "Anachronia"
+                "Wilderness"
             ]
         },
         "image": "item/archaeology/deamonheim.webp",
@@ -226,8 +213,7 @@
         "sort_weight": 1,
         "region": {
             "anyOf": [
-                "Wilderness",
-                "Anachronia"
+                "Wilderness"
             ]
         },
         "image": "item/archaeology/deamonheim.webp",
@@ -240,8 +226,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Kandarin",
-                "Asgarnia"
+                "Kandarin"
             ]
         },
         "image": "item/archaeology/bandos.webp",
@@ -254,8 +239,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Morytania",
-                "Asgarnia"
+                "Morytania"
             ]
         },
         "image": "item/archaeology/saradomin.webp",
@@ -268,8 +252,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Kandarin",
-                "Asgarnia"
+                "Kandarin"
             ]
         },
         "image": "item/archaeology/armadyl.webp",
@@ -282,8 +265,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Desert",
-                "Misthalin"
+                "Desert"
             ]
         },
         "image": "item/archaeology/zaros.webp",
@@ -296,8 +278,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Misthalin",
-                "Asgarnia"
+                "Misthalin"
             ]
         },
         "image": "item/archaeology/zamorak.webp",
@@ -310,8 +291,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Kandarin",
-                "Asgarnia"
+                "Kandarin"
             ]
         },
         "image": "item/archaeology/bandos.webp",
@@ -337,8 +317,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Kandarin",
-                "Asgarnia"
+                "Kandarin"
             ]
         },
         "image": "item/archaeology/bandos.webp",
@@ -351,8 +330,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Kandarin",
-                "Asgarnia"
+                "Kandarin"
             ]
         },
         "image": "item/archaeology/bandos.webp",
@@ -378,8 +356,7 @@
         "sort_weight": 1,
         "region": {
             "anyOf": [
-                "Wilderness",
-                "Anachronia"
+                "Wilderness"
             ]
         },
         "image": "item/archaeology/deamonheim.webp",
@@ -392,8 +369,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Kandarin",
-                "Asgarnia"
+                "Kandarin"
             ]
         },
         "image": "item/archaeology/armadyl.webp",
@@ -406,8 +382,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Morytania",
-                "Asgarnia"
+                "Morytania"
             ]
         },
         "image": "item/archaeology/saradomin.webp",
@@ -433,8 +408,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Misthalin",
-                "Asgarnia"
+                "Misthalin"
             ]
         },
         "image": "item/archaeology/zamorak.webp",
@@ -460,8 +434,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Desert",
-                "Misthalin"
+                "Desert"
             ]
         },
         "image": "item/archaeology/zaros.webp",
@@ -474,8 +447,7 @@
         "sort_weight": 1,
         "region": {
             "allOf": [
-                "Kandarin",
-                "Asgarnia"
+                "Kandarin"
             ]
         },
         "image": "item/archaeology/bandos.webp",
