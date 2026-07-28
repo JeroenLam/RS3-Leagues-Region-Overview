@@ -221,7 +221,7 @@
     "Death guard T20": {
         "level": 20,
         "type": "Weapon",
-        "source": "Shop",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -234,7 +234,7 @@
     "Soul lantern T20": {
         "level": 20,
         "type": "Weapon",
-        "source": "Shop",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -247,7 +247,7 @@
     "Death guard T30": {
         "level": 30,
         "type": "Weapon",
-        "source": "Shop",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -260,7 +260,7 @@
     "Soul lantern T30": {
         "level": 30,
         "type": "Weapon",
-        "source": "Shop",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -273,7 +273,7 @@
     "Death guard T40": {
         "level": 40,
         "type": "Weapon",
-        "source": "Shop",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -286,7 +286,7 @@
     "Soul lantern T40": {
         "level": 40,
         "type": "Weapon",
-        "source": "Shop",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -299,7 +299,7 @@
     "Death guard T50": {
         "level": 50,
         "type": "Weapon",
-        "source": "Shop",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -312,7 +312,7 @@
     "Soul lantern T50": {
         "level": 50,
         "type": "Weapon",
-        "source": "Shop",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -322,10 +322,36 @@
         "image": "item/gear_necro/50_sl.webp",
         "link": ""
     },
+    "Gravite guard": {
+        "level": 55,
+        "type": "Weapon",
+        "source": "Shop Dungeoneering",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_necro/55_dg.png",
+        "link": ""
+    },
+    "Gravite lantern": {
+        "level": 55,
+        "type": "Weapon",
+        "source": "Shop Dungeoneering",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_necro/55_sl.webp",
+        "link": ""
+    },
     "Death guard T60": {
         "level": 60,
         "type": "Weapon",
-        "source": "Shop",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -363,7 +389,7 @@
     "Soul lantern T60": {
         "level": 60,
         "type": "Weapon",
-        "source": "Shop",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -401,7 +427,7 @@
     "Death guard T70": {
         "level": 70,
         "type": "Weapon",
-        "source": "Shop",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -439,7 +465,7 @@
     "Soul lantern T70": {
         "level": 70,
         "type": "Weapon",
-        "source": "Shop",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -472,6 +498,402 @@
             ]
         },
         "image": "item/gear_necro/70_sl.webp",
+        "link": ""
+    },
+    "Death guard T80": {
+        "level": 80,
+        "type": "Weapon",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                {
+                    "anyOf": [
+                        "Karamja",
+                        "Asgarnia",
+                        "Kandarin",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Kandarin",
+                        "Fremennik",
+                        "Morytania",
+                        "Anachronia"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Havenhythe",
+                        "Kandarin",
+                        "Desert",
+                        "Wilderness"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Havenhythe",
+                        "Asgarnia",
+                        "Morytania",
+                        "Wilderness"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Fremennik",
+                        "Wilderness"
+                    ]
+                }
+            ]
+        },
+        "image": "item/gear_necro/80_dg.webp",
+        "link": ""
+    },
+    "Soul lantern T80": {
+        "level": 80,
+        "type": "Weapon",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                {
+                    "anyOf": [
+                        "Karamja",
+                        "Asgarnia",
+                        "Kandarin",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Kandarin",
+                        "Fremennik",
+                        "Morytania",
+                        "Anachronia"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Havenhythe",
+                        "Kandarin",
+                        "Desert",
+                        "Wilderness"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Havenhythe",
+                        "Asgarnia",
+                        "Morytania",
+                        "Wilderness"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Fremennik",
+                        "Wilderness"
+                    ]
+                }
+            ]
+        },
+        "image": "item/gear_necro/80_sl.webp",
+        "link": ""
+    },
+    "Chaotic guard": {
+        "level": 80,
+        "type": "Weapon",
+        "source": "Shop Dungeoneering",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_necro/90_dg_chaotic.webp",
+        "link": ""
+    },
+    "Chaotic lantern": {
+        "level": 80,
+        "type": "Weapon",
+        "source": "Shop Dungeoneering",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_necro/90_sl_chaotic.webp",
+        "link": ""
+    },
+    "Death guard T90": {
+        "level": 90,
+        "type": "Weapon",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                {
+                    "anyOf": [
+                        "Karamja",
+                        "Asgarnia",
+                        "Kandarin",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Kandarin",
+                        "Fremennik",
+                        "Morytania",
+                        "Anachronia"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Havenhythe",
+                        "Kandarin",
+                        "Desert",
+                        "Wilderness"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Havenhythe",
+                        "Asgarnia",
+                        "Morytania",
+                        "Wilderness"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Fremennik",
+                        "Wilderness"
+                    ]
+                }
+            ]
+        },
+        "image": "item/gear_necro/90_dg.webp",
+        "link": ""
+    },
+    "Soul lantern T90": {
+        "level": 90,
+        "type": "Weapon",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin",
+                {
+                    "anyOf": [
+                        "Karamja",
+                        "Asgarnia",
+                        "Kandarin",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Kandarin",
+                        "Fremennik",
+                        "Morytania",
+                        "Anachronia"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Asgarnia",
+                        "Wilderness",
+                        "Tirannwn"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Havenhythe",
+                        "Kandarin",
+                        "Desert",
+                        "Wilderness"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Havenhythe",
+                        "Asgarnia",
+                        "Morytania",
+                        "Wilderness"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Fremennik",
+                        "Wilderness"
+                    ]
+                }
+            ]
+        },
+        "image": "item/gear_necro/90_sl.webp",
+        "link": ""
+    },
+    "Ruinous guard": {
+        "level": 90,
+        "type": "Weapon",
+        "source": "Shop Dungeoneering",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_necro/90_dg_ruinous.webp",
+        "link": ""
+    },
+    "Ruinous lantern": {
+        "level": 90,
+        "type": "Weapon",
+        "source": "Shop Dungeoneering",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_necro/90_sl_ruinous.png",
+        "link": ""
+    },
+    "Devourer's Guard": {
+        "level": 95,
+        "type": "Weapon",
+        "source": "Amascut",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_necro/95_dg_devourer.webp",
+        "link": ""
+    },
+    "Omni guard": {
+        "level": 95,
+        "type": "Weapon",
+        "source": "Rasial",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/95_dg_omni.webp",
+        "link": ""
+    },
+    "Soulbound lantern": {
+        "level": 95,
+        "type": "Weapon",
+        "source": "Rasial",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/95_sl.webp",
+        "link": ""
+    },
+    "Spectral spirit shield": {
+        "level": 75,
+        "type": "Weapon",
+        "source": "Corporeal beast",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_necro/75_spirit_shield.webp",
+        "link": ""
+    },
+    "Invoke Lord of Bones incantation codex": {
+        "level": 78,
+        "type": "Other",
+        "source": "Zemouregal & Vorkath",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/codex_invoke_lord_of_bones.webp",
+        "link": ""
+    },
+    "Saradomin's hum": {
+        "level": 75,
+        "type": "Other",
+        "source": "Zilyana",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_necro/75_sara_amulet.webp",
+        "link": ""
+    },
+    "TokHaar-Kal-Mor": {
+        "level": 75,
+        "type": "Other",
+        "source": "Fight kiln",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "item/gear_necro/75_kiln_cape.webp",
+        "link": ""
+    },
+    "Igneous Kal-Mor": {
+        "level": 85,
+        "type": "Other",
+        "source": "Zuk",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_necro/85_zuk_cape.webp",
         "link": ""
     }
 }

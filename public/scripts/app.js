@@ -2,6 +2,58 @@ import { renderByType } from "./renderers.js";
 
 const REGION_COOKIE_NAME = "enabled_regions";
 
+function getOrCreateFloatingTooltip() {
+    let tip = document.getElementById("gear-floating-tooltip");
+    if (!tip) {
+        tip = document.createElement("div");
+        tip.id = "gear-floating-tooltip";
+        tip.setAttribute("role", "tooltip");
+        document.body.appendChild(tip);
+    }
+    return tip;
+}
+
+function setupGearTooltips(contentPane) {
+    const tip = getOrCreateFloatingTooltip();
+    let activeItem = null;
+
+    function showTip(item) {
+        const html = item.dataset.gearTooltip;
+        if (!html) return;
+        tip.innerHTML = html;
+        tip.classList.add("visible");
+        positionTip(item);
+        activeItem = item;
+    }
+
+    function hideTip() {
+        tip.classList.remove("visible");
+        activeItem = null;
+    }
+
+    function positionTip(item) {
+        const rect = item.getBoundingClientRect();
+        const tipRect = tip.getBoundingClientRect();
+        let top = rect.top - tipRect.height - 8;
+        let left = rect.left + rect.width / 2 - tipRect.width / 2;
+        // Keep within viewport horizontally
+        left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
+        // Flip below if it would go off the top
+        if (top < 8) {
+            top = rect.bottom + 8;
+        }
+        tip.style.top = `${top}px`;
+        tip.style.left = `${left}px`;
+    }
+
+    contentPane.querySelectorAll(".gear-bucket-item").forEach((item) => {
+        item.addEventListener("mouseenter", () => showTip(item));
+        item.addEventListener("mouseleave", hideTip);
+        item.addEventListener("focusin", () => showTip(item));
+        item.addEventListener("focusout", hideTip);
+    });
+}
+
 function readAppData() {
     const raw = document.getElementById("app-data")?.textContent;
     if (!raw) {
@@ -130,6 +182,9 @@ async function renderSelectedGuide({ items, contentPane, enabledRegionNames, sel
             regionImageByName,
             baseUrl,
         });
+        if (selectedItem.render_type === "gear") {
+            setupGearTooltips(contentPane);
+        }
     } catch (error) {
         contentPane.innerHTML = `
       <h1>${selectedItem.name}</h1>

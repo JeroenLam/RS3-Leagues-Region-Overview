@@ -519,12 +519,17 @@ function renderGearTable({ selectedItem, entries, enabledRegionSet, sortMode, ba
     const typeOrder = [];
     const itemsByType = new Map();
 
-    orderedEntries.forEach((item) => {
-        const typeName = typeof item.entry.type === "string" && item.entry.type.trim() ? item.entry.type.trim() : "Other";
+    // Build type order from original (unsorted) entries to preserve JSON file order.
+    entries.forEach(([, entry]) => {
+        const typeName = typeof entry.type === "string" && entry.type.trim() ? entry.type.trim() : "Other";
         if (!itemsByType.has(typeName)) {
             itemsByType.set(typeName, []);
             typeOrder.push(typeName);
         }
+    });
+
+    orderedEntries.forEach((item) => {
+        const typeName = typeof item.entry.type === "string" && item.entry.type.trim() ? item.entry.type.trim() : "Other";
         itemsByType.get(typeName).push(item);
     });
 
@@ -543,15 +548,11 @@ function renderGearTable({ selectedItem, entries, enabledRegionSet, sortMode, ba
                 const image = entry.image ? assetUrl(baseUrl, `images/${encodeURIComponent(entry.image)}`) : "";
                 const source = entry.source ? String(entry.source) : "Unknown source";
                 const regionIcons = renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet, baseUrl);
+                const tooltipHtml = `<strong>${escapeHtml(name)}</strong><br />${escapeHtml(source)}<br />${regionIcons}`;
                 const itemHtml = `
-                    <div class="bucket-item gear-bucket-item availability-${availability}">
+                    <div class="bucket-item gear-bucket-item availability-${availability}" data-gear-tooltip="${escapeHtml(tooltipHtml)}">
                         <div class="gear-bucket-image">
                             ${image ? `<img class="bucket-icon" src="${image}" alt="${escapeHtml(name)}" loading="lazy" onerror="this.style.display='none'" />` : "<span>?</span>"}
-                        </div>
-                        <div class="gear-tooltip" role="tooltip">
-                            <strong>${escapeHtml(name)}</strong><br />
-                            ${escapeHtml(source)}<br />
-                            ${regionIcons}
                         </div>
                     </div>
                 `;

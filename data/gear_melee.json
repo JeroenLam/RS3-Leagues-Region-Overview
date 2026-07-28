@@ -1,18 +1,215 @@
 {
-    "Primal armour": {
-        "level": 99,
+    "Bandos armout (Power)": {
+        "level": 70,
         "type": "Armour",
-        "source": "skilling",
+        "source": "Graador",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_melee/70_bandos_power.webp",
+        "link": ""
+    },
+    "Abyssal whip": {
+        "level": 70,
+        "type": "Weapons",
+        "source": "Slayer",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania",
+                "Kandarin",
+                "Wilderness",
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_melee/70_abyssal_whip.webp",
+        "link": ""
+    },
+    "Fire cape": {
+        "level": 55,
+        "type": "Other",
+        "source": "Fight caves",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "item/gear_melee/55_fire_cape.webp",
+        "link": ""
+    },
+    "Barrows armour (Tank)": {
+        "level": 70,
+        "type": "Armour",
+        "source": "Barrows",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "item/gear_melee/70_barrows_armour_tank.webp",
+        "link": ""
+    },
+    "Barrows weapons": {
+        "level": 70,
+        "type": "Weapons",
+        "source": "Barrows",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "item/gear_melee/70_barrows_weapon.png",
+        "link": ""
+    },
+    "Saradomin's whisper": {
+        "level": 70,
+        "type": "Other",
+        "source": "Zilyana",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_melee/70_sara_amulet.webp",
+        "link": ""
+    },
+    "Abyssal vine whip": {
+        "level": 75,
+        "type": "Weapons",
+        "source": "Slayer",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                {
+                    "anyOf": [
+                        "Morytania",
+                        "Kandarin",
+                        "Wilderness",
+                        "Misthalin"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Karamja"
+                    ]
+                }
+            ]
+        },
+        "image": "item/gear_melee/75_abyssal_vine_whip.webp",
+        "link": ""
+    },
+    "Godswords": {
+        "level": 75,
+        "type": "Weapons",
+        "source": "Godwars dungeon",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_melee/75_godsword.webp",
+        "link": ""
+    },
+    "TokHaar-Kal-Ket": {
+        "level": 75,
+        "type": "Other",
+        "source": "Fight kiln",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "item/gear_melee/75_kiln_cape.webp",
+        "link": ""
+    },
+    "Saradomin sword": {
+        "level": 75,
+        "type": "Weapons",
+        "source": "Zilyana",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_melee/75_sara_sword.webp",
+        "link": ""
+    },
+    "Zamorakean spear": {
+        "level": 75,
+        "type": "Weapons",
+        "source": "Kril",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_melee/75_zamorak_spear.webp",
+        "link": ""
+    },
+    "Divine spirit shield": {
+        "level": 75,
+        "type": "Weapons",
+        "source": "Corporeal beast",
         "sort_weight": 1,
         "region": {
             "anyOf": [
                 "Wilderness"
             ]
         },
-        "image": "item/gear_melee/primal_body.webp",
+        "image": "item/gear_melee/75_spirit_shield.webp",
         "link": ""
     },
-    "Torva armour": {
+    "Anima core of Zaros armour (power)": {
+        "level": 80,
+        "type": "Armour",
+        "source": "Godwars dungeon 2",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_melee/80_anima_zaros_power.webp",
+        "link": ""
+    },
+    "Laceration boots (Power)": {
+        "level": 80,
+        "type": "Armour",
+        "source": "Godwars dungeon 2",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_melee/80_laceration_boots.webp",
+        "link": ""
+    },
+    "Swordy McSwordFace": {
+        "level": 80,
+        "type": "Weapons",
+        "source": "Elite dungeon 3",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_melee/80_swordy_mcswordface.webp",
+        "link": ""
+    },
+    "Torve armour (Power)": {
         "level": 80,
         "type": "Armour",
         "source": "Nex",
@@ -22,33 +219,499 @@
                 "Asgarnia"
             ]
         },
-        "image": "item/gear_melee/torva_body.webp",
+        "image": "item/gear_melee/80_torva_power.webp",
         "link": ""
     },
-    "Primal 2H sword": {
-        "level": 99,
-        "type": "Weapon",
-        "source": "skilling",
+    "Laniakea's spear": {
+        "level": 82,
+        "type": "Weapons",
+        "source": "Rex Matriarcs",
         "sort_weight": 1,
         "region": {
             "anyOf": [
-                "Wilderness"
+                "Anachronia"
             ]
         },
-        "image": "item/gear_melee/primal_2h.png",
+        "image": "item/gear_melee/82_laniakeas_spear.webp",
         "link": ""
     },
-    "Primal armour spikes": {
-        "level": 99,
+    "Masuta's warspear": {
+        "level": 82,
+        "type": "Weapons",
+        "source": "Elite dungeon 1",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_melee/82_masutas_warspear.webp",
+        "link": ""
+    },
+    "Blade of Avaryss": {
+        "level": 85,
+        "type": "Weapons",
+        "source": "Godwars dungeon 2",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_melee/85_blade_of_averyss.webp",
+        "link": ""
+    },
+    "Blade of Nymora": {
+        "level": 85,
+        "type": "Weapons",
+        "source": "Godwars dungeon 2",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_melee/85_blade_of_nymora.png",
+        "link": ""
+    },
+    "Dark ice shard": {
+        "level": 85,
+        "type": "Weapons",
+        "source": "Godwars dungeon 3",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_melee/85_dark_ice_shard.webp",
+        "link": ""
+    },
+    "Dark ice sliver": {
+        "level": 85,
+        "type": "Weapons",
+        "source": "Godwars dungeon 3",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_melee/85_dark_ice_sliver.webp",
+        "link": ""
+    },
+    "Dragon Rider lance": {
+        "level": 85,
+        "type": "Weapons",
+        "source": "Godwars dungeon 2",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_melee/85_dragon_rider_lance.webp",
+        "link": ""
+    },
+    "Gloves of passage": {
+        "level": 85,
+        "type": "Armour",
+        "source": "The Magister",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_melee/85_gloves_of_passage.webp",
+        "link": ""
+    },
+    "Mizuyari": {
+        "level": 85,
+        "type": "Weapons",
+        "source": "Elite dungeon 1",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_melee/85_mizuyari_spear.webp",
+        "link": ""
+    },
+    "Steadfast boots": {
+        "level": 85,
+        "type": "Armour",
+        "source": "Glacor",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Fremennik"
+            ]
+        },
+        "image": "item/gear_melee/85_steadfast_boots_tank.webp",
+        "link": ""
+    },
+    "Igneous Kal-Ket": {
+        "level": 85,
         "type": "Other",
-        "source": "skilling",
+        "source": "Godwars dungeon 3",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_melee/85_zuk_cape.webp",
+        "link": ""
+    },
+    "Drygore weapons": {
+        "level": 90,
+        "type": "Weapons",
+        "source": "kaplhite King",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_melee/90_drygore_weapon.webp",
+        "link": ""
+    },
+    "Drygore weapons offhand": {
+        "level": 90,
+        "type": "Weapons",
+        "source": "kaplhite King",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_melee/90_drygore_weapon_off.png",
+        "link": ""
+    },
+    "Enhanced gloves of passage": {
+        "level": 90,
+        "type": "Armour",
+        "source": "The Magister & ARch glacor",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                {
+                    "anyOf": [
+                        "Desert",
+                        "Misthalin"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Havenhythe",
+                        "Kandarin",
+                        "Desert",
+                        "Wilderness"
+                    ]
+                },
+                {
+                    "anyOf": [
+                        "Havenhythe",
+                        "Asgarnia",
+                        "Morytania",
+                        "Wilderness"
+                    ]
+                }
+            ]
+        },
+        "image": "item/gear_melee/90_e_gloves_of_passage.webp",
+        "link": ""
+    },
+    "Enhanced laceration boots (Power)": {
+        "level": 80,
+        "type": "Armour",
+        "source": "Godwars dungeon 2",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Desert",
+                "Anachronia"
+            ]
+        },
+        "image": "item/gear_melee/90_e_laceration_boots.webp",
+        "link": ""
+    },
+    "Emberkeen boots (Power)": {
+        "level": 80,
+        "type": "Armour",
+        "source": "Glacor & ED1",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Fremennik",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/gear_melee/90_emberkeen_boots_power.webp",
+        "link": ""
+    },
+    "Malevolent armour (Tank)": {
+        "level": 90,
+        "type": "Armour",
+        "source": "Barrows Rise of the Six",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Morytania"
+            ]
+        },
+        "image": "item/gear_melee/90_malevolent_body.png",
+        "link": ""
+    },
+    "Malevolent shield": {
+        "level": 90,
+        "type": "Armour",
+        "source": "Barrows Rise of the Six",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Morytania"
+            ]
+        },
+        "image": "item/gear_melee/90_malevolent_shield.webp",
+        "link": ""
+    },
+    "Noxious scythe": {
+        "level": 90,
+        "type": "Weapons",
+        "source": "Arraxor",
+        "sort_weight": 1,
+        "region": {
+            "allOf": [
+                "Morytania"
+            ]
+        },
+        "image": "item/gear_melee/90_noxious_scythe.png",
+        "link": ""
+    },
+    "Razorback gauntlets": {
+        "level": 90,
+        "type": "Armour",
+        "source": "Airut",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert",
+                "Kandarin"
+            ]
+        },
+        "image": "item/gear_melee/90_razerback_gauntlets_power.webp",
+        "link": ""
+    },
+    "Spear of annihilation": {
+        "level": 90,
+        "type": "Weapons",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "item/gear_melee/90_spear_of_annihilation.webp",
+        "link": ""
+    },
+    "Teralith armour (Tank)": {
+        "level": 90,
+        "type": "Armour",
+        "source": "Libiration of Mazcab",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_melee/90_teralith_tank.webp",
+        "link": ""
+    },
+    "Varanus's Mercy": {
+        "level": 90,
+        "type": "Weapons",
+        "source": "Asuran Arsenal (Thieving)",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_melee/90_varanus_mercy_dagger.webp",
+        "link": ""
+    },
+    "Abyssal scourge": {
+        "level": 92,
+        "type": "Weapons",
+        "source": "Abyssal lord",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_melee/92_abyssal_scourge_weapon.webp",
+        "link": ""
+    },
+    "Zaros godsword": {
+        "level": 92,
+        "type": "Weapons",
+        "source": "Godwars dungeon 3",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_melee/92_zaros_godsword.webp",
+        "link": ""
+    },
+    "Dark shard of Leng": {
+        "level": 95,
+        "type": "Weapons",
+        "source": "Godwars dungeon 3",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_melee/95_dark_shard_of_leng.webp",
+        "link": ""
+    },
+    "Dark sliver of Leng": {
+        "level": 95,
+        "type": "Weapons",
+        "source": "Godwars dungeon 3",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_melee/95_dark_sliver_of_leng.webp",
+        "link": ""
+    },
+    "Ek-zekkil": {
+        "level": 95,
+        "type": "Weapons",
+        "source": "Godwars dungeon 3",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_melee/95_ek-zekkil_weapon.webp",
+        "link": ""
+    },
+    "Havoc armour (Power)": {
+        "level": 95,
+        "type": "Armour",
+        "source": "Zamorak raid",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_melee/95_havoc_armour_95.webp",
+        "link": ""
+    },
+    "Tumekens light": {
+        "level": 95,
+        "type": "Weapons",
+        "source": "Amascut raid",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/gear_melee/95_tumekens_light.webp",
+        "link": ""
+    },
+    "Primal armour (Tank)": {
+        "level": 99,
+        "type": "Armour",
+        "source": "Skilling",
         "sort_weight": 1,
         "region": {
             "anyOf": [
                 "Wilderness"
             ]
         },
-        "image": "item/gear_melee/primal_spikes.webp",
+        "image": "item/gear_melee/99_primal_armour_tnak.webp",
+        "link": ""
+    },
+    "Primal Weapons": {
+        "level": 99,
+        "type": "Weapons",
+        "source": "Skilling",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_melee/99_primal_weapon.webp",
+        "link": ""
+    },
+    "Chaos Roar ability codex": {
+        "level": 92,
+        "type": "Other",
+        "source": "Zamorak raid",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/gear_melee/codex_chaos_roar.webp",
+        "link": ""
+    },
+    "Greater Barge ability codex": {
+        "level": 65,
+        "type": "Other",
+        "source": "Black stone dragon",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_melee/codex_greater_barge.webp",
+        "link": ""
+    },
+    "Greater Flurry ability codex": {
+        "level": 45,
+        "type": "Other",
+        "source": "Astellarn",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_melee/codex_greater_flurry.webp",
+        "link": ""
+    },
+    "Greater Fury ability codex": {
+        "level": 21,
+        "type": "Other",
+        "source": "Verak Lith",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_melee/codex_greater_fury.webp",
         "link": ""
     }
 }

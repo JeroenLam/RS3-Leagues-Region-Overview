@@ -1,0 +1,15 @@
+{
+    "Primal armour": {
+        "level": 99,
+        "type": "Armour",
+        "source": "skilling",
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/gear_melee/primal_body.webp",
+        "link": ""
+    }
+}

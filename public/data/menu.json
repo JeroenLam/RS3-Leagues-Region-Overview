@@ -9,9 +9,9 @@
         },
         {
             "name": "Constitution",
-            "file": "",
+            "file": "gear_generic.json",
             "image": "icon/skill_constitution.webp",
-            "render_type": ""
+            "render_type": "gear"
         },
         {
             "name": "Mining",
@@ -39,9 +39,9 @@
         },
         {
             "name": "Defence",
-            "file": "",
+            "file": "gear_generic.json",
             "image": "icon/skill_defence.webp",
-            "render_type": ""
+            "render_type": "gear"
         },
         {
             "name": "Herblore",
@@ -57,9 +57,9 @@
         },
         {
             "name": "Ranged",
-            "file": "gear_range.json",
+            "file": "gear_ranged.json",
             "image": "icon/skill_ranged.webp",
-            "render_type": ""
+            "render_type": "gear"
         },
         {
             "name": "Thieving",
