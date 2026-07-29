@@ -238,5 +238,49 @@
         },
         "image": "item/woodcutting/eternal_magic.png",
         "hover_text": ""
+    },
+    "Bamboo": {
+        "level_start": 90,
+        "sort_weight": 1.1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/woodcutting/bamboo.webp",
+        "hover_text": ""
+    },
+    "Golden bamboo": {
+        "level_start": 90,
+        "sort_weight": 1.1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/woodcutting/golden bamboo.webp",
+        "hover_text": ""
+    },
+    "Timber fungus": {
+        "level_start": 88,
+        "sort_weight": 1.1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/woodcutting/timber_fungus.webp",
+        "hover_text": ""
+    },
+    "Enriched timber fungus": {
+        "level_start": 92,
+        "sort_weight": 1.1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/woodcutting/timber_fungus_e.webp",
+        "hover_text": ""
     }
 }

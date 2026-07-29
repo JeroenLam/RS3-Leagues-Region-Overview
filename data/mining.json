@@ -288,7 +288,6 @@
         "image": "item/mining/88.webp",
         "hover_text": ""
     },
-    ,
     "Enriched calcified fungus": {
         "level_start": 92,
         "sort_weight": 1,
@@ -300,4 +299,15 @@
         "image": "item/mining/92.webp",
         "hover_text": ""
     },
+    "Corrupted ore": {
+        "level_start": 89,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "item/mining/89.png",
+        "hover_text": ""
+    }
 }

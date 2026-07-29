@@ -1,71 +1,73 @@
-Natural history quiz; 1; Misthalin; nhq.webp
-Plain whirligig; 16; Desert; ; 16_scarab.webp
-Dazzling whirligig; 20; Desert; 20_scarab.webp
-Gliding whirligig; 30; Desert; 30_scarab.webp
-Swift whirligig; 50; Desert; 50_scarab.webp
-Hasty whirligig; 70; Desert; 70_scarab.webp
-Speedy whirligig; 90; Desert; 90_scarab.webp
-Crimson swift; 1; Kandarin, Asgarnia; 1_bird.webp
-Golden warbler; 5, Desert, Anachronia; 5_bird.png
-Copper longtail; 9; Kandarin; 9_bird.webp
-Cerulean twitch; 11; Fremennik; 11_bird.png
-Tropical wagtail; 19; Kandarin; 19_bird.webp
-Wimpy bird; 39; Kandarin; 39_bird.png
-Common jadinko; 70; Karamja; 70_jadinco.png
-Ingeneous jadinko; 74; Karamja; 74_jadinco.png
-Cannibal jadinko; 75; Karamja; 75_jadinco.png
-Aquatic jadinko; 76; Karamja; 76_jadinco.png
-Amphibious jadinko; 77; Karamja; 77_jadinco.png
-Carrion jadinko; 78; Karamja; 78_jadinco.png
-Draconic jadinko; 80; Karamja; 80_jadinco.png
-God jadinko; 81; Karamja; 81_jadinco.png
-Shadow jadinko; 71; Karamja; 71_jadinco.png
-Diseased jadinko; 78; Karamja; 78_jadinco_diseased.png
-Camouflaged jadinko; 79; Karamja; 79_jadinco.png
-Common jadinko (Anachronia); 80; Anachronia; 70_jadinco.png
-Shadow jadinko (Anachronia); 81; Anachronia; 71_jadinco.png
-Ingeneous jadinko (Anachronia); 84; Anachronia; 74_jadinco.png
-Cannibal jadinko (Anachronia); 85; Anachronia; 75_jadinco.png
-Aquatic jadinko (Anachronia); 86; Anachronia; 76_jadinco.png
-Amphibious jadinko (Anachronia); 87 ; Anachronia; 77_jadinco.png
-Carrion jadinko (Anachronia); 88; Anachronia; 78_jadinco.png
-Diseased jadinko (Anachronia); 88; Anachronia; 78_jadinco_diseased.png
-Camouflaged jadinko (Anachronia); 89; Anachronia; 79_jadinco.png
-Draconic jadinko (Anachronia); 90; Anachronia; 80_jadinco.png
-Fungal spore; 88; Misthalin; 88_spore.png
-Charming moth; 88; Wilderness; 88_charming_moth.png
-Green salamander; 29; Morytania; 29_net.png
-Orange salamander; 47; Desert; 47_new.webp
-Red salamander; 59; Kandarin; 59_new.png
-Black salamander; 67; Wilderness; 67_net.png
-Yellow salamander; 86; Anachronia; 86_net.webp
-Cobalt skillchompa; 27; Kandarin; 27_chin.webp
-Viridian skillchompa; 46; Morytania; 46_chin.webp
-Chinchompa; 53; Kandarin; 53_chin.webp
-Carnivorous chinchompa; 63; Kandarin; 63_chin.webp
-Azure skillchompa; 68; Fremennik; 68_chin.webp
-Volatile chinchompa; 73; Havenhythe; 73_chin.webp
-Crimson skillchompa; 89; Desert; 89_chin.webp
-Crystal skillchompa; 97; Tirannwn; 97_chin.webp
-Tortle; 90; Asgarnia; 90_tortle.webp
-Arcane apoterrasaur; 75; Anachronia; 75_bgh_a.webp
-Scimitops; 75; Anachronia; 75_bgh_s.webp
-Bagrada rex; 75; Anachronia; 75_bgh_b.webp
-Spicati apoterrasaur;80; Anachronia; 80_bgh.webp
-Asciatops; 85; Anachronia; 85_bgh.webp
-Corbicula rex; 90; Anachronia; 90_bgh.webp
-Oculi apoterrasaur; 94; Anachronia; 94_bgh.webp
-Malletops; 95; Anachronia; 95_bgh.webp
-Pavosaurus rex; 96; Anachronia; 96_bgh.webp
-Giant chinchompa; 96; Havenhythe; 96_bgh_h.webp
-Giant kebbit; 98; Havenhythe; 98_bgh_h.webp
-Giant carnivorous chinchompa; 100; Havenhythe; 100_bgh_h.webp
-Giant spiked kebbit; 102; Havenhythe; 102_bgh_h.webp
-Giant volatile chinchompa; 104; Havenhythe; 104_bgh_h.webp
-Giant diseased kebbit; 106; Havenhythe; 106_bgh_h.webp
-Giant golden chinchompa; 108; Havenhythe; 108_bgh_h.webp
-Giant dashing kebbit; 110; Havenhythe; 110_bgh_h.webp
-Ruby harvest (barehanded); 80; Kandarin, Anachronia; 80_butterfly.webp
-Sapphire glacialis (barehanded); 85; Fremennik; 85_butterfly.png
-Snowy knight (barehanded); 90; Fremennik; 90_butterfly.png
-Black warlock (barehanded); 95; Kandarin, Anachronia; 95_butterfly.png
+Natural history quiz; 1; Misthalin; item/hunter/nhq.webp
+Plain whirligig; 16; Desert; item/hunter/16_scarab.webp
+Dazzling whirligig; 20; Desert; item/hunter/20_scarab.webp
+Gliding whirligig; 30; Desert; item/hunter/30_scarab.webp
+Swift whirligig; 50; Desert; item/hunter/50_scarab.webp
+Hasty whirligig; 70; Desert; item/hunter/70_scarab.webp
+Speedy whirligig; 90; Desert; item/hunter/90_scarab.webp
+Crimson swift; 1; Kandarin, Asgarnia; item/hunter/1_bird.webp
+Golden warbler; 5; Desert, Anachronia; item/hunter/5_bird.png
+Copper longtail; 9; Kandarin; item/hunter/9_bird.webp
+Cerulean twitch; 11; Fremennik; item/hunter/11_bird.png
+Tropical wagtail; 19; Kandarin; item/hunter/19_bird.webp
+Wimpy bird; 39; Kandarin; item/hunter/39_bird.png
+Common jadinko; 70; Karamja; item/hunter/70_jadinco.webp
+Ingeneous jadinko; 74; Karamja; item/hunter/74_jadinco.png
+Cannibal jadinko; 75; Karamja; item/hunter/75_jadinco.png
+Aquatic jadinko; 76; Karamja; item/hunter/76_jadinco.png
+Amphibious jadinko; 77; Karamja; item/hunter/77_jadinco.png
+Carrion jadinko; 78; Karamja; item/hunter/78_jadinco.png
+Draconic jadinko; 80; Karamja; item/hunter/80_jadinco.png
+God jadinko; 81; Karamja; item/hunter/81_jadinco.png
+Shadow jadinko; 71; Karamja; item/hunter/71_jadinco.png
+Diseased jadinko; 78; Karamja; item/hunter/78_jadinco_diseased.png
+Camouflaged jadinko; 79; Karamja; item/hunter/79_jadinco.png
+Common jadinko (Anachronia); 80; Anachronia; item/hunter/70_jadinco.webp
+Shadow jadinko (Anachronia); 81; Anachronia; item/hunter/71_jadinco.png
+Ingeneous jadinko (Anachronia); 84; Anachronia; item/hunter/74_jadinco.png
+Cannibal jadinko (Anachronia); 85; Anachronia; item/hunter/75_jadinco.png
+Aquatic jadinko (Anachronia); 86; Anachronia; item/hunter/76_jadinco.png
+Amphibious jadinko (Anachronia); 87 ; Anachronia; item/hunter/77_jadinco.png
+Carrion jadinko (Anachronia); 88; Anachronia; item/hunter/78_jadinco.png
+Diseased jadinko (Anachronia); 88; Anachronia; item/hunter/78_jadinco_diseased.png
+Camouflaged jadinko (Anachronia); 89; Anachronia; item/hunter/79_jadinco.png
+Draconic jadinko (Anachronia); 90; Anachronia; item/hunter/80_jadinco.png
+Fungal spore; 88; Misthalin; item/hunter/88_spore.png
+Charming moth; 88; Wilderness; item/hunter/88_charming_moth.png
+Green salamander; 29; Morytania; item/hunter/29_net.png
+Orange salamander; 47; Desert; item/hunter/47_net.webp
+Red salamander; 59; Kandarin; item/hunter/59_net.png
+Black salamander; 67; Wilderness; item/hunter/67_net.png
+Yellow salamander; 86; Anachronia; item/hunter/86_net.webp
+Cobalt skillchompa; 27; Kandarin; item/hunter/27_chin.webp
+Viridian skillchompa; 46; Morytania; item/hunter/46_chin.webp
+Chinchompa; 53; Kandarin; item/hunter/53_chin.webp
+Carnivorous chinchompa; 63; Kandarin; item/hunter/63_chin.webp
+Azure skillchompa; 68; Fremennik; item/hunter/68_chin.webp
+Volatile chinchompa; 73; Havenhythe; item/hunter/73_chin.webp
+Crimson skillchompa; 89; Desert; item/hunter/89_chin.webp
+Crystal skillchompa; 97; Tirannwn; item/hunter/97_chin.webp
+Tortle; 90; Asgarnia; item/hunter/90_tortle.webp
+Arcane apoterrasaur; 75; Anachronia; item/hunter/75_bgh_a.webp
+Scimitops; 75; Anachronia; item/hunter/75_bgh_s.webp
+Bagrada rex; 75; Anachronia; item/hunter/75_bgh_b.webp
+Spicati apoterrasaur;80; Anachronia; item/hunter/80_bgh.webp
+Asciatops; 85; Anachronia; item/hunter/85_bgh.webp
+Corbicula rex; 90; Anachronia; item/hunter/90_bgh.webp
+Oculi apoterrasaur; 94; Anachronia; item/hunter/94_bgh.webp
+Malletops; 95; Anachronia; item/hunter/95_bgh.webp
+Pavosaurus rex; 96; Anachronia; item/hunter/96_bgh.webp
+Giant chinchompa; 96; Havenhythe; item/hunter/96_bgh_h.webp
+Giant kebbit; 98; Havenhythe; item/hunter/98_bgh_h.webp
+Giant carnivorous chinchompa; 100; Havenhythe; item/hunter/100_bgh_h.webp
+Giant spiked kebbit; 102; Havenhythe; item/hunter/102_bgh_h.png
+Giant volatile chinchompa; 104; Havenhythe; item/hunter/104_bgh_h.webp
+Giant diseased kebbit; 106; Havenhythe; item/hunter/106_bgh_h.webp
+Giant golden chinchompa; 108; Havenhythe; item/hunter/108_bgh_h.webp
+Giant dashing kebbit; 110; Havenhythe; item/hunter/110_bgh_h.webp
+Ruby harvest (barehanded); 80; Kandarin, Anachronia; item/hunter/80_butterfly.webp
+Sapphire glacialis (barehanded); 85; Fremennik; item/hunter/85_butterfly.png
+Snowy knight (barehanded); 90; Fremennik; item/hunter/90_butterfly.png
+Black warlock (barehanded); 95; Kandarin, Anachronia; item/hunter/95_butterfly.png
+Fungal spore; 88; Misthalin; item/hunter/88_spore.webp
+Enriched fungal spore; 92; Misthalin; item/hunter/92_spore.webp

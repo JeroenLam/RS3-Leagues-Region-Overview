@@ -19,7 +19,7 @@
         "hover_text": ""
     },
     "Oak": {
-        "level_start": 10,
+        "level_start": 15,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -33,7 +33,7 @@
         "hover_text": ""
     },
     "Willow": {
-        "level_start": 20,
+        "level_start": 30,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -46,7 +46,7 @@
         "hover_text": ""
     },
     "Teak": {
-        "level_start": 30,
+        "level_start": 35,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -58,19 +58,8 @@
         "image": "item/woodcutting/teak.png",
         "hover_text": ""
     },
-    "Creeping Ivy": {
-        "level_start": 35,
-        "sort_weight": 1,
-        "region": {
-            "anyOf": [
-                "Havenhythe"
-            ]
-        },
-        "image": "item/woodcutting/creeping_ivy.png",
-        "hover_text": ""
-    },
     "Maple": {
-        "level_start": 40,
+        "level_start": 45,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -85,7 +74,7 @@
         "hover_text": ""
     },
     "Acadia": {
-        "level_start": 50,
+        "level_start": 47,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -96,7 +85,7 @@
         "hover_text": ""
     },
     "Arctic pines": {
-        "level_start": 56,
+        "level_start": 42,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -118,7 +107,7 @@
         "hover_text": ""
     },
     "Mahogany": {
-        "level_start": 60,
+        "level_start": 50,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -130,22 +119,8 @@
         "image": "item/woodcutting/mahogany.webp",
         "hover_text": ""
     },
-    "Choking Ivy": {
-        "level_start": 68,
-        "sort_weight": 1,
-        "region": {
-            "anyOf": [
-                "Misthalin",
-                "Asgarnia",
-                "Kandarin",
-                "Tirannwn"
-            ]
-        },
-        "image": "item/woodcutting/choking_ivy.png",
-        "hover_text": ""
-    },
     "Yew": {
-        "level_start": 70,
+        "level_start": 60,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -160,7 +135,7 @@
         "hover_text": ""
     },
     "Magic": {
-        "level_start": 80,
+        "level_start": 75,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -173,18 +148,6 @@
             ]
         },
         "image": "item/woodcutting/magic.webp",
-        "hover_text": ""
-    },
-    "Overgrown idol": {
-        "level_start": 81,
-        "sort_weight": 1,
-        "region": {
-            "anyOf": [
-                "Karamja",
-                "Anachronia"
-            ]
-        },
-        "image": "item/woodcutting/overgrown_idol.webp",
         "hover_text": ""
     },
     "Jade roots": {
@@ -212,21 +175,6 @@
         "image": "item/woodcutting/elder.webp",
         "hover_text": ""
     },
-    "Crystal trees": {
-        "level_start": 94,
-        "sort_weight": 1,
-        "region": {
-            "anyOf": [
-                "Karamja",
-                "Asgarnia",
-                "Kandarin",
-                "Fremennik",
-                "Tirannwn"
-            ]
-        },
-        "image": "item/woodcutting/crystal.webp",
-        "hover_text": ""
-    },
     "Eternal magic trees": {
         "level_start": 100,
         "sort_weight": 1.1,
@@ -239,48 +187,48 @@
         "image": "item/woodcutting/eternal_magic.png",
         "hover_text": ""
     },
-    "Bamboo": {
-        "level_start": 90,
+    "Zygomite Carestyling": {
+        "level_start": 82,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
-                "Asgarnia"
+                "Anachronia"
             ]
         },
-        "image": "item/woodcutting/bamboo.webp",
+        "image": "item/firemaking/82.webp",
         "hover_text": ""
     },
-    "Golden bamboo": {
-        "level_start": 90,
+    "Sharp shell shard": {
+        "level_start": 87,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
-                "Asgarnia"
+                "Anachronia"
             ]
         },
-        "image": "item/woodcutting/golden bamboo.webp",
+        "image": "item/firemaking/87.webp",
         "hover_text": ""
     },
-    "Timber fungus": {
-        "level_start": 88,
+    "Eggsperimentation": {
+        "level_start": 95,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
-                "Misthalin"
+                "Anachronia"
             ]
         },
-        "image": "item/woodcutting/timber_fungus.webp",
+        "image": "item/firemaking/95.webp",
         "hover_text": ""
     },
-    "Enriched timber fungus": {
-        "level_start": 92,
+    "The Book of Char": {
+        "level_start": 74,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
-                "Misthalin"
+                "Kandarin"
             ]
         },
-        "image": "item/woodcutting/timber_fungus_e.webp",
+        "image": "item/firemaking/74.webp",
         "hover_text": ""
     }
 }

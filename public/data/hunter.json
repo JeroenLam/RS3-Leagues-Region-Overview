@@ -7,7 +7,7 @@
                 "Misthalin"
             ]
         },
-        "image": "nhq.webp",
+        "image": "item/hunter/nhq.webp",
         "hover_text": ""
     },
     "Plain whirligig": {
@@ -18,7 +18,7 @@
                 "Desert"
             ]
         },
-        "image": "",
+        "image": "item/hunter/16_scarab.webp",
         "hover_text": ""
     },
     "Dazzling whirligig": {
@@ -29,7 +29,7 @@
                 "Desert"
             ]
         },
-        "image": "20_scarab.webp",
+        "image": "item/hunter/20_scarab.webp",
         "hover_text": ""
     },
     "Gliding whirligig": {
@@ -40,7 +40,7 @@
                 "Desert"
             ]
         },
-        "image": "30_scarab.webp",
+        "image": "item/hunter/30_scarab.webp",
         "hover_text": ""
     },
     "Swift whirligig": {
@@ -51,7 +51,7 @@
                 "Desert"
             ]
         },
-        "image": "50_scarab.webp",
+        "image": "item/hunter/50_scarab.webp",
         "hover_text": ""
     },
     "Hasty whirligig": {
@@ -62,7 +62,7 @@
                 "Desert"
             ]
         },
-        "image": "70_scarab.webp",
+        "image": "item/hunter/70_scarab.webp",
         "hover_text": ""
     },
     "Speedy whirligig": {
@@ -73,7 +73,7 @@
                 "Desert"
             ]
         },
-        "image": "90_scarab.webp",
+        "image": "item/hunter/90_scarab.webp",
         "hover_text": ""
     },
     "Crimson swift": {
@@ -85,7 +85,19 @@
                 "Asgarnia"
             ]
         },
-        "image": "1_bird.webp",
+        "image": "item/hunter/1_bird.webp",
+        "hover_text": ""
+    },
+    "Golden warbler": {
+        "level_start": 5,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert",
+                "Anachronia"
+            ]
+        },
+        "image": "item/hunter/5_bird.png",
         "hover_text": ""
     },
     "Copper longtail": {
@@ -96,7 +108,7 @@
                 "Kandarin"
             ]
         },
-        "image": "9_bird.webp",
+        "image": "item/hunter/9_bird.webp",
         "hover_text": ""
     },
     "Cerulean twitch": {
@@ -107,7 +119,7 @@
                 "Fremennik"
             ]
         },
-        "image": "11_bird.png",
+        "image": "item/hunter/11_bird.png",
         "hover_text": ""
     },
     "Tropical wagtail": {
@@ -118,7 +130,7 @@
                 "Kandarin"
             ]
         },
-        "image": "19_bird.webp",
+        "image": "item/hunter/19_bird.webp",
         "hover_text": ""
     },
     "Wimpy bird": {
@@ -129,7 +141,7 @@
                 "Kandarin"
             ]
         },
-        "image": "39_bird.png",
+        "image": "item/hunter/39_bird.png",
         "hover_text": ""
     },
     "Common jadinko": {
@@ -140,7 +152,7 @@
                 "Karamja"
             ]
         },
-        "image": "70_jadinco.png",
+        "image": "item/hunter/70_jadinco.webp",
         "hover_text": ""
     },
     "Ingeneous jadinko": {
@@ -151,7 +163,7 @@
                 "Karamja"
             ]
         },
-        "image": "74_jadinco.png",
+        "image": "item/hunter/74_jadinco.png",
         "hover_text": ""
     },
     "Cannibal jadinko": {
@@ -162,7 +174,7 @@
                 "Karamja"
             ]
         },
-        "image": "75_jadinco.png",
+        "image": "item/hunter/75_jadinco.png",
         "hover_text": ""
     },
     "Aquatic jadinko": {
@@ -173,7 +185,7 @@
                 "Karamja"
             ]
         },
-        "image": "76_jadinco.png",
+        "image": "item/hunter/76_jadinco.png",
         "hover_text": ""
     },
     "Amphibious jadinko": {
@@ -184,7 +196,7 @@
                 "Karamja"
             ]
         },
-        "image": "77_jadinco.png",
+        "image": "item/hunter/77_jadinco.png",
         "hover_text": ""
     },
     "Carrion jadinko": {
@@ -195,7 +207,7 @@
                 "Karamja"
             ]
         },
-        "image": "78_jadinco.png",
+        "image": "item/hunter/78_jadinco.png",
         "hover_text": ""
     },
     "Draconic jadinko": {
@@ -206,7 +218,7 @@
                 "Karamja"
             ]
         },
-        "image": "80_jadinco.png",
+        "image": "item/hunter/80_jadinco.png",
         "hover_text": ""
     },
     "God jadinko": {
@@ -217,7 +229,7 @@
                 "Karamja"
             ]
         },
-        "image": "81_jadinco.png",
+        "image": "item/hunter/81_jadinco.png",
         "hover_text": ""
     },
     "Shadow jadinko": {
@@ -228,7 +240,7 @@
                 "Karamja"
             ]
         },
-        "image": "71_jadinco.png",
+        "image": "item/hunter/71_jadinco.png",
         "hover_text": ""
     },
     "Diseased jadinko": {
@@ -239,7 +251,7 @@
                 "Karamja"
             ]
         },
-        "image": "78_jadinco_diseased.png",
+        "image": "item/hunter/78_jadinco_diseased.png",
         "hover_text": ""
     },
     "Camouflaged jadinko": {
@@ -250,7 +262,7 @@
                 "Karamja"
             ]
         },
-        "image": "79_jadinco.png",
+        "image": "item/hunter/79_jadinco.png",
         "hover_text": ""
     },
     "Common jadinko (Anachronia)": {
@@ -261,7 +273,7 @@
                 "Anachronia"
             ]
         },
-        "image": "70_jadinco.png",
+        "image": "item/hunter/70_jadinco.webp",
         "hover_text": ""
     },
     "Shadow jadinko (Anachronia)": {
@@ -272,7 +284,7 @@
                 "Anachronia"
             ]
         },
-        "image": "71_jadinco.png",
+        "image": "item/hunter/71_jadinco.png",
         "hover_text": ""
     },
     "Ingeneous jadinko (Anachronia)": {
@@ -283,7 +295,7 @@
                 "Anachronia"
             ]
         },
-        "image": "74_jadinco.png",
+        "image": "item/hunter/74_jadinco.png",
         "hover_text": ""
     },
     "Cannibal jadinko (Anachronia)": {
@@ -294,7 +306,7 @@
                 "Anachronia"
             ]
         },
-        "image": "75_jadinco.png",
+        "image": "item/hunter/75_jadinco.png",
         "hover_text": ""
     },
     "Aquatic jadinko (Anachronia)": {
@@ -305,7 +317,7 @@
                 "Anachronia"
             ]
         },
-        "image": "76_jadinco.png",
+        "image": "item/hunter/76_jadinco.png",
         "hover_text": ""
     },
     "Amphibious jadinko (Anachronia)": {
@@ -316,7 +328,7 @@
                 "Anachronia"
             ]
         },
-        "image": "77_jadinco.png",
+        "image": "item/hunter/77_jadinco.png",
         "hover_text": ""
     },
     "Carrion jadinko (Anachronia)": {
@@ -327,7 +339,7 @@
                 "Anachronia"
             ]
         },
-        "image": "78_jadinco.png",
+        "image": "item/hunter/78_jadinco.png",
         "hover_text": ""
     },
     "Diseased jadinko (Anachronia)": {
@@ -338,7 +350,7 @@
                 "Anachronia"
             ]
         },
-        "image": "78_jadinco_diseased.png",
+        "image": "item/hunter/78_jadinco_diseased.png",
         "hover_text": ""
     },
     "Camouflaged jadinko (Anachronia)": {
@@ -349,7 +361,7 @@
                 "Anachronia"
             ]
         },
-        "image": "79_jadinco.png",
+        "image": "item/hunter/79_jadinco.png",
         "hover_text": ""
     },
     "Draconic jadinko (Anachronia)": {
@@ -360,7 +372,7 @@
                 "Anachronia"
             ]
         },
-        "image": "80_jadinco.png",
+        "image": "item/hunter/80_jadinco.png",
         "hover_text": ""
     },
     "Fungal spore": {
@@ -371,7 +383,7 @@
                 "Misthalin"
             ]
         },
-        "image": "88_spore.png",
+        "image": "item/hunter/88_spore.webp",
         "hover_text": ""
     },
     "Charming moth": {
@@ -382,7 +394,7 @@
                 "Wilderness"
             ]
         },
-        "image": "88_charming_moth.png",
+        "image": "item/hunter/88_charming_moth.png",
         "hover_text": ""
     },
     "Green salamander": {
@@ -393,7 +405,7 @@
                 "Morytania"
             ]
         },
-        "image": "29_net.png",
+        "image": "item/hunter/29_net.png",
         "hover_text": ""
     },
     "Orange salamander": {
@@ -404,7 +416,7 @@
                 "Desert"
             ]
         },
-        "image": "47_new.webp",
+        "image": "item/hunter/47_net.webp",
         "hover_text": ""
     },
     "Red salamander": {
@@ -415,7 +427,7 @@
                 "Kandarin"
             ]
         },
-        "image": "59_new.png",
+        "image": "item/hunter/59_net.png",
         "hover_text": ""
     },
     "Black salamander": {
@@ -426,7 +438,7 @@
                 "Wilderness"
             ]
         },
-        "image": "67_net.png",
+        "image": "item/hunter/67_net.png",
         "hover_text": ""
     },
     "Yellow salamander": {
@@ -437,7 +449,7 @@
                 "Anachronia"
             ]
         },
-        "image": "86_net.webp",
+        "image": "item/hunter/86_net.webp",
         "hover_text": ""
     },
     "Cobalt skillchompa": {
@@ -448,7 +460,7 @@
                 "Kandarin"
             ]
         },
-        "image": "27_chin.webp",
+        "image": "item/hunter/27_chin.webp",
         "hover_text": ""
     },
     "Viridian skillchompa": {
@@ -459,7 +471,7 @@
                 "Morytania"
             ]
         },
-        "image": "46_chin.webp",
+        "image": "item/hunter/46_chin.webp",
         "hover_text": ""
     },
     "Chinchompa": {
@@ -470,7 +482,7 @@
                 "Kandarin"
             ]
         },
-        "image": "53_chin.webp",
+        "image": "item/hunter/53_chin.webp",
         "hover_text": ""
     },
     "Carnivorous chinchompa": {
@@ -481,7 +493,7 @@
                 "Kandarin"
             ]
         },
-        "image": "63_chin.webp",
+        "image": "item/hunter/63_chin.webp",
         "hover_text": ""
     },
     "Azure skillchompa": {
@@ -492,7 +504,7 @@
                 "Fremennik"
             ]
         },
-        "image": "68_chin.webp",
+        "image": "item/hunter/68_chin.webp",
         "hover_text": ""
     },
     "Volatile chinchompa": {
@@ -503,7 +515,7 @@
                 "Havenhythe"
             ]
         },
-        "image": "73_chin.webp",
+        "image": "item/hunter/73_chin.webp",
         "hover_text": ""
     },
     "Crimson skillchompa": {
@@ -514,7 +526,7 @@
                 "Desert"
             ]
         },
-        "image": "89_chin.webp",
+        "image": "item/hunter/89_chin.webp",
         "hover_text": ""
     },
     "Crystal skillchompa": {
@@ -525,7 +537,7 @@
                 "Tirannwn"
             ]
         },
-        "image": "97_chin.webp",
+        "image": "item/hunter/97_chin.webp",
         "hover_text": ""
     },
     "Tortle": {
@@ -536,7 +548,7 @@
                 "Asgarnia"
             ]
         },
-        "image": "90_tortle.webp",
+        "image": "item/hunter/90_tortle.webp",
         "hover_text": ""
     },
     "Arcane apoterrasaur": {
@@ -547,7 +559,7 @@
                 "Anachronia"
             ]
         },
-        "image": "75_bgh_a.webp",
+        "image": "item/hunter/75_bgh_a.webp",
         "hover_text": ""
     },
     "Scimitops": {
@@ -558,7 +570,7 @@
                 "Anachronia"
             ]
         },
-        "image": "75_bgh_s.webp",
+        "image": "item/hunter/75_bgh_s.webp",
         "hover_text": ""
     },
     "Bagrada rex": {
@@ -569,7 +581,7 @@
                 "Anachronia"
             ]
         },
-        "image": "75_bgh_b.webp",
+        "image": "item/hunter/75_bgh_b.webp",
         "hover_text": ""
     },
     "Spicati apoterrasaur": {
@@ -580,7 +592,7 @@
                 "Anachronia"
             ]
         },
-        "image": "80_bgh.webp",
+        "image": "item/hunter/80_bgh.webp",
         "hover_text": ""
     },
     "Asciatops": {
@@ -591,7 +603,7 @@
                 "Anachronia"
             ]
         },
-        "image": "85_bgh.webp",
+        "image": "item/hunter/85_bgh.webp",
         "hover_text": ""
     },
     "Corbicula rex": {
@@ -602,7 +614,7 @@
                 "Anachronia"
             ]
         },
-        "image": "90_bgh.webp",
+        "image": "item/hunter/90_bgh.webp",
         "hover_text": ""
     },
     "Oculi apoterrasaur": {
@@ -613,7 +625,7 @@
                 "Anachronia"
             ]
         },
-        "image": "94_bgh.webp",
+        "image": "item/hunter/94_bgh.webp",
         "hover_text": ""
     },
     "Malletops": {
@@ -624,7 +636,7 @@
                 "Anachronia"
             ]
         },
-        "image": "95_bgh.webp",
+        "image": "item/hunter/95_bgh.webp",
         "hover_text": ""
     },
     "Pavosaurus rex": {
@@ -635,7 +647,7 @@
                 "Anachronia"
             ]
         },
-        "image": "96_bgh.webp",
+        "image": "item/hunter/96_bgh.webp",
         "hover_text": ""
     },
     "Giant chinchompa": {
@@ -646,7 +658,7 @@
                 "Havenhythe"
             ]
         },
-        "image": "96_bgh_h.webp",
+        "image": "item/hunter/96_bgh_h.webp",
         "hover_text": ""
     },
     "Giant kebbit": {
@@ -657,7 +669,7 @@
                 "Havenhythe"
             ]
         },
-        "image": "98_bgh_h.webp",
+        "image": "item/hunter/98_bgh_h.webp",
         "hover_text": ""
     },
     "Giant carnivorous chinchompa": {
@@ -668,7 +680,7 @@
                 "Havenhythe"
             ]
         },
-        "image": "100_bgh_h.webp",
+        "image": "item/hunter/100_bgh_h.webp",
         "hover_text": ""
     },
     "Giant spiked kebbit": {
@@ -679,7 +691,7 @@
                 "Havenhythe"
             ]
         },
-        "image": "102_bgh_h.webp",
+        "image": "item/hunter/102_bgh_h.png",
         "hover_text": ""
     },
     "Giant volatile chinchompa": {
@@ -690,7 +702,7 @@
                 "Havenhythe"
             ]
         },
-        "image": "104_bgh_h.webp",
+        "image": "item/hunter/104_bgh_h.webp",
         "hover_text": ""
     },
     "Giant diseased kebbit": {
@@ -701,7 +713,7 @@
                 "Havenhythe"
             ]
         },
-        "image": "106_bgh_h.webp",
+        "image": "item/hunter/106_bgh_h.webp",
         "hover_text": ""
     },
     "Giant golden chinchompa": {
@@ -712,7 +724,7 @@
                 "Havenhythe"
             ]
         },
-        "image": "108_bgh_h.webp",
+        "image": "item/hunter/108_bgh_h.webp",
         "hover_text": ""
     },
     "Giant dashing kebbit": {
@@ -723,7 +735,7 @@
                 "Havenhythe"
             ]
         },
-        "image": "110_bgh_h.webp",
+        "image": "item/hunter/110_bgh_h.webp",
         "hover_text": ""
     },
     "Ruby harvest (barehanded)": {
@@ -735,7 +747,7 @@
                 "Anachronia"
             ]
         },
-        "image": "80_butterfly.webp",
+        "image": "item/hunter/80_butterfly.webp",
         "hover_text": ""
     },
     "Sapphire glacialis (barehanded)": {
@@ -746,7 +758,7 @@
                 "Fremennik"
             ]
         },
-        "image": "85_butterfly.png",
+        "image": "item/hunter/85_butterfly.png",
         "hover_text": ""
     },
     "Snowy knight (barehanded)": {
@@ -757,7 +769,7 @@
                 "Fremennik"
             ]
         },
-        "image": "90_butterfly.png",
+        "image": "item/hunter/90_butterfly.png",
         "hover_text": ""
     },
     "Black warlock (barehanded)": {
@@ -769,7 +781,18 @@
                 "Anachronia"
             ]
         },
-        "image": "95_butterfly.png",
+        "image": "item/hunter/95_butterfly.png",
+        "hover_text": ""
+    },
+    "Enriched fungal spore": {
+        "level_start": 92,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/hunter/92_spore.webp",
         "hover_text": ""
     }
 }

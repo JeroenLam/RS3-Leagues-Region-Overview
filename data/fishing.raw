@@ -1,34 +1,37 @@
-Shrimp; 1; Misthalin, Havenhythe, Karamja, Asgarnia, Kandarin, Fremennik, Desert, Wilderness; 1.webp
-Crayfish; 1; Misthalin, Asgarnia, Kandarin; 1.webp
-Sardine; 5; Misthalin, Havenhythe, Karamja, Asgarnia, Kandarin, Fremennik, Desert, Wilderness; 5.webp
-Herring; 10; Misthalin, Havenhythe, Karamja, Asgarnia, Kandarin, Fremennik, Desert, Wilderness; 10.webp
-Anchovies; 15; Misthalin, Havenhythe, Karamja, Asgarnia, Kandarin, Fremennik, Desert, Wilderness; 15.webp
-Mackerel; 16; Havenhythe, Kandarin, Fremennik, Morytania, Tirannwn, Anachronia; 16.webp
-Trout; 20; Misthalin, Havenhythe, Karamja, Kandarin, Desert, Tirannwn, Anachronia; 20.webp
-Cod; 23; Havenhythe, Kandarin, Fremennik, Morytania, Tirannwn, Anachronia; 23.webp
-Pike; 25; Misthalin, Havenhythe, Karamja, Kandarin, Desert, Tirannwn, Anachronia; 25.webp
-Salmon; 30; Misthalin, Havenhythe, Karamja, Kandarin, Desert, Tirannwn, Anachronia; 30.webp
-Tuna; 35; Havenhythe, Karamja, Kandarin, Fremennik, Morytania, Wilderness, Anachronia; 35.webp
-Rainbow fish; 38; Misthalin, Havenhythe, Karamja, Kandarin, Desert, Tirannwn, Anachronia; 38.webp
-Lobster; 40; Havenhythe, Karamja, Kandarin, Fremennik, Morytania, Wilderness, Anachronia; 40.webp
-Bass; 46; Havenhythe, Kandarin, Fremennik, Morytania, Tirannwn, Anachronia; 46.webp
-Leaping trout; 48; Kandarin; 48.webp
-Swordfish; 50; Havenhythe, Karamja, Kandarin, Fremennik, Morytania, Wilderness, Anachronia; 50.webp
-Desert sole; 52; Desert; 52.webp
-Leaping salmon; 58; Kandarin; 58.webp
-Catfish; 60; Desert; 60.webp
-Monkfish; 62; Kandarin; 62.webp
-Ghostly sole; 66; Misthalin; 66.webp
-Green blubber jellyfish; 68; Kandarin; 68.webp
-Leaping sturgeon; 70; Kandarin; 70.webp
-Beltfish; 72; Desert; 72.webp
-Shark; 76; Havenhythe, Kandarin, Fremennik, Morytania, Tirannwn, Anachronia; 76.webp
-Sea turtle; 79; Kandarin; 79.webp
-Manta ray; 81; Kandarin; 81.webp
-Giant crayfish; 82; Havenhythe; 82.webp
-Cavefish; 85; Asgarnia, Kandarin; 85.webp
-Fungal algae; 88; Misthalin; 88.webp
-Rocktail; 90; Asgarnia; 90.webp
-Blue blubber jellyfish; 91; Kandarin; 91.webp
-Enriched fungal algae; 92; Misthalin; 92.webp
-Sailfish; 97; Kandarin; 97.webp
+Shrimp; 1; Misthalin, Havenhythe, Karamja, Asgarnia, Kandarin, Fremennik, Desert, Wilderness; item/fishing/1_s.webp
+Crayfish; 1; Misthalin, Asgarnia, Kandarin; item/fishing/1_c.png
+Sardine; 5; Misthalin, Havenhythe, Karamja, Asgarnia, Kandarin, Fremennik, Desert, Wilderness; item/fishing/5.webp
+Herring; 10; Misthalin, Havenhythe, Karamja, Asgarnia, Kandarin, Fremennik, Desert, Wilderness; item/fishing/10.webp
+Anchovies; 15; Misthalin, Havenhythe, Karamja, Asgarnia, Kandarin, Fremennik, Desert, Wilderness; item/fishing/15.webp
+Mackerel; 16; Havenhythe, Kandarin, Fremennik, Morytania, Tirannwn, Anachronia; item/fishing/16.webp
+Trout; 20; Misthalin, Havenhythe, Karamja, Kandarin, Desert, Tirannwn, Anachronia; item/fishing/20.webp
+Cod; 23; Havenhythe, Kandarin, Fremennik, Morytania, Tirannwn, Anachronia; item/fishing/23.png
+Pike; 25; Misthalin, Havenhythe, Karamja, Kandarin, Desert, Tirannwn, Anachronia; item/fishing/25.webp
+Salmon; 30; Misthalin, Havenhythe, Karamja, Kandarin, Desert, Tirannwn, Anachronia; item/fishing/30.webp
+Tuna; 35; Havenhythe, Karamja, Kandarin, Fremennik, Morytania, Wilderness, Anachronia; item/fishing/35.webp
+Rainbow fish; 38; Misthalin, Havenhythe, Karamja, Kandarin, Desert, Tirannwn, Anachronia; item/fishing/38.webp
+Lobster; 40; Havenhythe, Karamja, Kandarin, Fremennik, Morytania, Wilderness, Anachronia; item/fishing/40.png
+Bass; 46; Havenhythe, Kandarin, Fremennik, Morytania, Tirannwn, Anachronia; item/fishing/46.webp
+Leaping trout; 48; Kandarin; item/fishing/48.webp
+Swordfish; 50; Havenhythe, Karamja, Kandarin, Fremennik, Morytania, Wilderness, Anachronia; item/fishing/50.webp
+Desert sole; 52; Desert; item/fishing/52.webp
+Leaping salmon; 58; Kandarin; item/fishing/58.webp
+Catfish; 60; Desert; item/fishing/60.webp
+Monkfish; 62; Kandarin; item/fishing/62.webp
+Ghostly sole; 66; Misthalin; item/fishing/66.webp
+Green blubber jellyfish; 68; Kandarin; item/fishing/68.webp
+Leaping sturgeon; 70; Kandarin; item/fishing/70.webp
+Beltfish; 72; Desert; item/fishing/72.webp
+Shark; 76; Havenhythe, Kandarin, Fremennik, Morytania, Tirannwn, Anachronia; item/fishing/76.webp
+Sea turtle; 79; Kandarin; item/fishing/79.webp
+Manta ray; 81; Kandarin; item/fishing/81.webp
+Giant crayfish; 82; Havenhythe; item/fishing/82.webp
+Cavefish; 85; Asgarnia, Kandarin; item/fishing/85.webp
+Fungal algae; 88; Misthalin; item/fishing/88.webp
+Rocktail; 90; Asgarnia; item/fishing/90.webp
+Blue blubber jellyfish; 91; Kandarin; item/fishing/91.webp
+Enriched fungal algae; 92; Misthalin; item/fishing/92.webp
+Sailfish; 97; Kandarin; item/fishing/97.webp
+Small crystal urchin; 93; Tirannwn; item/fishing/93_c.webp
+Medium crystal urchin; 93; Tirannwn; item/fishing/95_c.webp
+Large crystal urchin; 93; Tirannwn; item/fishing/97_c.webp
