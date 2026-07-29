@@ -135,9 +135,9 @@
         },
         {
             "name": "Hunter",
-            "file": "",
+            "file": "hunter.json",
             "image": "icon/skill_hunter.webp",
-            "render_type": ""
+            "render_type": "skill"
         },
         {
             "name": "Summoning",

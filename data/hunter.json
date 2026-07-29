@@ -1,0 +1,775 @@
+{
+    "Natural history quiz": {
+        "level_start": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "nhq.webp",
+        "hover_text": ""
+    },
+    "Plain whirligig": {
+        "level_start": 16,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "",
+        "hover_text": ""
+    },
+    "Dazzling whirligig": {
+        "level_start": 20,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "20_scarab.webp",
+        "hover_text": ""
+    },
+    "Gliding whirligig": {
+        "level_start": 30,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "30_scarab.webp",
+        "hover_text": ""
+    },
+    "Swift whirligig": {
+        "level_start": 50,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "50_scarab.webp",
+        "hover_text": ""
+    },
+    "Hasty whirligig": {
+        "level_start": 70,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "70_scarab.webp",
+        "hover_text": ""
+    },
+    "Speedy whirligig": {
+        "level_start": 90,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "90_scarab.webp",
+        "hover_text": ""
+    },
+    "Crimson swift": {
+        "level_start": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin",
+                "Asgarnia"
+            ]
+        },
+        "image": "1_bird.webp",
+        "hover_text": ""
+    },
+    "Copper longtail": {
+        "level_start": 9,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "9_bird.webp",
+        "hover_text": ""
+    },
+    "Cerulean twitch": {
+        "level_start": 11,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Fremennik"
+            ]
+        },
+        "image": "11_bird.png",
+        "hover_text": ""
+    },
+    "Tropical wagtail": {
+        "level_start": 19,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "19_bird.webp",
+        "hover_text": ""
+    },
+    "Wimpy bird": {
+        "level_start": 39,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "39_bird.png",
+        "hover_text": ""
+    },
+    "Common jadinko": {
+        "level_start": 70,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "70_jadinco.png",
+        "hover_text": ""
+    },
+    "Ingeneous jadinko": {
+        "level_start": 74,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "74_jadinco.png",
+        "hover_text": ""
+    },
+    "Cannibal jadinko": {
+        "level_start": 75,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "75_jadinco.png",
+        "hover_text": ""
+    },
+    "Aquatic jadinko": {
+        "level_start": 76,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "76_jadinco.png",
+        "hover_text": ""
+    },
+    "Amphibious jadinko": {
+        "level_start": 77,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "77_jadinco.png",
+        "hover_text": ""
+    },
+    "Carrion jadinko": {
+        "level_start": 78,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "78_jadinco.png",
+        "hover_text": ""
+    },
+    "Draconic jadinko": {
+        "level_start": 80,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "80_jadinco.png",
+        "hover_text": ""
+    },
+    "God jadinko": {
+        "level_start": 81,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "81_jadinco.png",
+        "hover_text": ""
+    },
+    "Shadow jadinko": {
+        "level_start": 71,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "71_jadinco.png",
+        "hover_text": ""
+    },
+    "Diseased jadinko": {
+        "level_start": 78,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "78_jadinco_diseased.png",
+        "hover_text": ""
+    },
+    "Camouflaged jadinko": {
+        "level_start": 79,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "79_jadinco.png",
+        "hover_text": ""
+    },
+    "Common jadinko (Anachronia)": {
+        "level_start": 80,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "70_jadinco.png",
+        "hover_text": ""
+    },
+    "Shadow jadinko (Anachronia)": {
+        "level_start": 81,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "71_jadinco.png",
+        "hover_text": ""
+    },
+    "Ingeneous jadinko (Anachronia)": {
+        "level_start": 84,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "74_jadinco.png",
+        "hover_text": ""
+    },
+    "Cannibal jadinko (Anachronia)": {
+        "level_start": 85,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "75_jadinco.png",
+        "hover_text": ""
+    },
+    "Aquatic jadinko (Anachronia)": {
+        "level_start": 86,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "76_jadinco.png",
+        "hover_text": ""
+    },
+    "Amphibious jadinko (Anachronia)": {
+        "level_start": 87,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "77_jadinco.png",
+        "hover_text": ""
+    },
+    "Carrion jadinko (Anachronia)": {
+        "level_start": 88,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "78_jadinco.png",
+        "hover_text": ""
+    },
+    "Diseased jadinko (Anachronia)": {
+        "level_start": 88,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "78_jadinco_diseased.png",
+        "hover_text": ""
+    },
+    "Camouflaged jadinko (Anachronia)": {
+        "level_start": 89,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "79_jadinco.png",
+        "hover_text": ""
+    },
+    "Draconic jadinko (Anachronia)": {
+        "level_start": 90,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "80_jadinco.png",
+        "hover_text": ""
+    },
+    "Fungal spore": {
+        "level_start": 88,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "88_spore.png",
+        "hover_text": ""
+    },
+    "Charming moth": {
+        "level_start": 88,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "88_charming_moth.png",
+        "hover_text": ""
+    },
+    "Green salamander": {
+        "level_start": 29,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "29_net.png",
+        "hover_text": ""
+    },
+    "Orange salamander": {
+        "level_start": 47,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "47_new.webp",
+        "hover_text": ""
+    },
+    "Red salamander": {
+        "level_start": 59,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "59_new.png",
+        "hover_text": ""
+    },
+    "Black salamander": {
+        "level_start": 67,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "67_net.png",
+        "hover_text": ""
+    },
+    "Yellow salamander": {
+        "level_start": 86,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "86_net.webp",
+        "hover_text": ""
+    },
+    "Cobalt skillchompa": {
+        "level_start": 27,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "27_chin.webp",
+        "hover_text": ""
+    },
+    "Viridian skillchompa": {
+        "level_start": 46,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "46_chin.webp",
+        "hover_text": ""
+    },
+    "Chinchompa": {
+        "level_start": 53,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "53_chin.webp",
+        "hover_text": ""
+    },
+    "Carnivorous chinchompa": {
+        "level_start": 63,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "63_chin.webp",
+        "hover_text": ""
+    },
+    "Azure skillchompa": {
+        "level_start": 68,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Fremennik"
+            ]
+        },
+        "image": "68_chin.webp",
+        "hover_text": ""
+    },
+    "Volatile chinchompa": {
+        "level_start": 73,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "73_chin.webp",
+        "hover_text": ""
+    },
+    "Crimson skillchompa": {
+        "level_start": 89,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "89_chin.webp",
+        "hover_text": ""
+    },
+    "Crystal skillchompa": {
+        "level_start": 97,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "97_chin.webp",
+        "hover_text": ""
+    },
+    "Tortle": {
+        "level_start": 90,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "90_tortle.webp",
+        "hover_text": ""
+    },
+    "Arcane apoterrasaur": {
+        "level_start": 75,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "75_bgh_a.webp",
+        "hover_text": ""
+    },
+    "Scimitops": {
+        "level_start": 75,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "75_bgh_s.webp",
+        "hover_text": ""
+    },
+    "Bagrada rex": {
+        "level_start": 75,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "75_bgh_b.webp",
+        "hover_text": ""
+    },
+    "Spicati apoterrasaur": {
+        "level_start": 80,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "80_bgh.webp",
+        "hover_text": ""
+    },
+    "Asciatops": {
+        "level_start": 85,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "85_bgh.webp",
+        "hover_text": ""
+    },
+    "Corbicula rex": {
+        "level_start": 90,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "90_bgh.webp",
+        "hover_text": ""
+    },
+    "Oculi apoterrasaur": {
+        "level_start": 94,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "94_bgh.webp",
+        "hover_text": ""
+    },
+    "Malletops": {
+        "level_start": 95,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "95_bgh.webp",
+        "hover_text": ""
+    },
+    "Pavosaurus rex": {
+        "level_start": 96,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "96_bgh.webp",
+        "hover_text": ""
+    },
+    "Giant chinchompa": {
+        "level_start": 96,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "96_bgh_h.webp",
+        "hover_text": ""
+    },
+    "Giant kebbit": {
+        "level_start": 98,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "98_bgh_h.webp",
+        "hover_text": ""
+    },
+    "Giant carnivorous chinchompa": {
+        "level_start": 100,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "100_bgh_h.webp",
+        "hover_text": ""
+    },
+    "Giant spiked kebbit": {
+        "level_start": 102,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "102_bgh_h.webp",
+        "hover_text": ""
+    },
+    "Giant volatile chinchompa": {
+        "level_start": 104,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "104_bgh_h.webp",
+        "hover_text": ""
+    },
+    "Giant diseased kebbit": {
+        "level_start": 106,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "106_bgh_h.webp",
+        "hover_text": ""
+    },
+    "Giant golden chinchompa": {
+        "level_start": 108,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "108_bgh_h.webp",
+        "hover_text": ""
+    },
+    "Giant dashing kebbit": {
+        "level_start": 110,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "110_bgh_h.webp",
+        "hover_text": ""
+    },
+    "Ruby harvest (barehanded)": {
+        "level_start": 80,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin",
+                "Anachronia"
+            ]
+        },
+        "image": "80_butterfly.webp",
+        "hover_text": ""
+    },
+    "Sapphire glacialis (barehanded)": {
+        "level_start": 85,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Fremennik"
+            ]
+        },
+        "image": "85_butterfly.png",
+        "hover_text": ""
+    },
+    "Snowy knight (barehanded)": {
+        "level_start": 90,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Fremennik"
+            ]
+        },
+        "image": "90_butterfly.png",
+        "hover_text": ""
+    },
+    "Black warlock (barehanded)": {
+        "level_start": 95,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin",
+                "Anachronia"
+            ]
+        },
+        "image": "95_butterfly.png",
+        "hover_text": ""
+    }
+}
