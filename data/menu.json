@@ -51,9 +51,9 @@
         },
         {
             "name": "Fishing",
-            "file": "",
+            "file": "fishing.json",
             "image": "icon/skill_fishing.webp",
-            "render_type": ""
+            "render_type": "skill"
         },
         {
             "name": "Ranged",

@@ -276,5 +276,28 @@
         },
         "image": "item/mining/platinum_ore.png",
         "hover_text": ""
-    }
+    },
+    "Calcefied fungus": {
+        "level_start": 88,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/mining/88.webp",
+        "hover_text": ""
+    },
+    ,
+    "Enriched calcified fungus": {
+        "level_start": 92,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/mining/92.webp",
+        "hover_text": ""
+    },
 }

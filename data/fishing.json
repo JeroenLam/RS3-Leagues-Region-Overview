@@ -1,0 +1,469 @@
+{
+    "Shrimp": {
+        "level_start": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Karamja",
+                "Asgarnia",
+                "Kandarin",
+                "Fremennik",
+                "Desert",
+                "Wilderness"
+            ]
+        },
+        "image": "1.webp",
+        "hover_text": ""
+    },
+    "Crayfish": {
+        "level_start": 1,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Asgarnia",
+                "Kandarin"
+            ]
+        },
+        "image": "1.webp",
+        "hover_text": ""
+    },
+    "Sardine": {
+        "level_start": 5,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Karamja",
+                "Asgarnia",
+                "Kandarin",
+                "Fremennik",
+                "Desert",
+                "Wilderness"
+            ]
+        },
+        "image": "5.webp",
+        "hover_text": ""
+    },
+    "Herring": {
+        "level_start": 10,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Karamja",
+                "Asgarnia",
+                "Kandarin",
+                "Fremennik",
+                "Desert",
+                "Wilderness"
+            ]
+        },
+        "image": "10.webp",
+        "hover_text": ""
+    },
+    "Anchovies": {
+        "level_start": 15,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Karamja",
+                "Asgarnia",
+                "Kandarin",
+                "Fremennik",
+                "Desert",
+                "Wilderness"
+            ]
+        },
+        "image": "15.webp",
+        "hover_text": ""
+    },
+    "Mackerel": {
+        "level_start": 16,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe",
+                "Kandarin",
+                "Fremennik",
+                "Morytania",
+                "Tirannwn",
+                "Anachronia"
+            ]
+        },
+        "image": "16.webp",
+        "hover_text": ""
+    },
+    "Trout": {
+        "level_start": 20,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Karamja",
+                "Kandarin",
+                "Desert",
+                "Tirannwn",
+                "Anachronia"
+            ]
+        },
+        "image": "20.webp",
+        "hover_text": ""
+    },
+    "Cod": {
+        "level_start": 23,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe",
+                "Kandarin",
+                "Fremennik",
+                "Morytania",
+                "Tirannwn",
+                "Anachronia"
+            ]
+        },
+        "image": "23.webp",
+        "hover_text": ""
+    },
+    "Pike": {
+        "level_start": 25,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Karamja",
+                "Kandarin",
+                "Desert",
+                "Tirannwn",
+                "Anachronia"
+            ]
+        },
+        "image": "25.webp",
+        "hover_text": ""
+    },
+    "Salmon": {
+        "level_start": 30,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Karamja",
+                "Kandarin",
+                "Desert",
+                "Tirannwn",
+                "Anachronia"
+            ]
+        },
+        "image": "30.webp",
+        "hover_text": ""
+    },
+    "Tuna": {
+        "level_start": 35,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe",
+                "Karamja",
+                "Kandarin",
+                "Fremennik",
+                "Morytania",
+                "Wilderness",
+                "Anachronia"
+            ]
+        },
+        "image": "35.webp",
+        "hover_text": ""
+    },
+    "Rainbow fish": {
+        "level_start": 38,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Karamja",
+                "Kandarin",
+                "Desert",
+                "Tirannwn",
+                "Anachronia"
+            ]
+        },
+        "image": "38.webp",
+        "hover_text": ""
+    },
+    "Lobster": {
+        "level_start": 40,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe",
+                "Karamja",
+                "Kandarin",
+                "Fremennik",
+                "Morytania",
+                "Wilderness",
+                "Anachronia"
+            ]
+        },
+        "image": "40.webp",
+        "hover_text": ""
+    },
+    "Bass": {
+        "level_start": 46,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe",
+                "Kandarin",
+                "Fremennik",
+                "Morytania",
+                "Tirannwn",
+                "Anachronia"
+            ]
+        },
+        "image": "46.webp",
+        "hover_text": ""
+    },
+    "Leaping trout": {
+        "level_start": 48,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "48.webp",
+        "hover_text": ""
+    },
+    "Swordfish": {
+        "level_start": 50,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe",
+                "Karamja",
+                "Kandarin",
+                "Fremennik",
+                "Morytania",
+                "Wilderness",
+                "Anachronia"
+            ]
+        },
+        "image": "50.webp",
+        "hover_text": ""
+    },
+    "Desert sole": {
+        "level_start": 52,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "52.webp",
+        "hover_text": ""
+    },
+    "Leaping salmon": {
+        "level_start": 58,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "58.webp",
+        "hover_text": ""
+    },
+    "Catfish": {
+        "level_start": 60,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "60.webp",
+        "hover_text": ""
+    },
+    "Monkfish": {
+        "level_start": 62,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "62.webp",
+        "hover_text": ""
+    },
+    "Ghostly sole": {
+        "level_start": 66,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "66.webp",
+        "hover_text": ""
+    },
+    "Green blubber jellyfish": {
+        "level_start": 68,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "68.webp",
+        "hover_text": ""
+    },
+    "Leaping sturgeon": {
+        "level_start": 70,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "70.webp",
+        "hover_text": ""
+    },
+    "Beltfish": {
+        "level_start": 72,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "72.webp",
+        "hover_text": ""
+    },
+    "Shark": {
+        "level_start": 76,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe",
+                "Kandarin",
+                "Fremennik",
+                "Morytania",
+                "Tirannwn",
+                "Anachronia"
+            ]
+        },
+        "image": "76.webp",
+        "hover_text": ""
+    },
+    "Sea turtle": {
+        "level_start": 79,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "79.webp",
+        "hover_text": ""
+    },
+    "Manta ray": {
+        "level_start": 81,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "81.webp",
+        "hover_text": ""
+    },
+    "Giant crayfish": {
+        "level_start": 82,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "82.webp",
+        "hover_text": ""
+    },
+    "Cavefish": {
+        "level_start": 85,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia",
+                "Kandarin"
+            ]
+        },
+        "image": "85.webp",
+        "hover_text": ""
+    },
+    "Fungal algae": {
+        "level_start": 88,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "88.webp",
+        "hover_text": ""
+    },
+    "Rocktail": {
+        "level_start": 90,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "90.webp",
+        "hover_text": ""
+    },
+    "Blue blubber jellyfish": {
+        "level_start": 91,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "91.webp",
+        "hover_text": ""
+    },
+    "Enriched fungal algae": {
+        "level_start": 92,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "92.webp",
+        "hover_text": ""
+    },
+    "Sailfish": {
+        "level_start": 97,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "97.webp",
+        "hover_text": ""
+    }
+}
