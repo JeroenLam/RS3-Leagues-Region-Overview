@@ -1,7 +1,6 @@
 {
     "Tree": {
         "level_start": 1,
-        "level_end": 10,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -17,12 +16,10 @@
             ]
         },
         "image": "item/woodcutting/logs.webp",
-        "link": "",
         "hover_text": ""
     },
     "Oak": {
         "level_start": 10,
-        "level_end": 20,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -33,12 +30,10 @@
             ]
         },
         "image": "item/woodcutting/oak.webp",
-        "link": "",
         "hover_text": ""
     },
     "Willow": {
         "level_start": 20,
-        "level_end": 30,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -48,12 +43,10 @@
             ]
         },
         "image": "item/woodcutting/willow.webp",
-        "link": "",
         "hover_text": ""
     },
     "Teak": {
         "level_start": 30,
-        "level_end": 40,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -63,12 +56,10 @@
             ]
         },
         "image": "item/woodcutting/teak.png",
-        "link": "",
         "hover_text": ""
     },
     "Creeping Ivy": {
         "level_start": 35,
-        "level_end": 69,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -76,12 +67,10 @@
             ]
         },
         "image": "item/woodcutting/creeping_ivy.png",
-        "link": "",
         "hover_text": ""
     },
     "Maple": {
         "level_start": 40,
-        "level_end": 56,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -93,12 +82,10 @@
             ]
         },
         "image": "item/woodcutting/maple.png",
-        "link": "",
         "hover_text": ""
     },
     "Acadia": {
         "level_start": 50,
-        "level_end": 99,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -106,12 +93,10 @@
             ]
         },
         "image": "item/woodcutting/acadia.png",
-        "link": "",
         "hover_text": ""
     },
     "Arctic pines": {
         "level_start": 56,
-        "level_end": 58,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -119,12 +104,10 @@
             ]
         },
         "image": "item/woodcutting/arctic.png",
-        "link": "",
         "hover_text": ""
     },
     "Eucalyptus": {
         "level_start": 58,
-        "level_end": 60,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -132,12 +115,10 @@
             ]
         },
         "image": "item/woodcutting/eucalyptus.webp",
-        "link": "",
         "hover_text": ""
     },
     "Mahogany": {
         "level_start": 60,
-        "level_end": 99,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -147,12 +128,10 @@
             ]
         },
         "image": "item/woodcutting/mahogany.webp",
-        "link": "",
         "hover_text": ""
     },
     "Choking Ivy": {
         "level_start": 68,
-        "level_end": 99,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -163,12 +142,10 @@
             ]
         },
         "image": "item/woodcutting/choking_ivy.png",
-        "link": "",
         "hover_text": ""
     },
     "Yew": {
         "level_start": 70,
-        "level_end": 80,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -180,12 +157,10 @@
             ]
         },
         "image": "item/woodcutting/yew.webp",
-        "link": "",
         "hover_text": ""
     },
     "Magic": {
         "level_start": 80,
-        "level_end": 90,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -198,12 +173,10 @@
             ]
         },
         "image": "item/woodcutting/magic.webp",
-        "link": "",
         "hover_text": ""
     },
     "Overgrown idol": {
         "level_start": 81,
-        "level_end": 90,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -212,12 +185,10 @@
             ]
         },
         "image": "item/woodcutting/overgrown_idol.webp",
-        "link": "",
         "hover_text": ""
     },
     "Jade roots": {
         "level_start": 83,
-        "level_end": 90,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -225,12 +196,10 @@
             ]
         },
         "image": "item/woodcutting/jade_roots.webp",
-        "link": "",
         "hover_text": ""
     },
     "Elder": {
         "level_start": 90,
-        "level_end": 99,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -241,12 +210,10 @@
             ]
         },
         "image": "item/woodcutting/elder.webp",
-        "link": "",
         "hover_text": ""
     },
     "Crystal trees": {
         "level_start": 94,
-        "level_end": 100,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -258,12 +225,10 @@
             ]
         },
         "image": "item/woodcutting/crystal.webp",
-        "link": "",
         "hover_text": ""
     },
     "Eternal magic trees": {
         "level_start": 100,
-        "level_end": 120,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
@@ -272,7 +237,6 @@
             ]
         },
         "image": "item/woodcutting/eternal_magic.png",
-        "link": "",
         "hover_text": ""
     }
 }

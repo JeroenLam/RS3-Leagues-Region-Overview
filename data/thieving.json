@@ -128,8 +128,9 @@
         "level_start": 62,
         "sort_weight": 1,
         "region": {
-            "anyOf": [
-                "Misthalin"
+            "allOf": [
+                "Misthalin",
+                "Kandarin"
             ]
         },
         "image": "item/thieving/safe.webp",
@@ -150,8 +151,9 @@
         "level_start": 69,
         "sort_weight": 1,
         "region": {
-            "anyOf": [
-                "Desert"
+            "allOf": [
+                "Desert",
+                "Kandarin"
             ]
         },
         "image": "item/thieving/safe.webp",
@@ -183,8 +185,9 @@
         "level_start": 76,
         "sort_weight": 1,
         "region": {
-            "anyOf": [
-                "Asgarnia"
+            "allOf": [
+                "Asgarnia",
+                "Kandarin"
             ]
         },
         "image": "item/thieving/safe.webp",
@@ -221,7 +224,7 @@
         "level_start": 83,
         "sort_weight": 1,
         "region": {
-            "anyOf": [
+            "allOf": [
                 "Kandarin"
             ]
         },
@@ -232,8 +235,9 @@
         "level_start": 90,
         "sort_weight": 1,
         "region": {
-            "anyOf": [
-                "Misthalin"
+            "allOf": [
+                "Misthalin",
+                "Kandarin"
             ]
         },
         "image": "item/thieving/safe.webp",
@@ -254,8 +258,9 @@
         "level_start": 90,
         "sort_weight": 1,
         "region": {
-            "anyOf": [
-                "Fremennik"
+            "allOf": [
+                "Fremennik",
+                "Kandarin"
             ]
         },
         "image": "item/thieving/safe.webp",

@@ -1,7 +1,6 @@
 {
     "Copper": {
         "level_start": 1,
-        "level_end": 10,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -13,12 +12,10 @@
             ]
         },
         "image": "item/mining/copper_ore.png",
-        "link": "",
         "hover_text": ""
     },
     "Tin": {
         "level_start": 1,
-        "level_end": 10,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
@@ -30,12 +27,10 @@
             ]
         },
         "image": "item/mining/tin_ore.png",
-        "link": "",
         "hover_text": ""
     },
     "Iron": {
         "level_start": 10,
-        "level_end": 20,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -47,12 +42,10 @@
             ]
         },
         "image": "item/mining/iron_ore.png",
-        "link": "",
         "hover_text": ""
     },
     "Coal": {
         "level_start": 20,
-        "level_end": 30,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -68,12 +61,10 @@
             ]
         },
         "image": "item/mining/coal.webp",
-        "link": "",
         "hover_text": ""
     },
     "Mithril": {
         "level_start": 30,
-        "level_end": 40,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -87,12 +78,10 @@
             ]
         },
         "image": "item/mining/mithril_ore.png",
-        "link": "",
         "hover_text": ""
     },
     "Adamant": {
         "level_start": 40,
-        "level_end": 50,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -105,12 +94,10 @@
             ]
         },
         "image": "item/mining/adamantite_ore.png",
-        "link": "",
         "hover_text": ""
     },
     "Luminite": {
         "level_start": 40,
-        "level_end": 50,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
@@ -122,12 +109,10 @@
             ]
         },
         "image": "item/mining/luminite.webp",
-        "link": "",
         "hover_text": ""
     },
     "Rune": {
         "level_start": 50,
-        "level_end": 60,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -139,12 +124,10 @@
             ]
         },
         "image": "item/mining/runite_ore.png",
-        "link": "",
         "hover_text": ""
     },
     "Orichalcite": {
         "level_start": 60,
-        "level_end": 70,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -154,12 +137,10 @@
             ]
         },
         "image": "item/mining/orichalcite_ore.webp",
-        "link": "",
         "hover_text": ""
     },
     "Drakolith": {
         "level_start": 60,
-        "level_end": 70,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
@@ -174,12 +155,10 @@
             ]
         },
         "image": "item/mining/drakolith.webp",
-        "link": "",
         "hover_text": ""
     },
     "Nectrite": {
         "level_start": 70,
-        "level_end": 80,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -190,12 +169,10 @@
             ]
         },
         "image": "item/mining/necrite_ore.webp",
-        "link": "",
         "hover_text": ""
     },
     "Phasmatite": {
         "level_start": 70,
-        "level_end": 80,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
@@ -206,12 +183,10 @@
             ]
         },
         "image": "item/mining/phasmatite.webp",
-        "link": "",
         "hover_text": ""
     },
     "Bane": {
         "level_start": 80,
-        "level_end": 90,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -220,12 +195,10 @@
             ]
         },
         "image": "item/mining/banite_ore.webp",
-        "link": "",
         "hover_text": ""
     },
     "Light animaca": {
         "level_start": 90,
-        "level_end": 100,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -235,12 +208,10 @@
             ]
         },
         "image": "item/mining/light_animica.webp",
-        "link": "",
         "hover_text": ""
     },
     "Dark animaca": {
         "level_start": 90,
-        "level_end": 100,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
@@ -249,12 +220,10 @@
             ]
         },
         "image": "item/mining/dark_animica.webp",
-        "link": "",
         "hover_text": ""
     },
     "Primal": {
         "level_start": 100,
-        "level_end": 120,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -262,12 +231,10 @@
             ]
         },
         "image": "item/mining/promethium_ore.png",
-        "link": "",
         "hover_text": ""
     },
     "Silver": {
         "level_start": 20,
-        "level_end": 30,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
@@ -278,12 +245,10 @@
             ]
         },
         "image": "item/mining/silver_ore.png",
-        "link": "",
         "hover_text": ""
     },
     "Gold": {
         "level_start": 40,
-        "level_end": 50,
         "sort_weight": 1.2,
         "region": {
             "anyOf": [
@@ -297,12 +262,10 @@
             ]
         },
         "image": "item/mining/gold_ore.png",
-        "link": "",
         "hover_text": ""
     },
     "Platinum": {
         "level_start": 104,
-        "level_end": 120,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -312,7 +275,6 @@
             ]
         },
         "image": "item/mining/platinum_ore.png",
-        "link": "",
         "hover_text": ""
     }
 }

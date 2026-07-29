@@ -1,7 +1,6 @@
 {
     "Bronze": {
         "level_start": 1,
-        "level_end": 10,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -13,12 +12,10 @@
             ]
         },
         "image": "item/smithing/bronze.webp",
-        "link": "",
         "hover_text": ""
     },
     "Iron": {
         "level_start": 10,
-        "level_end": 20,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -30,12 +27,10 @@
             ]
         },
         "image": "item/smithing/iron.webp",
-        "link": "",
         "hover_text": ""
     },
     "Steel": {
         "level_start": 20,
-        "level_end": 30,
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -64,12 +59,10 @@
             ]
         },
         "image": "item/smithing/steel.webp",
-        "link": "",
         "hover_text": ""
     },
     "Mithril": {
         "level_start": 30,
-        "level_end": 40,
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -100,12 +93,10 @@
             ]
         },
         "image": "item/smithing/mithril.webp",
-        "link": "",
         "hover_text": ""
     },
     "Adamant": {
         "level_start": 40,
-        "level_end": 50,
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -131,12 +122,10 @@
             ]
         },
         "image": "item/smithing/adamant.webp",
-        "link": "",
         "hover_text": ""
     },
     "Rune": {
         "level_start": 50,
-        "level_end": 60,
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -161,12 +150,10 @@
             ]
         },
         "image": "item/smithing/rune.webp",
-        "link": "",
         "hover_text": ""
     },
     "Orikalkum": {
         "level_start": 60,
-        "level_end": 70,
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -192,12 +179,10 @@
             ]
         },
         "image": "item/smithing/orikalkum.webp",
-        "link": "",
         "hover_text": ""
     },
     "Necronium": {
         "level_start": 70,
-        "level_end": 80,
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -220,12 +205,10 @@
             ]
         },
         "image": "item/smithing/necronium.webp",
-        "link": "",
         "hover_text": ""
     },
     "Bane": {
         "level_start": 80,
-        "level_end": 90,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -234,12 +217,10 @@
             ]
         },
         "image": "item/smithing/bane.webp",
-        "link": "",
         "hover_text": ""
     },
     "Elder rune": {
         "level_start": 90,
-        "level_end": 100,
         "sort_weight": 1,
         "region": {
             "allOf": [
@@ -277,12 +258,10 @@
             ]
         },
         "image": "item/smithing/elder_rune.webp",
-        "link": "",
         "hover_text": ""
     },
     "Primal": {
         "level_start": 100,
-        "level_end": 120,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -290,12 +269,10 @@
             ]
         },
         "image": "item/smithing/primal.webp",
-        "link": "",
         "hover_text": ""
     },
     "Silver": {
         "level_start": 20,
-        "level_end": 30,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
@@ -306,12 +283,10 @@
             ]
         },
         "image": "item/smithing/silver.webp",
-        "link": "",
         "hover_text": ""
     },
     "Gold": {
         "level_start": 40,
-        "level_end": 50,
         "sort_weight": 1.2,
         "region": {
             "anyOf": [
@@ -325,12 +300,10 @@
             ]
         },
         "image": "item/smithing/gold.webp",
-        "link": "",
         "hover_text": ""
     },
     "Platinum": {
         "level_start": 104,
-        "level_end": 120,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -340,7 +313,6 @@
             ]
         },
         "image": "item/smithing/platinum.png",
-        "link": "",
         "hover_text": ""
     }
 }

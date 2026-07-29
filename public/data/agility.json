@@ -1,7 +1,6 @@
 {
     "Burthorpe": {
         "level_start": 1,
-        "level_end": 25,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -9,12 +8,10 @@
             ]
         },
         "image": "item/agility/burthorpe.png",
-        "link": "",
         "hover_text": ""
     },
     "Gnome Stronghold": {
         "level_start": 1,
-        "level_end": 25,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -22,12 +19,10 @@
             ]
         },
         "image": "item/agility/gnome_stronghold.webp",
-        "link": "",
         "hover_text": ""
     },
     "Brimhaven": {
         "level_start": 1,
-        "level_end": 25,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -35,12 +30,10 @@
             ]
         },
         "image": "item/agility/brimhaven.webp",
-        "link": "",
         "hover_text": ""
     },
     "Werewolf Skullball": {
         "level_start": 25,
-        "level_end": 30,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -48,12 +41,10 @@
             ]
         },
         "image": "item/agility/werewolf_skullball.webp",
-        "link": "",
         "hover_text": ""
     },
     "Agility Pyramid": {
         "level_start": 30,
-        "level_end": 35,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -61,12 +52,10 @@
             ]
         },
         "image": "item/agility/agility_pyramid.webp",
-        "link": "",
         "hover_text": ""
     },
     "Penguin": {
         "level_start": 30,
-        "level_end": 50,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -74,12 +63,10 @@
             ]
         },
         "image": "item/agility/penguin.webp",
-        "link": "",
         "hover_text": ""
     },
     "Anachronia beginner": {
         "level_start": 30,
-        "level_end": 50,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -87,12 +74,10 @@
             ]
         },
         "image": "item/agility/anachronia.webp",
-        "link": "",
         "hover_text": ""
     },
     "Barbarian Outpost": {
         "level_start": 35,
-        "level_end": 50,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -100,12 +85,10 @@
             ]
         },
         "image": "item/agility/barbarian_outpost.webp",
-        "link": "",
         "hover_text": ""
     },
     "Ape Atoll": {
         "level_start": 48,
-        "level_end": 50,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -113,12 +96,10 @@
             ]
         },
         "image": "item/agility/ape_atoll.webp",
-        "link": "",
         "hover_text": ""
     },
     "Anachronia novice": {
         "level_start": 50,
-        "level_end": 60,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -126,12 +107,10 @@
             ]
         },
         "image": "item/agility/anachronia.webp",
-        "link": "",
         "hover_text": ""
     },
     "Wilderness": {
         "level_start": 52,
-        "level_end": 60,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -139,12 +118,10 @@
             ]
         },
         "image": "item/agility/wilderness.webp",
-        "link": "",
         "hover_text": ""
     },
     "Werewolf": {
         "level_start": 60,
-        "level_end": 65,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -152,12 +129,10 @@
             ]
         },
         "image": "item/agility/werewolf.webp",
-        "link": "",
         "hover_text": ""
     },
     "Bandos": {
         "level_start": 60,
-        "level_end": 65,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -165,12 +140,10 @@
             ]
         },
         "image": "item/agility/bandos.webp",
-        "link": "",
         "hover_text": ""
     },
     "Het's Oasis": {
         "level_start": 65,
-        "level_end": 77,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -178,12 +151,10 @@
             ]
         },
         "image": "item/agility/het.webp",
-        "link": "",
         "hover_text": ""
     },
     "Anachronia advanced": {
         "level_start": 70,
-        "level_end": 77,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -191,12 +162,10 @@
             ]
         },
         "image": "item/agility/anachronia.webp",
-        "link": "",
         "hover_text": ""
     },
     "Heffin": {
         "level_start": 77,
-        "level_end": 85,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -204,12 +173,10 @@
             ]
         },
         "image": "item/agility/hefin.webp",
-        "link": "",
         "hover_text": ""
     },
     "Dorgesh-Kaan": {
         "level_start": 80,
-        "level_end": 85,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -217,12 +184,10 @@
             ]
         },
         "image": "item/agility/dorgesh-kaan.webp",
-        "link": "",
         "hover_text": ""
     },
     "Advanced Gnome Stronghold": {
         "level_start": 85,
-        "level_end": 90,
         "sort_weight": 1.1,
         "region": {
             "anyOf": [
@@ -230,12 +195,10 @@
             ]
         },
         "image": "item/agility/gnome_stronghold.webp",
-        "link": "",
         "hover_text": ""
     },
     "Anachronia complete": {
         "level_start": 85,
-        "level_end": 99,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -243,12 +206,10 @@
             ]
         },
         "image": "item/agility/anachronia.webp",
-        "link": "",
         "hover_text": ""
     },
     "Advanced Barbarian Outpost": {
         "level_start": 90,
-        "level_end": 99,
         "sort_weight": 1,
         "region": {
             "anyOf": [
@@ -256,7 +217,6 @@
             ]
         },
         "image": "item/agility/barbarian_outpost.webp",
-        "link": "",
         "hover_text": ""
     }
 }
