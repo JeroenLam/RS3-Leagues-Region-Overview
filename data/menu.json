@@ -63,9 +63,9 @@
         },
         {
             "name": "Thieving",
-            "file": "",
+            "file": "thieving.json",
             "image": "icon/skill_thieving.webp",
-            "render_type": ""
+            "render_type": "skill"
         },
         {
             "name": "Cooking",

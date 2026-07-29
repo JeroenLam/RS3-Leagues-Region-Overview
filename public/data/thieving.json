@@ -1,0 +1,602 @@
+{
+    "Man": {
+        "level_start": 1,
+        "level_end": 38,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Low level training"
+    },
+    "Master farmers": {
+        "level_start": 38,
+        "level_end": 50,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Seeds"
+    },
+    "Druid": {
+        "level_start": 42,
+        "level_end": 46,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Herb seeds + teleport item"
+    },
+    "Manaphite marketeer": {
+        "level_start": 46,
+        "level_end": 46,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Reputatie items"
+    },
+    "Lamp stall": {
+        "level_start": 46,
+        "level_end": 50,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "xp lamps"
+    },
+    "Archeology trainee": {
+        "level_start": 50,
+        "level_end": 62,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Desert",
+                "Kandarin",
+                "Morytania",
+                "Anachronia",
+                "Wilderness"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Zamorak artifacts & materials"
+    },
+    "Chaos druid tower chest": {
+        "level_start": 59,
+        "level_end": 75,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Essence, high level enchant tablets"
+    },
+    "Misthalin safes": {
+        "level_start": 62,
+        "level_end": 64,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Wizard tower mage": {
+        "level_start": 64,
+        "level_end": 78,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Runes & talismans"
+    },
+    "Kharician Safes": {
+        "level_start": 69,
+        "level_end": 70,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Scarabite cavern chest": {
+        "level_start": 70,
+        "level_end": 78,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Acadia/teak spirit, magic logs"
+    },
+    "Dwarven mines chest": {
+        "level_start": 71,
+        "level_end": 76,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Medium level spirit & ore"
+    },
+    "Asgarnia safes": {
+        "level_start": 76,
+        "level_end": 101,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Archeologist": {
+        "level_start": 78,
+        "level_end": 90,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Desert",
+                "Kandarin",
+                "Morytania",
+                "Anachronia",
+                "Wilderness"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Zamorak artifacts & materials"
+    },
+    "Crux Eqal Knight": {
+        "level_start": 83,
+        "level_end": 102,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Herb seeds & instagroth"
+    },
+    "Kandarin safes": {
+        "level_start": 83,
+        "level_end": 107,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Hidden safes (Zanaris)": {
+        "level_start": 90,
+        "level_end": 106,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Dwarf Traders": {
+        "level_start": 90,
+        "level_end": 94,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Fremmenik"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Low level stone spirits"
+    },
+    "Hidden safes (zemouregals fort)": {
+        "level_start": 90,
+        "level_end": 94,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Fremmenik"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": ""
+    },
+    "Iowerth worker": {
+        "level_start": 91,
+        "level_end": 92,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Super melee pots & Sharks"
+    },
+    "Ithell worker": {
+        "level_start": 92,
+        "level_end": 93,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Oak/Teak plank, clay, dust"
+    },
+    "Cadarn worker": {
+        "level_start": 93,
+        "level_end": 94,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Super range/magic & sharks"
+    },
+    "Keldagrim chest": {
+        "level_start": 94,
+        "level_end": 120,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Fremmenik"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Mid tier bars & spirits"
+    },
+    "Amlodd workers": {
+        "level_start": 94,
+        "level_end": 95,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Charms, Energies, porters"
+    },
+    "Trahaearn worker": {
+        "level_start": 95,
+        "level_end": 96,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Mid level stone spirits"
+    },
+    "Hefin worker": {
+        "level_start": 96,
+        "level_end": 97,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Dragon bones, Summer pie"
+    },
+    "Crwys worker": {
+        "level_start": 97,
+        "level_end": 98,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Yew/Magic logs"
+    },
+    "Meilyr worker": {
+        "level_start": 98,
+        "level_end": 103,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Dung token,snape grass, dragon dust, nests"
+    },
+    "Vyrewatch tither": {
+        "level_start": 100,
+        "level_end": 108,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Elder wood spirit, runes, blood, columbarium key"
+    },
+    "Living rock cavern chest": {
+        "level_start": 101,
+        "level_end": 120,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "High level ore & spirit"
+    },
+    "Goebie scavengers": {
+        "level_start": 102,
+        "level_end": 104,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Food & Tekki"
+    },
+    "Cadarn district chest": {
+        "level_start": 103,
+        "level_end": 120,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "high level herb & seed"
+    },
+    "Menaphos market guard": {
+        "level_start": 104,
+        "level_end": 108,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Desert"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Clues, reputation, acadia spirits"
+    },
+    "Wizard tower master mage": {
+        "level_start": 106,
+        "level_end": 107,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Runes & talismans"
+    },
+    "Zanaris Market spirit stall": {
+        "level_start": 107,
+        "level_end": 108,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "High level stone/wood spirits"
+    },
+    "Ourania cave chest": {
+        "level_start": 107,
+        "level_end": 108,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Pure essence"
+    },
+    "Archeology professor": {
+        "level_start": 108,
+        "level_end": 112,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Desert",
+                "Kandarin",
+                "Morytania",
+                "Anachronia",
+                "Wilderness"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Zamorak artifacts & materials"
+    },
+    "TzHaar-Hur trader": {
+        "level_start": 111,
+        "level_end": 120,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Karamja"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Gems (onyx)"
+    },
+    "City of Um chest": {
+        "level_start": 112,
+        "level_end": 113,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Ritual components"
+    },
+    "Fairy traders": {
+        "level_start": 113,
+        "level_end": 114,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "High level wood spirit, charms"
+    },
+    "Zanaris Market seed stall": {
+        "level_start": 114,
+        "level_end": 116,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "High level tree seed?"
+    },
+    "Darkmeyer meat stall": {
+        "level_start": 115,
+        "level_end": 118,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Meat (PoF)"
+    },
+    "Zanaris Market trinket stall": {
+        "level_start": 116,
+        "level_end": 119,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Charms, secondaries, incense sticks"
+    },
+    "Rasial's citadel chest": {
+        "level_start": 119,
+        "level_end": 120,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Necro runes"
+    },
+    "Darkmeyer potion stall": {
+        "level_start": 119,
+        "level_end": 120,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "link": "",
+        "hover_text": "Extreme pots, agro pots, flasks"
+    }
+}
