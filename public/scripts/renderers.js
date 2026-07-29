@@ -383,6 +383,12 @@ function compareSkillEntriesByLevelStart([nameA, entryA], [nameB, entryB]) {
         return 1;
     }
 
+    const sortWeightA = Number.isFinite(entryA?.sort_weight) ? Number(entryA.sort_weight) : Number.MAX_SAFE_INTEGER;
+    const sortWeightB = Number.isFinite(entryB?.sort_weight) ? Number(entryB.sort_weight) : Number.MAX_SAFE_INTEGER;
+    if (sortWeightA !== sortWeightB) {
+        return sortWeightA - sortWeightB;
+    }
+
     return nameA.localeCompare(nameB);
 }
 

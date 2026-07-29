@@ -75,9 +75,9 @@
         },
         {
             "name": "Prayer",
-            "file": "",
+            "file": "prayer.json",
             "image": "icon/skill_prayer.webp",
-            "render_type": ""
+            "render_type": "skill"
         },
         {
             "name": "Crafting",

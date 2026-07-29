@@ -1,0 +1,319 @@
+{
+    "Impious ashes": {
+        "level_start": 1,
+        "sort_weight": 4,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Asgarnia",
+                "Karamja",
+                "Kandarin",
+                "Desert",
+                "Fremennik"
+            ]
+        },
+        "image": "item/prayer/Impious_ashes.webp",
+        "hover_text": ""
+    },
+    "Bones": {
+        "level_start": 1,
+        "sort_weight": 4.5,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Karamja",
+                "Asgarnia",
+                "Kandarin",
+                "Fremennik",
+                "Desert",
+                "Morytania",
+                "Wilderness",
+                "Tirannwn",
+                "Anachronia"
+            ]
+        },
+        "image": "item/prayer/Bones.webp",
+        "hover_text": ""
+    },
+    "Wolf bones": {
+        "level_start": 1,
+        "sort_weight": 4.5,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Morytania",
+                "Asgarnia",
+                "Kandarin",
+                "Desert",
+                "Karamja",
+                "Havenhythe",
+                "Wilderness"
+            ]
+        },
+        "image": "item/prayer/Wolf_bones.png",
+        "hover_text": ""
+    },
+    "Accursed ashes": {
+        "level_start": 1,
+        "sort_weight": 12.5,
+        "region": {
+            "anyOf": [
+                "Kandarin",
+                "Karamja",
+                "Wilderness",
+                "Asgarnia",
+                "Morytania"
+            ]
+        },
+        "image": "item/prayer/Accursed_ashes.webp",
+        "hover_text": ""
+    },
+    "Big bones": {
+        "level_start": 1,
+        "sort_weight": 15,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Havenhythe",
+                "Karamja",
+                "Asgarnia",
+                "Kandarin",
+                "Fremennik",
+                "Desert",
+                "Morytania",
+                "Wilderness",
+                "Tirannwn",
+                "Anachronia"
+            ]
+        },
+        "image": "item/prayer/Big_bones.webp",
+        "hover_text": ""
+    },
+    "Baby dragon bones": {
+        "level_start": 1,
+        "sort_weight": 30,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Wilderness",
+                "Asgarnia",
+                "Karamja"
+            ]
+        },
+        "image": "item/prayer/Baby_dragon_bones.webp",
+        "hover_text": ""
+    },
+    "Wyvern bones": {
+        "level_start": 1,
+        "sort_weight": 50,
+        "region": {
+            "anyOf": [
+                "Asgarnia",
+                "Wilderness",
+                "Misthalin"
+            ]
+        },
+        "image": "item/prayer/Wyvern_bones.webp",
+        "hover_text": ""
+    },
+    "Infernal ashes": {
+        "level_start": 1,
+        "sort_weight": 62.5,
+        "region": {
+            "anyOf": [
+                "Asgarnia",
+                "Karamja",
+                "Wilderness",
+                "Misthalin",
+                "Desert",
+                "Morytania",
+                "Kandarin"
+            ]
+        },
+        "image": "item/prayer/Infernal_ashes.png",
+        "hover_text": ""
+    },
+    "Dragon bones": {
+        "level_start": 1,
+        "sort_weight": 72,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Karamja",
+                "Asgarnia",
+                "Kandarin",
+                "Wilderness",
+                "Fremennik",
+                "Morytania",
+                "Desert",
+                "Tirannwn"
+            ]
+        },
+        "image": "item/prayer/Dragon_bones.webp",
+        "hover_text": ""
+    },
+    "Tortured ashes": {
+        "level_start": 1,
+        "sort_weight": 90,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "item/prayer/Tortured_ashes.webp",
+        "hover_text": ""
+    },
+    "Dagannoth bones": {
+        "level_start": 1,
+        "sort_weight": 125,
+        "region": {
+            "anyOf": [
+                "Fremennik"
+            ]
+        },
+        "image": "item/prayer/Dagannoth_bones.png",
+        "hover_text": ""
+    },
+    "Airut bones": {
+        "level_start": 1,
+        "sort_weight": 132.5,
+        "region": {
+            "anyOf": [
+                "Desert",
+                "Kandarin"
+            ]
+        },
+        "image": "item/prayer/Airut_bones.webp",
+        "hover_text": ""
+    },
+    "Ourg bones": {
+        "level_start": 1,
+        "sort_weight": 140,
+        "region": {
+            "anyOf": [
+                "Asgarnia"
+            ]
+        },
+        "image": "item/prayer/Ourg_bones_(General_Graardor).webp",
+        "hover_text": ""
+    },
+    "Hardened dragon bones": {
+        "level_start": 1,
+        "sort_weight": 144,
+        "region": {
+            "anyOf": [
+                "Karamja",
+                "Wilderness"
+            ]
+        },
+        "image": "item/prayer/Hardened_dragon_bones.webp",
+        "hover_text": ""
+    },
+    "Dragonkin bones": {
+        "level_start": 1,
+        "sort_weight": 160,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Anachronia"
+            ]
+        },
+        "image": "item/prayer/Dragonkin_bones.webp",
+        "hover_text": ""
+    },
+    "Dinosaur bones": {
+        "level_start": 1,
+        "sort_weight": 170,
+        "region": {
+            "anyOf": [
+                "Anachronia"
+            ]
+        },
+        "image": "item/prayer/Dinosaur_bones.webp",
+        "hover_text": ""
+    },
+    "Frost dragon bones": {
+        "level_start": 1,
+        "sort_weight": 180,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Asgarnia"
+            ]
+        },
+        "image": "item/prayer/Frost_dragon_bones.png",
+        "hover_text": ""
+    },
+    "Reinforced dragon bones": {
+        "level_start": 1,
+        "sort_weight": 190,
+        "region": {
+            "anyOf": [
+                "Wilderness",
+                "Kandarin"
+            ]
+        },
+        "image": "item/prayer/Reinforced_dragon_bones.webp",
+        "hover_text": ""
+    },
+    "Searing ashes": {
+        "level_start": 1,
+        "sort_weight": 200,
+        "region": {
+            "anyOf": [
+                "Wilderness"
+            ]
+        },
+        "image": "item/prayer/100px-Searing_ashes_detail.webp",
+        "hover_text": ""
+    },
+    "Cleansing crystal": {
+        "level_start": 75,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Tirannwn"
+            ]
+        },
+        "image": "item/prayer/100px-Cleansing_crystal_detail.webp",
+        "hover_text": ""
+    },
+    "Ivar, King of Bones": {
+        "level_start": 1,
+        "sort_weight": 400,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "item/prayer/100px-Ivar,_King_of_Bones_chathead.webp",
+        "hover_text": ""
+    },
+    "God Statues": {
+        "level_start": 1,
+        "sort_weight": 1000,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Asgarnia",
+                "Kandarin",
+                "Tirannwn",
+                "Morytania"
+            ]
+        },
+        "image": "item/prayer/300px-Statue_of_Zilyana_(level_1+).webp",
+        "hover_text": ""
+    },
+    "Killing Cyres": {
+        "level_start": 75,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Morytania"
+            ]
+        },
+        "image": "item/prayer/120px-Augmented_Sunspear_(magic)_detail.webp",
+        "hover_text": ""
+    }
+}
