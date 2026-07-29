@@ -236,7 +236,7 @@
         "sort_weight": 1,
         "region": {
             "anyOf": [
-                "Fremmenik"
+                "Fremennik"
             ]
         },
         "image": "item/thieving/.webp",
@@ -249,7 +249,7 @@
         "sort_weight": 1,
         "region": {
             "anyOf": [
-                "Fremmenik"
+                "Fremennik"
             ]
         },
         "image": "item/thieving/.webp",
@@ -301,7 +301,7 @@
         "sort_weight": 1,
         "region": {
             "anyOf": [
-                "Fremmenik"
+                "Fremennik"
             ]
         },
         "image": "item/thieving/.webp",
