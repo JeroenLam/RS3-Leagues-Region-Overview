@@ -794,5 +794,27 @@
         },
         "image": "item/hunter/92_spore.webp",
         "hover_text": ""
+    },
+    "White rabbit": {
+        "level_start": 27,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Kandarin"
+            ]
+        },
+        "image": "item/hunter/27_snare.png",
+        "hover_text": ""
+    },
+    "Jackalope": {
+        "level_start": 32,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Havenhythe"
+            ]
+        },
+        "image": "item/hunter/32_snare.png",
+        "hover_text": ""
     }
 }
