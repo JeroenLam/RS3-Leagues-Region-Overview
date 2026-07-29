@@ -223,12 +223,14 @@ async function start() {
 
     const dataCache = new Map();
     const baseUrl = appData.baseUrl || "/";
-    let sortMode = "default";
+    const sortModeByRenderType = new Map();
     const defaultRegionNames = appData.regions.filter((region) => !!region.default).map((region) => region.name);
     const regionImageByName = Object.fromEntries(
         appData.regions.map((region) => [region.name, region.image || ""]),
     );
     initializeRegions(toggles, defaultRegionNames);
+
+    const getDefaultSortMode = (renderType) => (renderType === "skill" ? "available" : "default");
 
     const sync = async () => {
         const enabledRegionNames = getEnabledRegions(toggles);
@@ -237,6 +239,9 @@ async function start() {
         contentPane.dataset.enabledRegions = enabledCsv;
 
         const selectedIndex = getSelectedGuideIndex(appData.items);
+        const selectedItem = appData.items[selectedIndex] || null;
+        const renderType = selectedItem?.render_type || "default";
+        const sortMode = sortModeByRenderType.get(renderType) || getDefaultSortMode(renderType);
         markActiveGuide(guideLinks, selectedIndex);
         await renderSelectedGuide({
             items: appData.items,
@@ -253,7 +258,7 @@ async function start() {
         if (sortSelect instanceof HTMLSelectElement) {
             sortSelect.value = sortMode;
             sortSelect.addEventListener("change", async () => {
-                sortMode = sortSelect.value === "available" ? "available" : "default";
+                sortModeByRenderType.set(renderType, sortSelect.value === "available" ? "available" : "default");
                 await sync();
             });
         }

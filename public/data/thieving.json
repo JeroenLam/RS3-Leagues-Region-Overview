@@ -5,11 +5,40 @@
         "sort_weight": 1,
         "region": {
             "anyOf": [
+                "Misthalin",
+                "Kandarin",
+                "Asgarnia",
+                "Karamja",
+                "Desert"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "hover_text": "Low level training"
+    },
+    "Farmer": {
+        "level_start": 10,
+        "level_end": 38,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Asgarnia",
+                "Kandarin"
+            ]
+        },
+        "image": "item/thieving/.webp",
+        "hover_text": "Low level training"
+    },
+    "H.A.M. Member": {
+        "level_start": 15,
+        "level_end": 38,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
                 "Misthalin"
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Low level training"
     },
     "Master farmers": {
@@ -18,11 +47,26 @@
         "sort_weight": 1,
         "region": {
             "anyOf": [
-                "Misthalin"
+                "Misthalin",
+                "Kandarin",
+                "Havenhythe"
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
+        "hover_text": "Seeds"
+    },
+    "Guard": {
+        "level_start": 40,
+        "level_end": 50,
+        "sort_weight": 1,
+        "region": {
+            "anyOf": [
+                "Misthalin",
+                "Asgarnia",
+                "Kandarin"
+            ]
+        },
+        "image": "item/thieving/.webp",
         "hover_text": "Seeds"
     },
     "Druid": {
@@ -35,7 +79,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Herb seeds + teleport item"
     },
     "Manaphite marketeer": {
@@ -48,7 +91,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Reputatie items"
     },
     "Lamp stall": {
@@ -61,7 +103,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "xp lamps"
     },
     "Archeology trainee": {
@@ -79,7 +120,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Zamorak artifacts & materials"
     },
     "Chaos druid tower chest": {
@@ -92,7 +132,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Essence, high level enchant tablets"
     },
     "Misthalin safes": {
@@ -105,7 +144,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": ""
     },
     "Wizard tower mage": {
@@ -118,7 +156,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Runes & talismans"
     },
     "Kharician Safes": {
@@ -131,7 +168,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": ""
     },
     "Scarabite cavern chest": {
@@ -144,7 +180,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Acadia/teak spirit, magic logs"
     },
     "Dwarven mines chest": {
@@ -157,7 +192,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Medium level spirit & ore"
     },
     "Asgarnia safes": {
@@ -170,7 +204,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": ""
     },
     "Archeologist": {
@@ -188,7 +221,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Zamorak artifacts & materials"
     },
     "Crux Eqal Knight": {
@@ -201,8 +233,7 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
-        "hover_text": "Herb seeds & instagroth"
+        "hover_text": "Herb seeds & insta groth potinos"
     },
     "Kandarin safes": {
         "level_start": 83,
@@ -214,7 +245,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": ""
     },
     "Hidden safes (Zanaris)": {
@@ -227,7 +257,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": ""
     },
     "Dwarf Traders": {
@@ -236,11 +265,10 @@
         "sort_weight": 1,
         "region": {
             "anyOf": [
-                "Fremmenik"
+                "Fremennik"
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Low level stone spirits"
     },
     "Hidden safes (zemouregals fort)": {
@@ -249,11 +277,10 @@
         "sort_weight": 1,
         "region": {
             "anyOf": [
-                "Fremmenik"
+                "Fremennik"
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": ""
     },
     "Iowerth worker": {
@@ -266,7 +293,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Super melee pots & Sharks"
     },
     "Ithell worker": {
@@ -279,7 +305,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Oak/Teak plank, clay, dust"
     },
     "Cadarn worker": {
@@ -292,7 +317,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Super range/magic & sharks"
     },
     "Keldagrim chest": {
@@ -301,11 +325,10 @@
         "sort_weight": 1,
         "region": {
             "anyOf": [
-                "Fremmenik"
+                "Fremennik"
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Mid tier bars & spirits"
     },
     "Amlodd workers": {
@@ -318,7 +341,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Charms, Energies, porters"
     },
     "Trahaearn worker": {
@@ -331,7 +353,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Mid level stone spirits"
     },
     "Hefin worker": {
@@ -344,7 +365,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Dragon bones, Summer pie"
     },
     "Crwys worker": {
@@ -357,7 +377,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Yew/Magic logs"
     },
     "Meilyr worker": {
@@ -370,7 +389,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Dung token,snape grass, dragon dust, nests"
     },
     "Vyrewatch tither": {
@@ -383,7 +401,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Elder wood spirit, runes, blood, columbarium key"
     },
     "Living rock cavern chest": {
@@ -396,7 +413,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "High level ore & spirit"
     },
     "Goebie scavengers": {
@@ -409,7 +425,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Food & Tekki"
     },
     "Cadarn district chest": {
@@ -422,7 +437,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "high level herb & seed"
     },
     "Menaphos market guard": {
@@ -435,7 +449,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Clues, reputation, acadia spirits"
     },
     "Wizard tower master mage": {
@@ -448,7 +461,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Runes & talismans"
     },
     "Zanaris Market spirit stall": {
@@ -461,7 +473,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "High level stone/wood spirits"
     },
     "Ourania cave chest": {
@@ -474,7 +485,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Pure essence"
     },
     "Archeology professor": {
@@ -492,7 +502,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Zamorak artifacts & materials"
     },
     "TzHaar-Hur trader": {
@@ -505,7 +514,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Gems (onyx)"
     },
     "City of Um chest": {
@@ -518,7 +526,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Ritual components"
     },
     "Fairy traders": {
@@ -531,7 +538,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "High level wood spirit, charms"
     },
     "Zanaris Market seed stall": {
@@ -544,7 +550,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "High level tree seed?"
     },
     "Darkmeyer meat stall": {
@@ -557,7 +562,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Meat (PoF)"
     },
     "Zanaris Market trinket stall": {
@@ -570,7 +574,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Charms, secondaries, incense sticks"
     },
     "Rasial's citadel chest": {
@@ -583,7 +586,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Necro runes"
     },
     "Darkmeyer potion stall": {
@@ -596,7 +598,6 @@
             ]
         },
         "image": "item/thieving/.webp",
-        "link": "",
         "hover_text": "Extreme pots, agro pots, flasks"
     }
 }

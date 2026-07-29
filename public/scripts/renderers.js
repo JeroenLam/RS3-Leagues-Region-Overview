@@ -267,13 +267,13 @@ function getEntriesBySort(entries, sortMode, enabledRegionSet) {
     return entries;
 }
 
-function renderSortControls(sortMode) {
+function renderSortControls(sortMode, { defaultLabel = "Default", availableLabel = "Available" } = {}) {
     return `
         <div class="sort-controls">
             <label for="sort-mode" class="sort-label">Sorting</label>
             <select id="sort-mode" class="sort-select" data-sort-select>
-                <option value="default" ${sortMode === "default" ? "selected" : ""}>Default</option>
-                <option value="available" ${sortMode === "available" ? "selected" : ""}>Available</option>
+                <option value="default" ${sortMode === "default" ? "selected" : ""}>${escapeHtml(defaultLabel)}</option>
+                <option value="available" ${sortMode === "available" ? "selected" : ""}>${escapeHtml(availableLabel)}</option>
             </select>
         </div>
     `;
@@ -289,15 +289,63 @@ function availabilityDot(availability) {
     return "🔴";
 }
 
-function levelTimeline(entry, isUnlocked) {
-    const start = typeof entry.level_start === "number" ? entry.level_start : null;
-    const end = typeof entry.level_end === "number" ? entry.level_end : null;
-    if (start === null || end === null) {
+function normalizeLevelStart(value) {
+    if (typeof value !== "number" || !Number.isFinite(value)) {
+        return null;
+    }
+    return Math.max(1, Math.floor(value));
+}
+
+function buildAvailableLevelRanges(entries, enabledRegionSet) {
+    const maxLevel = 120;
+    const availableStarts = entries
+        .map(([, entry]) => {
+            const availability = getAvailability(entry, enabledRegionSet);
+            const start = normalizeLevelStart(entry?.level_start);
+            if (availability !== "available" || start === null) {
+                return null;
+            }
+            return start;
+        })
+        .filter((value) => value !== null);
+
+    const unlockLevels = [...new Set(availableStarts)].sort((a, b) => a - b);
+    const unlockIndexByLevel = new Map(unlockLevels.map((level, index) => [level, index]));
+    const ranges = new Map();
+
+    entries.forEach(([, entry]) => {
+        const availability = getAvailability(entry, enabledRegionSet);
+        if (availability !== "available") {
+            return;
+        }
+
+        const start = normalizeLevelStart(entry?.level_start);
+        if (start === null) {
+            return;
+        }
+
+        const index = unlockIndexByLevel.get(start);
+        if (typeof index !== "number") {
+            return;
+        }
+
+        const nextUnlock = unlockLevels[index + 1] ?? maxLevel;
+        ranges.set(entry, {
+            start,
+            end: Math.max(start, nextUnlock),
+        });
+    });
+
+    return ranges;
+}
+
+function levelTimeline(range, isUnlocked) {
+    if (!range) {
         return "<span class=\"muted\">-</span>";
     }
 
-    const min = Math.max(1, Math.min(start, end));
-    const max = Math.max(1, Math.max(start, end));
+    const min = Math.max(1, Math.min(range.start, range.end));
+    const max = Math.max(1, Math.max(range.start, range.end));
     const maxLevel = 120;
     const left = ((min - 1) / (maxLevel - 1)) * 100;
     const width = ((max - min) / (maxLevel - 1)) * 100;
@@ -310,24 +358,45 @@ function levelTimeline(entry, isUnlocked) {
     `;
 }
 
-function levelRangeText(entry) {
-    const start = typeof entry.level_start === "number" ? entry.level_start : null;
-    const end = typeof entry.level_end === "number" ? entry.level_end : null;
-    if (start === null || end === null) {
-        return "-";
+function levelRangeText(entry, range) {
+    if (!range) {
+        const startOnly = normalizeLevelStart(entry?.level_start);
+        return startOnly === null ? "-" : String(startOnly);
     }
 
-    const min = Math.max(1, Math.min(start, end));
-    const max = Math.max(1, Math.max(start, end));
+    const min = Math.max(1, Math.min(range.start, range.end));
+    const max = Math.max(1, Math.max(range.start, range.end));
     return `${min}-${max}`;
 }
 
+function compareSkillEntriesByLevelStart([nameA, entryA], [nameB, entryB]) {
+    const levelA = normalizeLevelStart(entryA?.level_start);
+    const levelB = normalizeLevelStart(entryB?.level_start);
+
+    if (levelA !== null && levelB !== null && levelA !== levelB) {
+        return levelA - levelB;
+    }
+    if (levelA !== null && levelB === null) {
+        return -1;
+    }
+    if (levelA === null && levelB !== null) {
+        return 1;
+    }
+
+    return nameA.localeCompare(nameB);
+}
+
 function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, regionImageByName, baseUrl }) {
-    const orderedEntries = getEntriesBySort(entries, sortMode, enabledRegionSet);
+    const levelOrderedEntries = [...entries].sort(compareSkillEntriesByLevelStart);
+    const orderedEntries = sortMode === "available"
+        ? sortByAvailability(levelOrderedEntries, enabledRegionSet)
+        : levelOrderedEntries;
+    const dynamicRanges = buildAvailableLevelRanges(entries, enabledRegionSet);
 
     const rows = orderedEntries
         .map(([name, entry]) => {
             const availability = getAvailability(entry, enabledRegionSet);
+            const range = dynamicRanges.get(entry) || null;
             const image = entry.image ? assetUrl(baseUrl, `images/${encodeURIComponent(entry.image)}`) : "";
             const flatRegions = flattenRegions(entry.region).join(", ");
             const hoverText = entry.hover_text ? String(entry.hover_text) : "No note";
@@ -341,8 +410,8 @@ function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, r
                     </td>
                     <td class="status-cell" title="${escapeHtml(title)}">${availabilityDot(availability)}</td>
                     <td>${renderRegionRequirementIcons(entry, regionImageByName, enabledRegionSet, baseUrl)}</td>
-                    <td>${escapeHtml(levelRangeText(entry))}</td>
-                    <td>${levelTimeline(entry, availability === "available")}</td>
+                    <td>${escapeHtml(levelRangeText(entry, range))}</td>
+                    <td>${levelTimeline(range, availability === "available")}</td>
                 </tr>
             `;
         })
@@ -352,7 +421,7 @@ function renderSkillTable({ selectedItem, entries, enabledRegionSet, sortMode, r
 
     return `
         <h1>${escapeHtml(selectedItem.name)}</h1>
-        ${renderSortControls(sortMode)}
+        ${renderSortControls(sortMode, { defaultLabel: "Level" })}
         ${noItems ? `<p class="muted">No entries found.</p>` : `
             <div class="table-wrap">
                 <table class="guide-table skill-table">
