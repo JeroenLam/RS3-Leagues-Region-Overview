@@ -679,6 +679,70 @@ function renderGearTable({ selectedItem, entries, enabledRegionSet, sortMode, ba
     `;
 }
 
+function renderTasksView({ selectedItem, data, enabledRegionSet, regionImageByName, baseUrl }) {
+    const tasks = Array.isArray(data) ? data : [];
+
+    const filteredTasks = tasks.filter((task) => {
+        const region = task.Region || "";
+        return region === "Global" || enabledRegionSet.has(region);
+    });
+
+    const tagOrder = [];
+    const tasksByTag = new Map();
+
+    filteredTasks.forEach((task) => {
+        const tags = Array.isArray(task.Tags) && task.Tags.length > 0 ? task.Tags : ["Uncategorized"];
+        tags.forEach((tag) => {
+            if (!tasksByTag.has(tag)) {
+                tasksByTag.set(tag, []);
+                tagOrder.push(tag);
+            }
+            tasksByTag.get(tag).push(task);
+        });
+    });
+
+    tagOrder.sort((a, b) => {
+        if (a === "Uncategorized") return 1;
+        if (b === "Uncategorized") return -1;
+        return a.localeCompare(b);
+    });
+
+    const sections = tagOrder.map((tag) => {
+        const tagTasks = tasksByTag.get(tag);
+        const tiles = tagTasks.map((task) => {
+            const pts = String(task.Pts || "10");
+            const ptsIcon = assetUrl(baseUrl, `images/item/task/${encodeURIComponent(pts)}.webp`);
+            const regionName = task.Region || "";
+            const regionImg = regionImageByName?.[regionName] || "";
+            const regionHtml = regionImg
+                ? `<img class="task-region-icon" src="${assetUrl(baseUrl, `images/${encodeURIComponent(regionImg)}`)}" alt="${escapeHtml(regionName)}" title="${escapeHtml(regionName)}" loading="lazy" onerror="this.style.display='none'" />`
+                : `<span class="task-region-fallback">${escapeHtml(regionName.slice(0, 2).toUpperCase())}</span>`;
+
+            const tooltipHtml = `<strong>${escapeHtml(task.Task || "")}</strong><br />${escapeHtml(task.Information || "")}<hr class=\"task-tooltip-divider\" /><em>Requirements:</em> ${escapeHtml(task.Requirements || "N/A")}`;
+
+            return `<div class="task-tile" data-task-tooltip="${escapeHtml(tooltipHtml)}" tabindex="0">
+                    <span class="task-title">${escapeHtml(task.Task || "")}</span>
+                    <span class="task-meta">
+                        ${regionHtml}
+                        <img class="task-pts-icon" src="${ptsIcon}" alt="${escapeHtml(pts)} pts" title="${escapeHtml(pts)} pts" loading="lazy" />
+                    </span>
+                </div>`;
+        }).join("");
+
+        return `<section class="task-group">
+                <h2 class="task-group-heading">${escapeHtml(tag)}</h2>
+                <div class="task-grid">${tiles}</div>
+            </section>`;
+    }).join("");
+
+    const noTasks = filteredTasks.length === 0;
+
+    return `
+        <h1>${escapeHtml(selectedItem.name)}</h1>
+        ${noTasks ? '<p class="muted">No tasks available for the selected regions. Enable some regions in the sidebar.</p>' : sections}
+    `;
+}
+
 export function renderByType({ selectedItem, data, enabledRegionNames, sortMode, regionImageByName, baseUrl = "/" }) {
     const entries = toDefaultEntries(data);
     const enabledSet = new Set(enabledRegionNames);
@@ -702,6 +766,8 @@ export function renderByType({ selectedItem, data, enabledRegionNames, sortMode,
             return renderBossTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode, baseUrl });
         case "gear":
             return renderGearTable({ selectedItem, entries, enabledRegionSet: enabledSet, sortMode, baseUrl, regionImageByName });
+        case "tasks":
+            return renderTasksView({ selectedItem, data, enabledRegionSet: enabledSet, regionImageByName, baseUrl });
         default:
             return `
         <h1>${escapeHtml(selectedItem.name)}</h1>

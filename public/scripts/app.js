@@ -54,6 +54,44 @@ function setupGearTooltips(contentPane) {
     });
 }
 
+function setupTaskTooltips(contentPane) {
+    const tip = getOrCreateFloatingTooltip();
+
+    function showTip(item) {
+        const html = item.dataset.taskTooltip;
+        if (!html) return;
+        tip.innerHTML = html;
+        tip.classList.add("visible");
+        positionTip(item);
+    }
+
+    function hideTip() {
+        tip.classList.remove("visible");
+    }
+
+    function positionTip(item) {
+        const rect = item.getBoundingClientRect();
+        tip.style.top = "0px";
+        tip.style.left = "0px";
+        const tipRect = tip.getBoundingClientRect();
+        let top = rect.top - tipRect.height - 8;
+        let left = rect.left;
+        left = Math.max(8, Math.min(left, window.innerWidth - tipRect.width - 8));
+        if (top < 8) {
+            top = rect.bottom + 8;
+        }
+        tip.style.top = `${top}px`;
+        tip.style.left = `${left}px`;
+    }
+
+    contentPane.querySelectorAll(".task-tile").forEach((item) => {
+        item.addEventListener("mouseenter", () => showTip(item));
+        item.addEventListener("mouseleave", hideTip);
+        item.addEventListener("focusin", () => showTip(item));
+        item.addEventListener("focusout", hideTip);
+    });
+}
+
 function readAppData() {
     const raw = document.getElementById("app-data")?.textContent;
     if (!raw) {
@@ -184,6 +222,9 @@ async function renderSelectedGuide({ items, contentPane, enabledRegionNames, sel
         });
         if (selectedItem.render_type === "gear") {
             setupGearTooltips(contentPane);
+        }
+        if (selectedItem.render_type === "tasks") {
+            setupTaskTooltips(contentPane);
         }
     } catch (error) {
         contentPane.innerHTML = `

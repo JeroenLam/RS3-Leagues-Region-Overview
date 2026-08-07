@@ -426,3 +426,123 @@ body {
         order: 2;
     }
 }
+
+/* ── Task tiles ─────────────────────────────────────────────── */
+
+.task-group {
+    margin-bottom: 1.5rem;
+}
+
+.task-group-heading {
+    margin: 0 0 0.55rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    border-bottom: 1px solid #2d364b;
+    padding-bottom: 0.3rem;
+}
+
+.task-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.4rem;
+}
+
+.task-tile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.4rem;
+    background: #1c2333;
+    border: 1px solid #2d3a52;
+    border-radius: 8px;
+    padding: 0.35rem 0.5rem;
+    cursor: default;
+    min-width: 0;
+    transition: background 120ms ease, border-color 120ms ease;
+}
+
+.task-tile:hover,
+.task-tile:focus-visible {
+    background: #252f45;
+    border-color: var(--accent);
+    outline: none;
+}
+
+.task-title {
+    font-size: 0.78rem;
+    line-height: 1.3;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.task-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    flex-shrink: 0;
+}
+
+.task-region-icon {
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    border: 1px solid #3a445a;
+    background: #12182a;
+    object-fit: contain;
+}
+
+.task-region-fallback {
+    display: inline-grid;
+    place-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    border: 1px solid #3a445a;
+    background: #12182a;
+    font-size: 0.52rem;
+    color: #d5dae8;
+}
+
+.task-pts-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+#gear-floating-tooltip .task-tooltip-divider {
+    border: none;
+    border-top: 1px solid #3a445a;
+    margin: 0.3rem 0;
+}
+
+@media (max-width: 1400px) {
+    .task-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1100px) {
+    .task-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .task-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .task-grid {
+        grid-template-columns: 1fr;
+    }
+}

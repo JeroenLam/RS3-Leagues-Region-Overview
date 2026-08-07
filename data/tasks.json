@@ -6,7 +6,6 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Exploration"
     ]
   },
@@ -33,7 +32,8 @@
     "Requirements": "5 Agility",
     "Pts": "10",
     "Tags": [
-      "Agility"
+      "Agility",
+      "Crafting"
     ]
   },
   {
@@ -289,7 +289,8 @@
     "Pts": "10",
     "Tags": [
       "Mining",
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -300,7 +301,8 @@
     "Pts": "10",
     "Tags": [
       "Slayer",
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -310,7 +312,8 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -348,9 +351,7 @@
     "Information": "Level up any of your skills for the first time.",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": [
-      "Combat"
-    ]
+    "Tags": []
   },
   {
     "Region": "Global",
@@ -465,7 +466,8 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Mining"
+      "Mining",
+      "Smithing"
     ]
   },
   {
@@ -474,7 +476,9 @@
     "Information": "Smelt 10 bronze bars .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Smithing"
+    ]
   },
   {
     "Region": "Global",
@@ -643,7 +647,8 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Cooking"
+      "Cooking",
+      "Firemaking"
     ]
   },
   {
@@ -819,7 +824,9 @@
     "Information": "Eat a cabbage .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -828,7 +835,8 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Cooking"
+      "Cooking",
+      "Exploration"
     ]
   },
   {
@@ -837,7 +845,9 @@
     "Information": "Eat an onion .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -865,9 +875,7 @@
     "Information": "Claim a free item from any store e.g. a tinderbox from Lumbridge General Store",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": [
-      "Mining"
-    ]
+    "Tags": []
   },
   {
     "Region": "Global",
@@ -875,9 +883,7 @@
     "Information": "Return a free item to any store e.g. a tinderbox from Lumbridge General Store",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": [
-      "Mining"
-    ]
+    "Tags": []
   },
   {
     "Region": "Global",
@@ -885,9 +891,7 @@
     "Information": "Sell an item to any store .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": [
-      "Mining"
-    ]
+    "Tags": []
   },
   {
     "Region": "Global",
@@ -921,9 +925,7 @@
     "Information": "View the skill guide .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": [
-      "Combat"
-    ]
+    "Tags": []
   },
   {
     "Region": "Global",
@@ -932,7 +934,6 @@
     "Requirements": "18 Herblore Partial completion of One Small Favour",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Herblore"
     ]
   },
@@ -964,7 +965,6 @@
     "Requirements": "A clean guam and an eye of newt",
     "Pts": "10",
     "Tags": [
-      "Attack",
       "Herblore"
     ]
   },
@@ -975,7 +975,6 @@
     "Requirements": "11 Herblore A clean marrentill and cadava berries",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Herblore",
       "Necromancy"
     ]
@@ -986,7 +985,9 @@
     "Information": "Clean 5 grimy guam .",
     "Requirements": "5 grimy guam",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Herblore"
+    ]
   },
   {
     "Region": "Global",
@@ -995,7 +996,6 @@
     "Requirements": "5 Herblore 15 grimy tarromin",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Herblore"
     ]
   },
@@ -1104,6 +1104,7 @@
     "Requirements": "9 Farming Marrentill seed",
     "Pts": "10",
     "Tags": [
+      "Herblore",
       "Farming"
     ]
   },
@@ -1114,6 +1115,7 @@
     "Requirements": "19 Farming Tarromin seeds",
     "Pts": "10",
     "Tags": [
+      "Herblore",
       "Farming"
     ]
   },
@@ -1155,8 +1157,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Prayer",
-      "Construction"
+      "Prayer"
     ]
   },
   {
@@ -1166,8 +1167,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Prayer",
-      "Construction"
+      "Prayer"
     ]
   },
   {
@@ -1197,7 +1197,6 @@
     "Requirements": "5 Prayer",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Prayer"
     ]
   },
@@ -1261,7 +1260,9 @@
     "Information": "Pick 5 flax from flax fields.",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -1271,6 +1272,7 @@
     "Pts": "10",
     "Tags": [
       "Ranged",
+      "Crafting",
       "Fletching"
     ]
   },
@@ -1290,7 +1292,9 @@
     "Information": "Spin a ball of wool by using wool at a spinning wheel .",
     "Requirements": "Wool",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Crafting"
+    ]
   },
   {
     "Region": "Global",
@@ -1341,7 +1345,6 @@
     "Requirements": "27 Construction 4 planks and 10 of any nails for an easy hidey-hole",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Construction"
     ]
   },
@@ -1389,7 +1392,10 @@
     "Information": "Attempt to eat a burnt lobster while inside the Burnt Lobster Tavern .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Firemaking",
+      "Exploration"
+    ]
   },
   {
     "Region": "Havenhythe",
@@ -1414,7 +1420,6 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Exploration"
     ]
   },
@@ -1435,7 +1440,8 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -1529,7 +1535,8 @@
     "Pts": "10",
     "Tags": [
       "Slayer",
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -1581,7 +1588,8 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -1718,7 +1726,8 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -2064,9 +2073,7 @@
     "Information": "Have Elsie tell you a story, she is found upstairs in the church in Varrock. You must give her a cup of tea",
     "Requirements": "A cup of tea",
     "Pts": "10",
-    "Tags": [
-      "Mining"
-    ]
+    "Tags": []
   },
   {
     "Region": "Misthalin",
@@ -2075,7 +2082,6 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Prayer"
     ]
   },
@@ -2107,7 +2113,6 @@
     "Pts": "10",
     "Tags": [
       "Firemaking",
-      "Woodcutting",
       "Archaeology"
     ]
   },
@@ -2140,7 +2145,6 @@
     "Requirements": "5 Thieving",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Thieving"
     ]
   },
@@ -2201,7 +2205,8 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -2211,7 +2216,6 @@
     "Requirements": "Defeat a Ghoul (Paterdomus)",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Combat",
       "Exploration"
     ]
@@ -2363,7 +2367,6 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Prayer"
     ]
   },
@@ -2403,9 +2406,7 @@
     "Information": "Complete the Ten-uous Link achievement.",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": [
-      "Mining"
-    ]
+    "Tags": []
   },
   {
     "Region": "Wilderness",
@@ -2466,7 +2467,8 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -2496,7 +2498,6 @@
     "Requirements": "70 Herblore if cleaning the herb yourself",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Herblore"
     ]
   },
@@ -2548,7 +2549,6 @@
     "Requirements": "Combined Attack and Strength level of 130, or 99 Attack , or 99 Strength",
     "Pts": "30",
     "Tags": [
-      "Attack",
       "Strength",
       "Exploration"
     ]
@@ -2560,7 +2560,6 @@
     "Requirements": "Combined Attack and Strength level of 130, or 99 Attack , or 99 Strength",
     "Pts": "30",
     "Tags": [
-      "Attack",
       "Strength",
       "Defence"
     ]
@@ -2711,7 +2710,6 @@
     "Pts": "30",
     "Tags": [
       "Firemaking",
-      "Woodcutting",
       "Archaeology"
     ]
   },
@@ -2763,7 +2761,8 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -2813,10 +2812,8 @@
     "Requirements": "58 Archaeology A cut dragonstone , which may require 55 Crafting",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Crafting",
       "Firemaking",
-      "Woodcutting",
       "Archaeology"
     ]
   },
@@ -2887,7 +2884,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Construction",
       "Exploration"
     ]
   },
@@ -2933,7 +2929,8 @@
     "Tags": [
       "Attack",
       "Slayer",
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -2943,7 +2940,8 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -2964,7 +2962,8 @@
     "Pts": "30",
     "Tags": [
       "Slayer",
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -2995,7 +2994,8 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -3005,7 +3005,8 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -3127,8 +3128,7 @@
     "Requirements": "All skills except Invention at level 5",
     "Pts": "30",
     "Tags": [
-      "Invention",
-      "Combat"
+      "Invention"
     ]
   },
   {
@@ -3138,8 +3138,7 @@
     "Requirements": "All skills except Invention at level 10",
     "Pts": "30",
     "Tags": [
-      "Invention",
-      "Combat"
+      "Invention"
     ]
   },
   {
@@ -3149,8 +3148,7 @@
     "Requirements": "All skills except Invention at level 20",
     "Pts": "30",
     "Tags": [
-      "Invention",
-      "Combat"
+      "Invention"
     ]
   },
   {
@@ -3169,9 +3167,7 @@
     "Information": "Reach total level 500. This task is currently bugged and may complete before you have reached 500 total levels",
     "Requirements": "500 total level",
     "Pts": "30",
-    "Tags": [
-      "Mining"
-    ]
+    "Tags": []
   },
   {
     "Region": "Global",
@@ -3272,6 +3268,7 @@
     "Pts": "30",
     "Tags": [
       "Defence",
+      "Crafting",
       "Hunter"
     ]
   },
@@ -3282,7 +3279,6 @@
     "Requirements": "3 Herblore",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Herblore"
     ]
   },
@@ -3347,8 +3343,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Prayer",
-      "Construction"
+      "Prayer"
     ]
   },
   {
@@ -3368,7 +3363,6 @@
     "Requirements": "50 Prayer",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Prayer"
     ]
   },
@@ -3444,7 +3438,6 @@
     "Requirements": "38 Herblore",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Herblore",
       "Prayer"
     ]
@@ -3467,8 +3460,6 @@
     "Requirements": "45 Herblore",
     "Pts": "30",
     "Tags": [
-      "Attack",
-      "Mining",
       "Herblore"
     ]
   },
@@ -3479,7 +3470,6 @@
     "Requirements": "25 Herblore",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Herblore"
     ]
   },
@@ -3490,7 +3480,6 @@
     "Requirements": "48 Herblore",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Herblore"
     ]
   },
@@ -3501,6 +3490,7 @@
     "Requirements": "32 Farming",
     "Pts": "30",
     "Tags": [
+      "Herblore",
       "Farming"
     ]
   },
@@ -3619,7 +3609,6 @@
     "Requirements": "27 Farming",
     "Pts": "30",
     "Tags": [
-      "Woodcutting",
       "Farming"
     ]
   },
@@ -3743,7 +3732,6 @@
     "Requirements": "49 Firemaking Either 36 Thieving and completion of Death to the Dorgeshuun ; or 50 quest points and the Lorehound pet unlocked; or 20 Smithing and 49 Crafting to create from scratch",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Smithing",
       "Thieving",
       "Crafting",
@@ -4086,7 +4074,6 @@
     "Requirements": "5 Attack or 5 Ranged or 5 Magic (claimed from Gudrik in Port Sarim )",
     "Pts": "30",
     "Tags": [
-      "Attack",
       "Ranged",
       "Magic"
     ]
@@ -4128,8 +4115,7 @@
     "Requirements": "All skills except Invention at level 30",
     "Pts": "30",
     "Tags": [
-      "Invention",
-      "Combat"
+      "Invention"
     ]
   },
   {
@@ -4198,10 +4184,7 @@
     "Information": "Search a hollow tree within the Highweald forest .",
     "Requirements": "N/A",
     "Pts": "30",
-    "Tags": [
-      "Mining",
-      "Woodcutting"
-    ]
+    "Tags": []
   },
   {
     "Region": "Havenhythe",
@@ -4245,7 +4228,6 @@
     "Requirements": "15 Herblore",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Herblore"
     ]
   },
@@ -4289,7 +4271,6 @@
     "Pts": "30",
     "Tags": [
       "Firemaking",
-      "Woodcutting",
       "Archaeology"
     ]
   },
@@ -4300,9 +4281,7 @@
     "Requirements": "82 Archaeology",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Firemaking",
-      "Woodcutting",
       "Archaeology"
     ]
   },
@@ -4388,7 +4367,6 @@
     "Requirements": "57 Farming",
     "Pts": "30",
     "Tags": [
-      "Woodcutting",
       "Farming"
     ]
   },
@@ -4399,7 +4377,8 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -4420,7 +4399,8 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -4616,7 +4596,6 @@
     "Requirements": "33 Farming",
     "Pts": "30",
     "Tags": [
-      "Woodcutting",
       "Farming"
     ]
   },
@@ -4627,7 +4606,8 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Combat"
+      "Combat",
+      "Exploration"
     ]
   },
   {
@@ -4689,7 +4669,6 @@
     "Requirements": "60 Attack",
     "Pts": "30",
     "Tags": [
-      "Attack",
       "Defence"
     ]
   },
@@ -4700,7 +4679,6 @@
     "Requirements": "60 Attack",
     "Pts": "30",
     "Tags": [
-      "Attack",
       "Defence"
     ]
   },
@@ -5014,7 +4992,6 @@
     "Requirements": "See Easy Varrock achievements page",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Questing"
     ]
   },
@@ -5025,7 +5002,6 @@
     "Requirements": "See Medium Varrock achievements page",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Questing"
     ]
   },
@@ -5089,7 +5065,6 @@
     "Requirements": "40 Thieving",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Thieving"
     ]
   },
@@ -5151,7 +5126,6 @@
     "Pts": "30",
     "Tags": [
       "Firemaking",
-      "Woodcutting",
       "Archaeology",
       "Exploration"
     ]
@@ -5276,7 +5250,6 @@
     "Requirements": "57 Farming",
     "Pts": "30",
     "Tags": [
-      "Woodcutting",
       "Farming"
     ]
   },
@@ -5299,7 +5272,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Construction",
       "Exploration"
     ]
   },
@@ -5424,7 +5396,6 @@
     "Requirements": "60 Magic Completion of Mage Arena",
     "Pts": "30",
     "Tags": [
-      "Attack",
       "Magic"
     ]
   },

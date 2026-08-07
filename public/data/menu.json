@@ -185,7 +185,7 @@
             "name": "Tasks",
             "file": "tasks.json",
             "image": "icon/task.webp",
-            "render_type": "task"
+            "render_type": "tasks"
         }
     ]
 }

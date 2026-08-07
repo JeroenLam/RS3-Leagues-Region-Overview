@@ -15,7 +15,6 @@ OUTPUT_JSON = "../output/equilibrium_league_tasks_enriched.json"
 
 TAG_RULES = {
     "Attack": [
-        r"\battack\b",
         r"attack level",
         r"attack xp",
         r"weapon",
@@ -30,8 +29,8 @@ TAG_RULES = {
     "Mining": [
         r"\bmine\b",
         r"mining",
-        r"ore",
-        r"rock",
+        r" ore",
+        r" rock",
         r"geodes",
     ],
     "Strength": [
@@ -50,6 +49,7 @@ TAG_RULES = {
         r"forge",
         r"anvil",
         r"Artisans' Workshop",
+        r"Smelt",
     ],
     "Defence": [
         r"defence",
@@ -61,6 +61,7 @@ TAG_RULES = {
         r"herblore",
         r"potion",
         r"herb",
+        r"grimy",
     ],
     "Fishing": [
         r"fish",
@@ -96,11 +97,13 @@ TAG_RULES = {
         r"crafting",
         r"jewellery",
         r"jewelry",
+        r"Spin",
     ],
     "Firemaking": [
         r"firemaking",
         r"light.*fire",
         r"log",
+        r"Burn",
     ],
     "Magic": [
         r"magic",
@@ -115,8 +118,10 @@ TAG_RULES = {
     ],
     "Woodcutting": [
         r"woodcut",
-        r"tree",
-        r"log",
+        r"chop",
+        r"Chop",
+        r" log",
+        r"cut.*tree",
     ],
     "Runecrafting": [
         r"runecraft",
@@ -137,7 +142,6 @@ TAG_RULES = {
     ],
     "Construction": [
         r"construction",
-        r"player-owned house",
         r"plank",
     ],
     "Hunter": [
@@ -188,7 +192,8 @@ TAG_RULES = {
         r"diary",
     ],
     "Combat": [
-        r"kill",
+        r" kill",
+        r"Kill a",
         r"defeat",
         r"boss",
         r"combat",
@@ -219,6 +224,8 @@ TAG_RULES = {
         r"Give Bill",
         r"Milk a cow",
         r"Ned make you some rope",
+        r"Pick 5 flax",
+        r"Eat a",
     ],
     "Minigame": [
         r"Temple Trek",
