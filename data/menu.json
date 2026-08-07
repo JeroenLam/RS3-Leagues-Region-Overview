@@ -180,6 +180,12 @@
             "file": "bosses.json",
             "image": "icon/combat_hard.webp",
             "render_type": "boss"
+        },
+        {
+            "name": "Tasks",
+            "file": "tasks.json",
+            "image": "icon/task.webp",
+            "render_type": "task"
         }
     ]
 }

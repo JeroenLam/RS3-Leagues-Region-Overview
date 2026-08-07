@@ -1,0 +1,3733 @@
+[
+  {
+    "Region": "Anachronia",
+    "Task": "Set sail for Anachronia.",
+    "Information": "Set sail for Anachronia on The Stormbreaker docked at Varrock Dig Site .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Anachronia",
+    "Task": "Complete the base camp tutorial.",
+    "Information": "Complete the base camp tutorial.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Anachronia",
+    "Task": "Observe all the large dragonkin statues around Anachronia.",
+    "Information": "Observe all the large dragonkin statues around Anachronia .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Anachronia",
+    "Task": "Surge under the spine on Anachronia.",
+    "Information": "Surge under the spine on Anachronia",
+    "Requirements": "5 Agility",
+    "Pts": "10"
+  },
+  {
+    "Region": "Anachronia",
+    "Task": "Complete the miniquest: Helping Laniakea.",
+    "Information": "Complete the miniquest: Helping Laniakea .",
+    "Requirements": "See miniquest page",
+    "Pts": "10"
+  },
+  {
+    "Region": "Anachronia",
+    "Task": "Complete the quest: Raksha, the Shadow Colossus.",
+    "Information": "Complete Raksha, the Shadow Colossus quest.",
+    "Requirements": "See quest page",
+    "Pts": "10"
+  },
+  {
+    "Region": "Anachronia",
+    "Task": "Obtain 100 potent herbs from Herby Werby.",
+    "Information": "Obtain 100 potent herbs from Herby Werby .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Complete a lap of the Burthorpe Agility course.",
+    "Information": "Complete a lap of the Burthorpe Agility Course .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Kill a goblin raider boss in the Goblin Village.",
+    "Information": "Kill 15 goblins in the Goblin Village to spawn a goblin raider boss .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Get Harvey's ball back from the scary lady.",
+    "Information": "Complete Witch's House .",
+    "Requirements": "See quest page",
+    "Pts": "10"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Sit down with Sir Tiffy in Falador park.",
+    "Information": "Sit on the bench with Sir Tiffy Cashien in Falador Park .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Pray to Bandos's remains.",
+    "Information": "Pray to Bandos's remains (just south-east of Goblin Village ).",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Dance in the Falador party room.",
+    "Information": "Dance in the Falador party room .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Give Thurgo a redberry pie.",
+    "Information": "Give Thurgo a redberry pie .",
+    "Requirements": "10 Cooking",
+    "Pts": "10"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Build a God statue in Taverley.",
+    "Information": "Build a God statue in Taverley .",
+    "Requirements": "Completion of Let Them Eat Pie",
+    "Pts": "10"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Teleport to Castle Wars with a Ring of Dueling.",
+    "Information": "Teleport to Castle Wars with a ring of duelling .",
+    "Requirements": "27 Magic 27 Crafting Materials to make a ring of duelling",
+    "Pts": "10"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Enter Menaphos.",
+    "Information": "Enter Menaphos .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Catch a whirligig at Het's Oasis.",
+    "Information": "Catch a whirligig at Het's Oasis .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Search the Grand Gold Chest in room 1 of Pyramid Plunder in Sophanem.",
+    "Information": "Search the grand gold chest in room 1 of Pyramid Plunder in Sophanem .",
+    "Requirements": "21 Thieving",
+    "Pts": "10"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Search the Grand Gold Chest in room 2 of Pyramid Plunder in Sophanem.",
+    "Information": "Search the grand gold chest in room 2 of Pyramid Plunder in Sophanem .",
+    "Requirements": "31 Thieving",
+    "Pts": "10"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Search the Grand Gold Chest in room 3 of Pyramid Plunder in Sophanem.",
+    "Information": "Search the grand gold chest in room 3 of Pyramid Plunder in Sophanem .",
+    "Requirements": "41 Thieving",
+    "Pts": "10"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Mine a gem rock at the Al Kharid mine.",
+    "Information": "Mine a gem rock at the Al Kharid mine . Common gem rocks can be mined with level 1 Mining.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Kill a crocodile.",
+    "Information": "Kill a crocodile .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Create a spirit kalphite pouch at the obelisk south west of Pollnivneach.",
+    "Information": "Create a spirit kalphite pouch at the obelisk south west of Pollnivneach .",
+    "Requirements": "25 Summoning A pouch , 51 spirit shards , a blue charm , and a potato cactus",
+    "Pts": "10"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Squish 10 corrupted scarabs.",
+    "Information": "Squish 10 corrupted scarabs .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Hand Simon Templeton a pyramid top.",
+    "Information": "Get a pyramid top by climbing to the top of the Agility Pyramid , then trade it to Simon Templeton at the base of the pyramid.",
+    "Requirements": "30 Agility",
+    "Pts": "10"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Use any of the magic carpets in the desert.",
+    "Information": "Use any of the magic carpets in the desert.",
+    "Requirements": "1,000",
+    "Pts": "10"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Harvest a rose at Het's Oasis.",
+    "Information": "Harvest a rose at Het's Oasis .",
+    "Requirements": "30 Farming",
+    "Pts": "10"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Switch to the Lunar Spellbook at the astral altar.",
+    "Information": "Switch to the Lunar Spellbook at the astral altar .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Defeat a rock crab in the Fremennik Province.",
+    "Information": "Defeat a rock crab in the Fremennik Province .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Defeat a cockatrice in the Fremennik Province.",
+    "Information": "Defeat a cockatrice in the Fremennik Province .",
+    "Requirements": "25 Slayer A mirror shield",
+    "Pts": "10"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Defeat a troll in the Fremennik Province.",
+    "Information": "Defeat a troll in the Fremennik Province . Many ice troll variants can be found on the Fremennik Isles .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Deposit an item with Peer the Seer.",
+    "Information": "Deposit an item with Peer the Seer .",
+    "Requirements": "Completion of the easy Fremennik achievements",
+    "Pts": "10"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Use the bank on Jatizso or Neitiznot.",
+    "Information": "Use the Bank on Jatizso or Neitiznot .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Catch a sapphire glacialis.",
+    "Information": "Catch a sapphire glacialis . They can only be caught at the Rellekka Hunter area .",
+    "Requirements": "25 Hunter A butterfly net and jar",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Level up any of your skills for the first time.",
+    "Information": "Level up any of your skills for the first time.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach level 5 in any skill.",
+    "Information": "Reach level 5 in any skill.",
+    "Requirements": "Any skill at level 5",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach level 10 in any skill.",
+    "Information": "Reach level 10 in any skill.",
+    "Requirements": "Any skill at level 10",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach level 20 in any skill.",
+    "Information": "Reach level 20 in any skill.",
+    "Requirements": "Any skill at level 20",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach combat level 5.",
+    "Information": "Reach combat level 5.",
+    "Requirements": "5 combat level",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach combat level 10.",
+    "Information": "Reach combat level 10.",
+    "Requirements": "10 combat level",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach total level 50.",
+    "Information": "Reach total level 50.",
+    "Requirements": "50 total level",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach total level 100.",
+    "Information": "Reach total level 100.",
+    "Requirements": "100 total level",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Mine a copper ore.",
+    "Information": "Mine copper ore from a copper rock .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Mine 10 copper ore.",
+    "Information": "Mine 10 copper ore .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Mine a tin ore.",
+    "Information": "Mine tin ore from a tin rock .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Mine 10 tin ore.",
+    "Information": "Mine 10 tin ore .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Smelt a bronze bar.",
+    "Information": "Smelt a bronze bar (requires 1 tin and 1 copper ore ).",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Smelt 10 bronze bars.",
+    "Information": "Smelt 10 bronze bars .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Smith any bronze item.",
+    "Information": "Smith any bronze item.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Mine clay.",
+    "Information": "Mine clay .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make soft clay.",
+    "Information": "Make soft clay by using clay on a water source or with a container of water.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Mine any ore 5 times.",
+    "Information": "Mine any ore 5 times.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Chop any tree 5 times.",
+    "Information": "Chop any tree 5 times.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Chop a basic tree.",
+    "Information": "Chop a basic tree .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Chop 10 basic trees.",
+    "Information": "Chop 10 basic trees .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Chop an oak tree.",
+    "Information": "Chop an oak tree.",
+    "Requirements": "10 Woodcutting",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Burn any logs.",
+    "Information": "Burn any logs .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Burn any logs 5 times.",
+    "Information": "Burn any logs 5 times.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch a shrimp.",
+    "Information": "Catch raw shrimps by using the net option at a net/bait fishing spot .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch 10 shrimp.",
+    "Information": "Catch 10 raw shrimps .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch an anchovy.",
+    "Information": "Catch raw anchovies by using the net option at a net/bait fishing spot .",
+    "Requirements": "15 Fishing",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch a herring.",
+    "Information": "Catch a raw herring by using the bait option at a net/bait fishing spot",
+    "Requirements": "10 Fishing",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Cook shrimp, meat, or chicken.",
+    "Information": "Cook raw shrimps , raw meat , or raw chicken .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Cook 10 shrimp, meat, or chicken.",
+    "Information": "Cook 10 raw shrimps , raw meat , or raw chicken .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Burn any food.",
+    "Information": "Burn any food.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch any fish 5 times.",
+    "Information": "Catch any fish 5 times.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Bury any bones.",
+    "Information": "Bury any bones .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Bury any bones 10 times.",
+    "Information": "Bury any bones 10 times.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Activate the thick skin, rock skin, or steel skin prayer.",
+    "Information": "Activate the Thick Skin , Rock Skin , or Steel Skin prayer.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Run out of prayer points.",
+    "Information": "Run out of Prayer points .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Harvest any memory from a wisp 5 times.",
+    "Information": "Harvest any memory from a wisp 5 times.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Pickpocket from a man or woman.",
+    "Information": "Pickpocket from a man or woman .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Pickpocket from a man or woman 10 times.",
+    "Information": "Pickpocket from a man or woman 10 times.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Steal from any stall.",
+    "Information": "Steal from any stall .",
+    "Requirements": "2 Thieving for Vegetable Stalls",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Steal from any stall 10 times.",
+    "Information": "Steal from any stall 10 times.",
+    "Requirements": "2 Thieving for Vegetable Stalls",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Pickpocket anyone 5 times.",
+    "Information": "Pickpocket anyone 5 times.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Rake any farming patch.",
+    "Information": "Rake any farming patch .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Plant seeds in any farming patch.",
+    "Information": "Plant seeds in any farming patch .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Plant seeds in any farming patch 10 times.",
+    "Information": "Plant seeds in any farming patch 10 times.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Add any compostable item to a compost bin.",
+    "Information": "Add any compostable item to a compost bin .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Have a tool leprechaun note any produce.",
+    "Information": "Have a tool leprechaun note any produce.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Use the Home Teleport spell to return to Lumbridge.",
+    "Information": "Use the Home Teleport spell to return to Lumbridge .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Eat a cabbage.",
+    "Information": "Eat a cabbage .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Eat a baked potato.",
+    "Information": "Eat a baked potato . You will need to get a raw potato and cook it at a range .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Eat an onion.",
+    "Information": "Eat an onion .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Kill an imp.",
+    "Information": "Kill an imp .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Kill a chicken.",
+    "Information": "Kill a chicken .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Claim a free item from any store.",
+    "Information": "Claim a free item from any store e.g. a tinderbox from Lumbridge General Store",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Return a free item to any store.",
+    "Information": "Return a free item to any store e.g. a tinderbox from Lumbridge General Store",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Sell an item to any store.",
+    "Information": "Sell an item to any store .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Listen to any musician.",
+    "Information": "Listen to any musician .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Pick wheat from a field.",
+    "Information": "Pick wheat from a field.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Prospect any rock.",
+    "Information": "Prospect any rock .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "View the skillguide.",
+    "Information": "View the skill guide .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Create a Guthix rest potion.",
+    "Information": "Create a Guthix rest potion.",
+    "Requirements": "18 Herblore Partial completion of One Small Favour",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make 5 potions of any kind.",
+    "Information": "Make 5 potions of any kind.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Drink a strength potion.",
+    "Information": "Drink a strength potion .",
+    "Requirements": "Giving a limpwurt root and red spiders' eggs to the Apothecary",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make an attack potion.",
+    "Information": "Make an attack potion .",
+    "Requirements": "A clean guam and an eye of newt",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make a necromancy potion.",
+    "Information": "Make a necromancy potion .",
+    "Requirements": "11 Herblore A clean marrentill and cadava berries",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Clean 5 grimy guam.",
+    "Information": "Clean 5 grimy guam .",
+    "Requirements": "5 grimy guam",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Clean 15 grimy tarromin.",
+    "Information": "Clean 15 grimy tarromin .",
+    "Requirements": "5 Herblore 15 grimy tarromin",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Clean 5 of any herb.",
+    "Information": "Clean 5 of any herb.",
+    "Requirements": "5 of any grimy herb",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Clean 10 of any herb",
+    "Information": "Clean 10 of any herb",
+    "Requirements": "10 of any grimy herb",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Fletch an oak shortbow (unstrung).",
+    "Information": "Fletch an unstrung oak shortbow .",
+    "Requirements": "10 Fletching Oak logs",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Fletch some arrow shafts.",
+    "Information": "Fletch some arrow shafts .",
+    "Requirements": "Logs of any kind",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Fletch 50 bronze bolts.",
+    "Information": "Fletch 50 bronze bolts .",
+    "Requirements": "3 Fletching A bronze bar and 50 feathers",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Complete 10 laps of any agility course.",
+    "Information": "Complete 10 laps of any Agility course .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Smith 10 of any metal weapon or armour piece.",
+    "Information": "Smith 10 of any metal weapon or armour piece.",
+    "Requirements": "10 of any metal bar",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Open 30 sedimentary geodes.",
+    "Information": "Open 30 sedimentary geodes . These are found randomly while mining.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Maintain nearly maximum stamina when mining for 60 seconds.",
+    "Information": "Maintain nearly maximum stamina by re-clicking the rock everytime the stamina (yellow) bar decreases when mining for 60 seconds. See My Sick Four Tick Trick for more information.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Harvest a grimy marrentill.",
+    "Information": "Harvest a grimy marrentill .",
+    "Requirements": "9 Farming Marrentill seed",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Harvest 10 grimy tarromin.",
+    "Information": "Harvest 10 grimy tarromin .",
+    "Requirements": "19 Farming Tarromin seeds",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Cook 5 fish.",
+    "Information": "Cook 5 fish .",
+    "Requirements": "5 of any raw fish",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make some bread.",
+    "Information": "Make some bread . Bread dough can be created by using a pot of flour with water, it must be cooked at a range .",
+    "Requirements": "Bread dough",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make some flour.",
+    "Information": "Make a pot of flour by grinding wheat at a windmill and collecting the flour in an empty pot .",
+    "Requirements": "Wheat",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Offer 5 bones of any kind to an altar.",
+    "Information": "Offer 5 bones ( ashes also work) at the chaos altar in the Wilderness, the altar in Fort Forinthry, or an altar in the player-owned house chapel",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Offer 25 bones of any kind to an altar.",
+    "Information": "Offer 25 bones ( ashes also work) at the chaos altar in the Wilderness, the altar in Fort Forinthry, or an altar in the player-owned house chapel",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Scatter some ashes.",
+    "Information": "Scatter some ashes .",
+    "Requirements": "Any demonic ashes",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Scatter 25 ashes of any kind.",
+    "Information": "Scatter 25 ashes of any kind.",
+    "Requirements": "25 of any demonic ashes",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Restore 50 prayer points at an altar at once.",
+    "Information": "Restore 50 Prayer Points at an Altar at once.",
+    "Requirements": "5 Prayer",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.",
+    "Information": "Activate Superhuman or Ultimate Strength and Improved or Incredible Reflexes prayers at the same time.",
+    "Requirements": "16 Prayer",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch a baby impling.",
+    "Information": "Catch a baby impling . Cannot be completed in Puro-Puro .",
+    "Requirements": "17 Hunter",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch 10 implings of any kind.",
+    "Information": "Catch 10 implings. Cannot be completed in Puro-Puro .",
+    "Requirements": "17 Hunter",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch 5 Hunter creatures.",
+    "Information": "Catch 5 Hunter creatures.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Complete 5 Slayer tasks.",
+    "Information": "Complete 5 Slayer assignments .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Pick 5 flax.",
+    "Information": "Pick 5 flax from flax fields.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Spin 5 bowstring.",
+    "Information": "Spin 5 bowstrings by using flax on a spinning wheel .",
+    "Requirements": "5 flax",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Surge a distance of one tile.",
+    "Information": "Surge a distance of one tile.",
+    "Requirements": "5 Agility",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Spin a ball of wool.",
+    "Information": "Spin a ball of wool by using wool at a spinning wheel .",
+    "Requirements": "Wool",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of iron armour without any upgrades.",
+    "Information": "Equip an iron full helm , iron platebody , iron platelegs / iron plateskirt , iron gauntlets , and iron armoured boots . Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Iron armour can be bought at Horvik's Armour Shop .",
+    "Requirements": "10 Defence",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of green dragonhide armour.",
+    "Information": "Equip a green dragonhide coif , green dragonhide body , green dragonhide chaps , green dragonhide vambraces , and green dragonhide boots . These can all be bought at Lowe's Archery Emporium .",
+    "Requirements": "40 Defence",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of imphide robes.",
+    "Information": "Equip an imphide hood , imphide robe top , imphide robe bottom , imphide gloves , and imphide boots . Imphide armour can be bought at Zaff's Superior Spellcasting .",
+    "Requirements": "10 Defence",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of spider silk robes.",
+    "Information": "Equip a spider silk hood , spider silk robe top , spider silk robe bottom , spider silk gloves , and spider silk boots . Spider silk armour can be bought at Zaff's Superior Spellcasting .",
+    "Requirements": "20 Defence",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Store the items required for an emote clue in a Treasure Trail hidey-hole.",
+    "Information": "Store the items required for an emote clue in a Treasure Trail hidey-hole .",
+    "Requirements": "27 Construction 4 planks and 10 of any nails for an easy hidey-hole",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Complete an easy clue scroll.",
+    "Information": "Complete an easy clue scroll .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Global",
+    "Task": "Collect 10 unique items for the general clue rewards collection log.",
+    "Information": "Collect 10 unique items for the general clue rewards collection log .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Bring marigolds to Anya at her campsite.",
+    "Information": "Bring marigolds to Anya at her campsite.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Use the outhouse on the cliffs north of Wendlewick.",
+    "Information": "Use the outhouse on the cliffs north of Wendlewick .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Attempt to eat a burnt lobster while inside the Burnt Lobster Tavern.",
+    "Information": "Attempt to eat a burnt lobster while inside the Burnt Lobster Tavern .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Attempt to pet Inanna.",
+    "Information": "Attempt to pet Inanna .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Find and speak to the drunken villager.",
+    "Information": "Find and speak to the drunken villager .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Use a fairy ring to travel to Amberfell forest.",
+    "Information": "Use a fairy ring to travel to Amberfell forest.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Climb to the top of the Wendlewick lighthouse.",
+    "Information": "Climb to the top of the Wendlewick lighthouse .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Defeat a juvenile boulder crab.",
+    "Information": "Defeat a juvenile boulder crab .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Pickpocket a ranger in Wendlewick.",
+    "Information": "Pickpocket a ranger in Wendlewick .",
+    "Requirements": "40 Thieving",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Cut creeping ivy 20 times.",
+    "Information": "Cut creeping ivy 20 times.",
+    "Requirements": "35 Woodcutting",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Catch a jackalope.",
+    "Information": "Catch a jackalope .",
+    "Requirements": "32 Hunter",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Use an empowered obelisk to create a jackalope pouch at the Shrine of Inanna.",
+    "Information": "Use an empowered obelisk to create a jackalope pouch at the Shrine of Inanna .",
+    "Requirements": "30 Summoning",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Use the spirit plane connection bonus at the Shrine of Inanna to create a summoning pouch for free.",
+    "Information": "Use the spirit plane connection bonus at the Shrine of Inanna to create a summoning pouch for free.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Construct a birdhouse.",
+    "Information": "Construct a birdhouse .",
+    "Requirements": "5 Crafting , 10 Fletching",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Mine 20 havensilver ore.",
+    "Information": "Mine 20 havensilver ore .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Smith a havensilver weapon.",
+    "Information": "Smith a havensilver weapon .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Defeat a Sanguine crawler.",
+    "Information": "Defeat a Sanguine crawler .",
+    "Requirements": "28 Slayer",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Defeat Ivar, King of Bones.",
+    "Information": "Defeat Ivar, King of Bones .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Defeat Silverquill, the Dreadhog.",
+    "Information": "Defeat Silverquill, the Dreadhog .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Complete the Gnome Stronghold Agility Course.",
+    "Information": "Complete the Gnome Stronghold Agility Course .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Catch a crimson swift in the Feldip Hills.",
+    "Information": "Catch a crimson swift in the Feldip Hunter area .",
+    "Requirements": "A bird snare",
+    "Pts": "10"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Defeat a tortoise with riders in Kandarin.",
+    "Information": "Defeat a tortoise with riders in Kandarin.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Let Brimstail teleport you to the Rune Essence mine.",
+    "Information": "Let Brimstail teleport you to the Rune Essence mine .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Obtain a Naragi engram from Orla Fairweather.",
+    "Information": "Obtain a Naragi engram from Orla Fairweather . The engram is given to the player during the tutorial for Memorial to Guthix .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Learn how to raise your own animals at Manor Farm.",
+    "Information": "Learn how to raise your own animals at Manor Farm .",
+    "Requirements": "17 Farming 20 Construction",
+    "Pts": "10"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Catch a wild kebbit.",
+    "Information": "Catch a wild kebbit . They can only be caught at the Piscatoris Hunter area by setting up deadfall traps .",
+    "Requirements": "23 Hunter Logs of any kind",
+    "Pts": "10"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Enter the Wilderness from Ardougne.",
+    "Information": "Enter the Wilderness from Ardougne using the lever .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Make a pineapple punch cocktail.",
+    "Information": "Make a Pineapple Punch cocktail.",
+    "Requirements": "8 Cooking See Pineapple Punch for ingredients",
+    "Pts": "10"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Collect 5 seaweed from anywhere on Karamja.",
+    "Information": "Collect 5 seaweed from anywhere on Karamja . There are spawns just south of the Karamja lodestone .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Fill up Luthas' crate near the Musa Point plantation with bananas and receive 30 coins for your work.",
+    "Information": "Fill up Luthas ' crate near the Banana plantation with bananas and talk to him to receive 30 coins for your work.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Claim a ticket from Brimhaven Agility Arena.",
+    "Information": "Claim a ticket from Brimhaven Agility Arena .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Kill a snake.",
+    "Information": "Kill a snake .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Catch a karambwanji.",
+    "Information": "Catch a raw karambwanji .",
+    "Requirements": "5 Fishing",
+    "Pts": "10"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Be assigned a Slayer task in Shilo Village.",
+    "Information": "Be assigned a Slayer task in Shilo Village .",
+    "Requirements": "100 combat level 50 Slayer",
+    "Pts": "10"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Defeat a greater demon on Karamja.",
+    "Information": "Defeat a greater demon on Karamja .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Pick a pineapple on Karamja.",
+    "Information": "Pick a pineapple on Karamja from the pineapple Plants near the lodestone.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Enter the Brimhaven Dungeon.",
+    "Information": "Enter the Brimhaven Dungeon .",
+    "Requirements": "875 coins",
+    "Pts": "10"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Cross the spiky pit using the stepping stones within Brimhaven Dungeon.",
+    "Information": "Cross the spiky pit using the stepping stones within Brimhaven Dungeon .",
+    "Requirements": "12 Agility",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Progress through the Leagues tutorial to unlock your first relic.",
+    "Information": "Progress through the Leagues tutorial to unlock your first relic .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Climb to the top of the Wizards' Tower.",
+    "Information": "Climb to the top of the Wizards' Tower .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Have Ned make you some rope from balls of wool.",
+    "Information": "Have Ned make you some rope from 4 balls of wool .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Siphon from a fire essling in the Runespan.",
+    "Information": "Siphon from a fire essling in the Runespan .",
+    "Requirements": "14 Runecrafting",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Convert at least one pale memory into energy.",
+    "Information": "Convert at least one pale memory into energy .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Kill a mugger near the Edgeville lodestone.",
+    "Information": "Kill a mugger near the Edgeville lodestone .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Mine some coal in the centre of Barbarian village.",
+    "Information": "Mine some coal in the centre of Barbarian Village .",
+    "Requirements": "20 Mining",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Use the bank in the workshop at Fort Forinthry.",
+    "Information": "Use the bank in the workshop at Fort Forinthry .",
+    "Requirements": "Partial completion of New Foundations",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Kill a giant rat in Lumbridge Swamp.",
+    "Information": "Kill a giant rat in Lumbridge Swamp .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Kill a goblin in Lumbridge.",
+    "Information": "Kill a goblin in Lumbridge .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Kill a giant spider in Lumbridge or Lumbridge Swamp.",
+    "Information": "Kill a giant spider in Lumbridge or Lumbridge Swamp .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Milk a cow.",
+    "Information": "Milk a cow .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Talk to Hans and find out how old you are.",
+    "Information": "Talk to Hans and find out how old you are.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the quest: The Blood Pact.",
+    "Information": "Complete The Blood Pact .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Catch some shrimp in the fishing spot to the east of Lumbridge Swamp.",
+    "Information": "Catch some shrimp by using the net option on the net/bait fishing spot to the east of Lumbridge Swamp .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Smelt a steel bar in the furnace in Lumbridge.",
+    "Information": "Smelt a steel bar in the furnace in Lumbridge using an iron ore and coal .",
+    "Requirements": "20 Smithing",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Cook some rat meat on a campfire in Lumbridge Swamp.",
+    "Information": "Cook some rat meat on a campfire in Lumbridge Swamp .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Mine iron ore from the mining site south-west of Lumbridge Swamp.",
+    "Information": "Mine iron ore from the mining site south-west of Lumbridge Swamp .",
+    "Requirements": "10 Mining",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Craft a water rune at the Water Altar.",
+    "Information": "Craft a water rune at the Water altar .",
+    "Requirements": "5 Runecrafting",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete a task from Jacquelyn, the Lumbridge Slayer master.",
+    "Information": "Complete a task from Jacquelyn , the Lumbridge Slayer master.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the quest: Necromancy!",
+    "Information": "Complete Necromancy!",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Upgrade a piece of Death Skull or Deathwarden equipment to tier 20.",
+    "Information": "Upgrade a piece of death skull or deathwarden equipment to tier 20.",
+    "Requirements": "20 Necromancy , 15 Smithing (death skull) OR 15 Crafting (Deathwarden)",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Craft some spirit or bone runes.",
+    "Information": "Craft some spirit or bone runes .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete a Lesser Necroplasm ritual.",
+    "Information": "Complete a Lesser Necroplasm ritual .",
+    "Requirements": "5 Necromancy",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Conjure a skeleton at the City of Um ritual site.",
+    "Information": "Conjure a Skeleton Warrior at the Um ritual site .",
+    "Requirements": "2 Necromancy Conjure Skeleton Warrior unlocked at the Well of Souls",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Conjure a zombie at the City of Um ritual site.",
+    "Information": "Conjure a Putrid Zombie at the Um ritual site .",
+    "Requirements": "40 Necromancy Conjure Putrid Zombie unlocked at the Well of Souls",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Conjure a ghost at the City of Um ritual site.",
+    "Information": "Conjure a Vengeful Ghost at the Um ritual site .",
+    "Requirements": "40 Necromancy Conjure Vengeful Ghost unlocked at the Well of Souls",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Kill a dark wizard.",
+    "Information": "Kill a dark wizard .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Enter the Earth Altar using an earth tiara or talisman.",
+    "Information": "Enter the earth altar using an earth tiara or talisman .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Have Elsie tell you a story.",
+    "Information": "Have Elsie tell you a story, she is found upstairs in the church in Varrock. You must give her a cup of tea",
+    "Requirements": "A cup of tea",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Give a bone to one of Varrock's stray dogs (or to your pet stray dog if you have one).",
+    "Information": "Use some bones on one of Varrock's stray dogs (or to your pet stray dog if you have one).",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Claim a free clue scroll from Zaida at the Grand Exchange.",
+    "Information": "Claim a free clue scroll from Zaida at the Grand Exchange.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Give Bill a beer in Fort Forinthry.",
+    "Information": "Give Bill a beer in Fort Forinthry.",
+    "Requirements": "A beer , partial completion of New Foundations",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the Archaeology tutorial.",
+    "Information": "Complete the Archaeology tutorial .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Make a plank yourself on the sawmill in Fort Forinthry.",
+    "Information": "Make a plank yourself on the sawmill in Fort Forinthry. Must be a regular plank made from logs",
+    "Requirements": "Partial completion of New Foundations",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Mine some iron ore in the mining spot south-west of Varrock.",
+    "Information": "Mine some iron ore in the mining spot south-west of Varrock.",
+    "Requirements": "10 Mining",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Steal from the Varrock tea stall.",
+    "Information": "Steal from the Varrock tea stall .",
+    "Requirements": "5 Thieving",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Pan for an uncut jade at the Digsite.",
+    "Information": "Pan for an uncut jade at the Digsite .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Harvest a memory from a pale wisp.",
+    "Information": "Harvest a pale memory from a pale wisp .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Harvest 10 memories from a pale wisp.",
+    "Information": "Harvest 10 pale memories from a pale wisp .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Complete an easy Temple Trek.",
+    "Information": "Complete an easy Temple Trek .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Craft a snelm.",
+    "Information": "Craft a snelm .",
+    "Requirements": "15 Crafting Any blamish shell",
+    "Pts": "10"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Defeat a werewolf in Morytania.",
+    "Information": "Defeat a werewolf in Morytania.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Pass through the holy barrier.",
+    "Information": "Pass through the holy barrier under the Paterdomus (enter through the mausoleum). You must defeat the ghoul before you can pass.",
+    "Requirements": "Defeat a Ghoul (Paterdomus)",
+    "Pts": "10"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Enter through the western gate of Port Phasmatys.",
+    "Information": "Pass through the western gate of Port Phasmatys .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Kill anything on the ground floor of the Slayer Tower.",
+    "Information": "Kill anything on the ground floor of the Slayer Tower . Crawling hands have the lowest Slayer level requirement.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Using either a silver sickle or the Invandis flail, grow some fungus in the swamp using Bloom.",
+    "Information": "Using either a silver sickle or the Ivandis flail , grow some fungus in the swamp using Bloom .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Defeat 5 feral vampyres in the Haunted Woods.",
+    "Information": "Defeat 5 feral vampyres in the Haunted Woods.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Use an ectophial to return to Port Phasmatys.",
+    "Information": "Use an ectophial to return to Port Phasmatys .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Visit Dragontooth Island by boat.",
+    "Information": "Visit Dragontooth Island by boat.",
+    "Requirements": "Ghostspeak amulet",
+    "Pts": "10"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Cook a rabbit in Tirannwn.",
+    "Information": "Cook a raw rabbit in Tirannwn . Cook on a fire - do not use iron spit.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Attempt to pass a leaf trap.",
+    "Information": "Attempt to pass a leaf trap .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Use the bank in Lletya.",
+    "Information": "Use the bank in Lletya .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Charter a ship from Port Tyras.",
+    "Information": "Charter a ship from Port Tyras .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Climb the Tower of Voices.",
+    "Information": "Climb the Tower of Voices .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Burn some logs using the everlasting bonfire in the Tower of Voices.",
+    "Information": "Burn some logs using the everlasting bonfire in the Tower of Voices .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Activate the Prifddinas lodestone.",
+    "Information": "Activate the Prifddinas lodestone .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Activate the Tirannwn lodestone.",
+    "Information": "Activate the Tirannwn lodestone .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Restore your prayer using the altar in Lletya.",
+    "Information": "Restore your prayer using the altar in Lletya .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Use the bank at the Mage Arena.",
+    "Information": "Use the Mage Arena bank .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Defeat the Chaos Elemental.",
+    "Information": "Defeat the Chaos Elemental once.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Defeat the Chaos Elemental 25 times.",
+    "Information": "Defeat the Chaos Elemental 25 times.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Reach a score of 10 using the strange switches in the Wilderness.",
+    "Information": "Complete the Ten-uous Link achievement.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Jump over the Wilderness wall.",
+    "Information": "Jump over the Wilderness wall .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Activate the Wilderness lodestone.",
+    "Information": "Activate the Wilderness Crater lodestone .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Complete a frozen floor in Daemonheim.",
+    "Information": "Complete a Frozen floor in Daemonheim .",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Make use of either an autoheater, gem bag, herbicide, bonecrusher or charming imp.",
+    "Information": "Make use of either an autoheater , gem bag , herbicide , bonecrusher or charming imp .",
+    "Requirements": "The gem bag is the cheapest reward at 2000 dungeoneering tokens",
+    "Pts": "10"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Enter the chaos tunnels from an entrance in the Wilderness.",
+    "Information": "Enter the Chaos Tunnels from an entrance in the Wilderness.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Defeat a black unicorn in the Wilderness.",
+    "Information": "Defeat a black unicorn in the Wilderness.",
+    "Requirements": "N/A",
+    "Pts": "10"
+  },
+  {
+    "Region": "Anachronia",
+    "Task": "Build your player lodge on Anachronia.",
+    "Information": "Build your Player Lodge on Anachronia.",
+    "Requirements": "40 Construction",
+    "Pts": "30"
+  },
+  {
+    "Region": "Anachronia",
+    "Task": "Purchase the herb bag and the herb bag upgrade from the Herby Werby reward shop.",
+    "Information": "Purchase the herb bag and the herb bag upgrade from the Herby Werby Reward Shop .",
+    "Requirements": "None, but requires 4 weeks worth of potent herbs",
+    "Pts": "30"
+  },
+  {
+    "Region": "Anachronia",
+    "Task": "Give Snoop some clean dwarf weed.",
+    "Information": "Give Snoop some clean dwarf weed .",
+    "Requirements": "70 Herblore if cleaning the herb yourself",
+    "Pts": "30"
+  },
+  {
+    "Region": "Anachronia",
+    "Task": "Harvest produce from 5 animals on Anachronia farm.",
+    "Information": "Harvest produce from 5 animals on Anachronia Dinosaur Farm .",
+    "Requirements": "42 Farming , 45 Construction",
+    "Pts": "30"
+  },
+  {
+    "Region": "Anachronia",
+    "Task": "Complete the beginner sections of the Anachronia agility course.",
+    "Information": "Complete the beginner sections of the Anachronia Agility Course .",
+    "Requirements": "30 Agility",
+    "Pts": "30"
+  },
+  {
+    "Region": "Anachronia",
+    "Task": "Complete the novice sections of the Anachronia agility course.",
+    "Information": "Complete the novice sections of the Anachronia Agility Course .",
+    "Requirements": "50 Agility",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Reach world 25 in Shattered Worlds.",
+    "Information": "Reach world 25 in Shattered Worlds .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Enter the Warriors' Guild.",
+    "Information": "Enter the Warriors' Guild .",
+    "Requirements": "Combined Attack and Strength level of 130, or 99 Attack , or 99 Strength",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Equip a defender.",
+    "Information": "Equip a defender.",
+    "Requirements": "Combined Attack and Strength level of 130, or 99 Attack , or 99 Strength",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Charge an amulet of glory in the Heroes' Guild.",
+    "Information": "Charge an amulet of glory in the Heroes' Guild .",
+    "Requirements": "If not as a drop from revenant knights , 80 Crafting and 68 Magic to make it from scratch, or 83 Hunter to catch dragon implings",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Enter the Crafting Guild.",
+    "Information": "Enter the Crafting Guild .",
+    "Requirements": "40 Crafting",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Complete the Easy Falador Diary.",
+    "Information": "Complete the Easy Falador achievements .",
+    "Requirements": "See Easy Falador achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Complete the Medium Falador Diary.",
+    "Information": "Complete the Medium Falador achievements .",
+    "Requirements": "See Medium Falador achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Kill the Giant Mole.",
+    "Information": "Kill the giant mole .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Kill the Giant Mole 25 times.",
+    "Information": "Kill the giant mole 25 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Use the Telekinetic Grab spell to steal some wine of Zamorak from the captured temple south of Goblin Village.",
+    "Information": "Use the Telekinetic Grab spell to steal some wine of Zamorak from the captured temple south of Goblin Village .",
+    "Requirements": "33 Magic",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Set up a dwarf multicannon.",
+    "Information": "Set up a dwarf multicannon .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Complete a ceremonial sword at the Artisans' Workshop.",
+    "Information": "Complete a ceremonial sword at the Artisans' Workshop .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Mine some orichalcite in the Mining Guild.",
+    "Information": "Mine some orichalcite ore in the Mining Guild .",
+    "Requirements": "60 Mining",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Harvest a herb from the Troll Stronghold herb patch.",
+    "Information": "Harvest a herb from the troll stronghold herb patch .",
+    "Requirements": "9 Farming to plant the lowest Herb seed.",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Kill a blue dragon in Taverley dungeon.",
+    "Information": "Kill a blue dragon in Taverley Dungeon .",
+    "Requirements": "Dusty key or 70 Agility",
+    "Pts": "30"
+  },
+  {
+    "Region": "Asgarnia",
+    "Task": "Open the crystal chest in Taverley.",
+    "Information": "Open the crystal chest in Taverley.",
+    "Requirements": "A crystal key",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Clear the Fort debris at the Kharid-et Dig Site.",
+    "Information": "Clear the fort debris at the Kharid-et Dig Site .",
+    "Requirements": "12 Archaeology",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Complete the quest: One Piercing Note.",
+    "Information": "Complete One Piercing Note .",
+    "Requirements": "See quest page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Complete a lap of the Het's Oasis agility course.",
+    "Information": "Complete a lap of the Het's Oasis Agility Course .",
+    "Requirements": "65 Agility",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Defeat the Kalphite Queen.",
+    "Information": "Defeat the Kalphite Queen .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Defeat the Kalphite Queen 25 times.",
+    "Information": "Defeat the Kalphite Queen 25 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Defeat a boss in the Dominion Tower.",
+    "Information": "Defeat a boss in the Dominion Tower .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Complete the Easy Desert Diary.",
+    "Information": "Complete the Easy Desert achievements .",
+    "Requirements": "See Easy Desert achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Complete the Medium Desert Diary.",
+    "Information": "Complete the Medium Desert achievements .",
+    "Requirements": "See Medium Desert achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Steal from the lamp stall in Menaphos.",
+    "Information": "Steal from the lamp stall in Menaphos.",
+    "Requirements": "46 Thieving",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Catch a catfish.",
+    "Information": "Catch a raw catfish .",
+    "Requirements": "60 Fishing",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Restore a Pontifex signet ring.",
+    "Information": "Restore a pontifex signet ring .",
+    "Requirements": "58 Archaeology A cut dragonstone , which may require 55 Crafting",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Search the Grand Gold Chest in room 4 of Pyramid Plunder in Sophanem.",
+    "Information": "Search the Grand gold chest in room 4 of Pyramid Plunder in Sophanem.",
+    "Requirements": "51 Thieving",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Search the Grand Gold Chest in room 5 of Pyramid Plunder in Sophanem.",
+    "Information": "Search the Grand gold chest in room 5 of Pyramid Plunder in Sophanem.",
+    "Requirements": "61 Thieving",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Search the Grand Gold Chest in room 6 of Pyramid Plunder in Sophanem.",
+    "Information": "Search the Grand gold chest in room 6 of Pyramid Plunder in Sophanem.",
+    "Requirements": "71 Thieving",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Complete the quest: Desert Treasure",
+    "Information": "Complete Desert Treasure .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Desert",
+    "Task": "Repair the statue of Het at Het's Oasis.",
+    "Information": "Repair the statue of Het at Het's Oasis .",
+    "Requirements": "200 pieces of Het",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Cast the Moonclan Teleport spell.",
+    "Information": "Cast the Moonclan Teleport spell.",
+    "Requirements": "69 Magic",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Enter your player-owned house from Rellekka.",
+    "Information": "Enter your player-owned house from Rellekka .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Craft 50 astral runes.",
+    "Information": "Craft 50 astral runes .",
+    "Requirements": "40 Runecrafting",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Complete the Penguin Agility Course.",
+    "Information": "Complete the Penguin Agility Course .",
+    "Requirements": "30 Agility",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Catch a snowy knight.",
+    "Information": "Catch a snowy knight . They can only be caught at the Rellekka Hunter area .",
+    "Requirements": "35 Hunter A butterfly net and jar",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Defeat a kurask in the Fremennik Province.",
+    "Information": "Defeat a kurask in the Fremennik Province.",
+    "Requirements": "70 Slayer Leaf-bladed spear or other special weapon",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Defeat a dagannoth in the Fremennik Province.",
+    "Information": "Defeat a dagannoth in the Fremennik Province.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Equip a helm of Neitiznot.",
+    "Information": "Equip a helm of Neitiznot .",
+    "Requirements": "55 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Defeat a jelly in the Fremennik Province.",
+    "Information": "Defeat a jelly in the Fremennik Province.",
+    "Requirements": "52 Slayer",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Complete the quest: Throne of Miscellania.",
+    "Information": "Complete Throne of Miscellania .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Equip a granite shield.",
+    "Information": "Equip a granite shield .",
+    "Requirements": "55 Defence , 55 Strength Either completion of Eadgar's Ruse or partial completion of The Fremennik Isles",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Defeat any of the Dagannoth Kings.",
+    "Information": "Defeat any of the Dagannoth Kings 1 time.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Defeat any of the Dagannoth Kings 50 times.",
+    "Information": "Defeat any of the Dagannoth Kings 50 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Complete the Easy Fremennik Diary.",
+    "Information": "Complete the Easy Fremennik achievements .",
+    "Requirements": "See Easy Fremennik achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Ride a mine cart into Keldagrim.",
+    "Information": "Ride a mine cart into Keldagrim.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Travel to the Mammoth Iceberg.",
+    "Information": "Travel to the Mammoth iceberg (must travel by boat, Skull of Slaying teleport does not work but can be used to take the boat back and forth).",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Steal from the fish stall in Rellekka.",
+    "Information": "Steal from the fish stall in Rellekka.",
+    "Requirements": "42 Thieving",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Harvest 100 sparkling energy from sparkling wisps.",
+    "Information": "Harvest 100 sparkling energy from sparkling wisps .",
+    "Requirements": "40 Divination",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Climb to the top of the lighthouse.",
+    "Information": "Climb to the top of the lighthouse .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Chop 10 arctic pine trees.",
+    "Information": "Chop 10 arctic pine trees .",
+    "Requirements": "54 Woodcutting",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Kill 25 yaks.",
+    "Information": "Kill 25 yaks .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Interact with a pet rock.",
+    "Information": "Interact with a pet rock .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Fremennik",
+    "Task": "Complete the Medium Fremennik Diary.",
+    "Information": "Complete the Medium Fremennik achievements .",
+    "Requirements": "See Medium Fremennik achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach level 50 in any skill.",
+    "Information": "Reach level 50 in any skill.",
+    "Requirements": "Any skill at level 50",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach at least level 5 in all non-elite skills.",
+    "Information": "Reach at least level 5 in all non-elite skills.",
+    "Requirements": "All skills except Invention at level 5",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach at least level 10 in all non-elite skills.",
+    "Information": "Reach at least level 10 in all non-elite skills.",
+    "Requirements": "All skills except Invention at level 10",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach at least level 20 in all non-elite skills.",
+    "Information": "Reach at least level 20 in all non-elite skills.",
+    "Requirements": "All skills except Invention at level 20",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach combat level 50.",
+    "Information": "Reach combat level 50.",
+    "Requirements": "50 combat level",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach total level 500.",
+    "Information": "Reach total level 500. This task is currently bugged and may complete before you have reached 500 total levels",
+    "Requirements": "500 total level",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Mine any ore 200 times.",
+    "Information": "Mine any ore 200 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Chop any tree 200 times.",
+    "Information": "Chop any tree 200 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Chop a willow tree.",
+    "Information": "Chop a willow tree.",
+    "Requirements": "20 Woodcutting",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Burn any logs 200 times.",
+    "Information": "Burn any logs 200 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch any fish 200 times.",
+    "Information": "Catch any fish 200 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Harvest any memory from a wisp 200 times.",
+    "Information": "Harvest any memory from a wisp 200 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Pickpocket anyone 200 times.",
+    "Information": "Pickpocket anyone 200 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Plant seeds in any farming patch 100 times.",
+    "Information": "Plant seeds in any farming patch 100 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Unlock all of the free to play lodestones.",
+    "Information": "Unlock all of the Free to Play Lodestones .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of graahk, larupia or kyatt hunter gear.",
+    "Information": "Equip a full set of graahk , larupia or kyatt hunter gear. Three of each creature's furs (tatty or perfect) are required, along with some coins, to pay the fancy-dress shop owner to create the outfit pieces; the hats can only be created using perfect furs. They are all caught using pitfall trapping . Spined larupia can be caught with level 31 Hunter at the Feldip Hunter area .",
+    "Requirements": "31 Hunter to hunt spined larupia",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make 200 potions of any kind.",
+    "Information": "Make 200 potions of any kind.",
+    "Requirements": "3 Herblore",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Clean 200 of any herb.",
+    "Information": "Clean 200 of any herb.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Fletch 1,000 arrow shafts.",
+    "Information": "Fletch 1,000 arrow shafts .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Complete 25 laps of any agility course.",
+    "Information": "Complete 25 laps of any Agility course.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Smith 25 of any metal weapon or armour piece.",
+    "Information": "Smith 25 of any metal weapon or armour piece.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Cook 200 fish.",
+    "Information": "Cook 200 fish.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Offer 100 bones of any kind to an altar.",
+    "Information": "Offer 100 bones ( ashes also work) at the chaos altar in the Wilderness, the altar in Fort Forinthry, or an altar in the player-owned house chapel",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Scatter 100 ashes of any kind.",
+    "Information": "Scatter 100 ashes of any kind.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Restore 500 prayer points at an altar at once.",
+    "Information": "Restore 500 Prayer Points at an Altar at once.",
+    "Requirements": "50 Prayer",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch 25 implings of any kind.",
+    "Information": "Catch 25 implings of any kind. Cannot be completed in Puro-Puro .",
+    "Requirements": "17 Hunter",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch 35 implings of any kind.",
+    "Information": "Catch 35 Implings of any kind. Cannot be completed in Puro-Puro .",
+    "Requirements": "17 Hunter",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch 200 Hunter creatures.",
+    "Information": "Catch 200 Hunter creatures.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Complete 25 easy clue scrolls.",
+    "Information": "Complete 25 easy clue scrolls.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Complete 75 easy clue scrolls.",
+    "Information": "Complete 75 easy clue scrolls.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Collect 25 unique items for the general clue rewards collection log.",
+    "Information": "Collect 25 unique items for the general clue rewards collection log.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make 30 prayer potions.",
+    "Information": "Make 30 prayer potions .",
+    "Requirements": "38 Herblore",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make a 4-dose potion.",
+    "Information": "Make a 4-dose potion.",
+    "Requirements": "A botanist's amulet , Morytania legs 4 , Underworld Grimoire 1 , or a varanusaur pen with a farm totem at the Anachronia Dinosaur Farm",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make 20 super attack potions.",
+    "Information": "Make 20 super attack potions.",
+    "Requirements": "45 Herblore",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Clean 50 grimy ranarr.",
+    "Information": "Clean 50 grimy ranarr .",
+    "Requirements": "25 Herblore",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Clean 50 grimy avantoe.",
+    "Information": "Clean 50 grimy avantoe .",
+    "Requirements": "48 Herblore",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Harvest 5 grimy ranarr.",
+    "Information": "Harvest 5 grimy ranarr .",
+    "Requirements": "32 Farming",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip an iron crossbow.",
+    "Information": "Equip an iron crossbow .",
+    "Requirements": "10 Ranged",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a maple shieldbow.",
+    "Information": "Equip a maple shieldbow .",
+    "Requirements": "30 Ranged , 30 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Fletch 50 maple shieldbow (unstrung).",
+    "Information": "Fletch 50 unstrung maple shieldbows .",
+    "Requirements": "45 Fletching",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Fletch 400 steel arrows.",
+    "Information": "Fletch 400 steel arrows .",
+    "Requirements": "20 Fletching",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Fletch 100 iron bolts.",
+    "Information": "Fletch 100 iron bolts .",
+    "Requirements": "13 Fletching",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Mine some ore with a rune pickaxe.",
+    "Information": "Mine some ore with a rune pickaxe .",
+    "Requirements": "50 Mining",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Mine 20 mithril ore.",
+    "Information": "Mine 20 mithril ore .",
+    "Requirements": "30 Mining",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Mine 30 adamant ore.",
+    "Information": "Mine 30 adamantite ore .",
+    "Requirements": "40 Mining",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Mine 40 runite ore.",
+    "Information": "Mine 40 runite ore .",
+    "Requirements": "50 Mining",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Open 20 igneous geodes.",
+    "Information": "Open 20 igneous geodes .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Check a grown fruit tree.",
+    "Information": "Check a tree grown in a fruit tree patch .",
+    "Requirements": "27 Farming",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch 100 lobsters.",
+    "Information": "Catch 100 lobsters .",
+    "Requirements": "40 Fishing",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch 50 swordfish.",
+    "Information": "Catch 50 swordfish .",
+    "Requirements": "50 Fishing",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch 50 salmon.",
+    "Information": "Catch 50 salmon .",
+    "Requirements": "30 Fishing",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch 10 pike.",
+    "Information": "Catch 10 pike .",
+    "Requirements": "25 Fishing",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make a Pineapple pizza.",
+    "Information": "Make a pineapple pizza by adding pineapple chunks or a pineapple ring to a plain pizza .",
+    "Requirements": "65 Cooking",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make a stew.",
+    "Information": "Make a stew : add a raw potato to a bowl of water , then add either cooked meat or chicken , and cook the stew at a range .",
+    "Requirements": "25 Cooking",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Make a chocolate cake.",
+    "Information": "Make a chocolate cake by adding a chocolate bar to a cooked cake .",
+    "Requirements": "50 Cooking",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Bury some baby dragon bones.",
+    "Information": "Bury some baby dragon bones .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Bury 5 dragon bones.",
+    "Information": "Bury 5 dragon bones .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Activate Protect from Melee prayer.",
+    "Information": "Activate the Protect from Melee prayer.",
+    "Requirements": "43 Prayer",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Catch a gourmet impling.",
+    "Information": "Catch a gourmet impling . Cannot be completed in Puro-Puro .",
+    "Requirements": "28 Hunter",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Light a bullseye lantern.",
+    "Information": "Light a bullseye lantern .",
+    "Requirements": "49 Firemaking Either 36 Thieving and completion of Death to the Dorgeshuun ; or 50 quest points and the Lorehound pet unlocked; or 20 Smithing and 49 Crafting to create from scratch",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Teleport using law runes.",
+    "Information": "Teleport using law runes . The lowest level teleport spell is South Feldip Hills Teleport which also requires one air and one water rune",
+    "Requirements": "10 Magic",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Craft some combination runes.",
+    "Information": "Craft some combination runes : mist runes have the lowest level requirement. They can made by using a pure essence and 1 water rune and a water talisman at the air altar or 1 air rune and an air talisman at the water altar",
+    "Requirements": "6 Runecrafting",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Craft 100 runes.",
+    "Information": "Craft 100 runes.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Craft 1,000 runes.",
+    "Information": "Craft 1,000 runes.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of steel armour.",
+    "Information": "Equip a steel full helm , steel platebody , steel platelegs / steel plateskirt , steel gauntlets , and steel armoured boots . Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Steel armour can be bought at Horvik's Armour Shop .",
+    "Requirements": "20 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of mithril armour.",
+    "Information": "Equip a mithril full helm , mithril platebody , mithril platelegs / mithril plateskirt , mithril gauntlets , and mithril armoured boots . Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Mithril armour can be bought at Horvik's Armour Shop .",
+    "Requirements": "30 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of adamant armour.",
+    "Information": "Equip an adamant full helm , adamant platebody , adamant platelegs / adamant plateskirt , adamant gauntlets , and adamant armoured boots . Substitutes for pieces (e.g. med helm instead of full helm, chainbody instead of platebody) will work. Adamant armour can be bought at Horvik's Armour Shop .",
+    "Requirements": "40 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of rune armour.",
+    "Information": "Equip a full set of rune armour (full helm, platebody, legs, boots, and gauntlets).",
+    "Requirements": "50 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of blue dragonhide armour.",
+    "Information": "Equip a full set of blue dragonhide armour .",
+    "Requirements": "50 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of red dragonhide armour.",
+    "Information": "Equip a full set of red dragonhide armour .",
+    "Requirements": "55 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of batwing robes.",
+    "Information": "Equip a batwing hood , batwing torso , batwing legs , batwing gloves , and batwing boots . Batwing armour can be bought at Zaff's Superior Spellcasting .",
+    "Requirements": "30 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a full set of mystic robes.",
+    "Information": "Equip a full set of mystic robes .",
+    "Requirements": "50 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Create a mithril grapple.",
+    "Information": "Create a mithril grapple .",
+    "Requirements": "59 Fletching , 30 Smithing",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Burn 25 willow logs.",
+    "Information": "Burn 25 willow logs .",
+    "Requirements": "30 Firemaking",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Burn 50 maple logs.",
+    "Information": "Burn 50 maple logs .",
+    "Requirements": "45 Firemaking",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip any elemental battlestaff.",
+    "Information": "Equip any elemental battlestaff .",
+    "Requirements": "30 Magic",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a mystic staff.",
+    "Information": "Equip a mystic staff .",
+    "Requirements": "40 Magic",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Complete 100 clues of any tier.",
+    "Information": "Complete 100 clues of any tier.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Complete a medium clue scroll.",
+    "Information": "Complete a medium clue scroll .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Complete 25 medium clue scrolls.",
+    "Information": "Complete 25 medium clue scrolls .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Complete 75 medium clue scrolls.",
+    "Information": "Complete 75 medium clue scrolls .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Complete a hard clue scroll.",
+    "Information": "Complete a hard clue scroll .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Complete 25 hard clue scrolls.",
+    "Information": "Complete 25 hard clue scrolls .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Collect 5 unique items for the easy clue rewards collection log.",
+    "Information": "Collect 5 unique items for the easy clue rewards collection log .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Collect 10 unique items for the easy clue rewards collection log.",
+    "Information": "Collect 10 unique items for the easy clue rewards collection log .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Collect 5 unique items for the medium clue rewards collection log.",
+    "Information": "Collect 5 unique items for the medium clue rewards collection log .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Collect 10 unique items for the medium clue rewards collection log.",
+    "Information": "Collect 10 unique items for the Medium clue rewards collection log .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Collect 5 unique items for the hard clue rewards collection log.",
+    "Information": "Collect 5 unique items for the hard clue rewards collection log .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip any 2 pieces of an elegant outfit.",
+    "Information": "Equip any 2 pieces of an elegant outfit .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Equip a composite bow of any kind.",
+    "Information": "Equip a composite bow of any kind.",
+    "Requirements": "20 Ranged",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Perform a special attack.",
+    "Information": "Perform a special attack .",
+    "Requirements": "5 Attack or 5 Ranged or 5 Magic (claimed from Gudrik in Port Sarim )",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach level 30 in any skill.",
+    "Information": "Reach level 30 in any skill.",
+    "Requirements": "Any skill at level 30",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach level 40 in any skill.",
+    "Information": "Reach level 40 in any skill.",
+    "Requirements": "Any skill at level 40",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach level 60 in any skill.",
+    "Information": "Reach level 60 in any skill.",
+    "Requirements": "Any skill at level 60",
+    "Pts": "30"
+  },
+  {
+    "Region": "Global",
+    "Task": "Reach at least level 30 in all non-elite skills.",
+    "Information": "Reach at least level 30 in all non-elite skills.",
+    "Requirements": "All skills except Invention at level 30",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Repair all of the canoe stations across havenhythe.",
+    "Information": "Repair all of the canoe stations across havenhythe .",
+    "Requirements": "40 Construction",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Use an oaken key to open Raz's stash in her hut north of Wendlewick.",
+    "Information": "Use an oaken key to open Raz's stash in her hut north of Wendlewick .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Complete the quest: Wiz Kid.",
+    "Information": "Complete Wiz Kid .",
+    "Requirements": "Completion of Wiz Kid",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Complete the quest: Hermit Permits.",
+    "Information": "Complete Hermit Permits .",
+    "Requirements": "Completion of Hermit Permits",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Brew a Wendlewick ale.",
+    "Information": "Brew a Wendlewick ale .",
+    "Requirements": "27 Cooking",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Use the Fang of Mohegan to teleport to the Shrine of Inanna.",
+    "Information": "Use the Fang of Mohegan to teleport to the Shrine of Inanna .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Search a hollow tree within the Highweald forest.",
+    "Information": "Search a hollow tree within the Highweald forest .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Harvest 10 birdhouses.",
+    "Information": "Harvest 10 birdhouses .",
+    "Requirements": "5 Crafting , 10 Fletching",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Use a clockwork box trap to catch a grenwall in a kebbit encounter.",
+    "Information": "Use a clockwork box trap to catch a grenwall in a kebbit encounter.",
+    "Requirements": "51 Crafting , 13 Fletching",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Learn how to use the Wendlewick fish farm.",
+    "Information": "Learn how to use the Wendlewick fish farm .",
+    "Requirements": "45 Fishing , 25 Farming Completion of Trader Woes",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Create an antisanguine potion.",
+    "Information": "Create an antisanguine potion.",
+    "Requirements": "15 Herblore",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Defeat Ivar, King of Bones 25 times.",
+    "Information": "Defeat Ivar, King of Bones 25 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Defeat Silverquill, the Dreadhog 25 times.",
+    "Information": "Defeat Silverquill, the Dreadhog 25 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Defeat Silverquill, the Dreadhog, solo, using only havensilver weapons.",
+    "Information": "Defeat Silverquill, the Dreadhog , solo, using only havensilver weapons .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Recruit Tali as a research assistant and assign her to a Moonrise research project.",
+    "Information": "Recruit Tali as a research assistant and assign her to a Moonrise research project .",
+    "Requirements": "70 Archaeology",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Bring a restored bloodwine artefact to Anya.",
+    "Information": "Bring a restored bloodwine artefact to Anya .",
+    "Requirements": "82 Archaeology",
+    "Pts": "30"
+  },
+  {
+    "Region": "Havenhythe",
+    "Task": "Complete the 'Hedge Your Bets' Combat Mastery achievement.",
+    "Information": "Complete the 'Hedge Your Bets' Combat Mastery achievement.",
+    "Requirements": "48 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Fletch 50 maple shieldbow (unstrung) in Kandarin.",
+    "Information": "Fletch 50 unstrung maple shieldbows in Kandarin .",
+    "Requirements": "45 Fletching",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Pickpocket a Knight of Ardougne 50 times.",
+    "Information": "Pickpocket a knight of Ardougne 50 times.",
+    "Requirements": "55 Thieving",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Complete the Barbarian Outpost Agility Course.",
+    "Information": "Complete the Barbarian Outpost Agility Course .",
+    "Requirements": "35 Agility",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Equip a spottier cape.",
+    "Information": "Equip a spottier cape .",
+    "Requirements": "66 Hunter",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Catch a red salamander.",
+    "Information": "Catch a red salamander .",
+    "Requirements": "59 Hunter",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Enter the Fishing Guild.",
+    "Information": "Enter the Fishing Guild .",
+    "Requirements": "68 Fishing",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Check a grown papaya tree inside Tree Gnome Stronghold.",
+    "Information": "Check a grown papaya tree inside Tree Gnome Stronghold .",
+    "Requirements": "57 Farming",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Defeat a mithril dragon.",
+    "Information": "Defeat a mithril dragon .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Enter the Wizards' Guild.",
+    "Information": "Enter the Wizards' Guild .",
+    "Requirements": "66 Magic",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Defeat a fire giant in Kandarin.",
+    "Information": "Defeat a fire giant in Kandarin.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Use the Chivalry Prayer.",
+    "Information": "Use the Chivalry prayer.",
+    "Requirements": "60 Prayer 65 Defence Completion of Knight Waves training ground",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Complete the Easy Ardougne Diary.",
+    "Information": "Complete the Easy Ardougne achievements .",
+    "Requirements": "See Easy Ardougne achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Make one of each type of cocktail.",
+    "Information": "Make one of each type of cocktail .",
+    "Requirements": "37 Cooking",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Earn a total of 10,000 beans from selling animals.",
+    "Information": "Earn a total of 10,000 beans from selling animals.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Hunt 10 spotted kebbits with the help of a falcon.",
+    "Information": "Hunt 10 spotted kebbits using falconry . You will need to pay 500 to Matthias to borrow a falcon.",
+    "Requirements": "43 Hunter",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Complete the quest: The Needle Skips.",
+    "Information": "Complete The Needle Skips .",
+    "Requirements": "Completion of The Needle Skips",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Complete the Medium Ardougne Diary.",
+    "Information": "Complete the Medium Ardougne achievements .",
+    "Requirements": "See Medium Ardougne achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Complete the quest: Elemental Workshop I.",
+    "Information": "Complete Elemental Workshop I .",
+    "Requirements": "Completion of Elemental Workshop I",
+    "Pts": "30"
+  },
+  {
+    "Region": "Kandarin",
+    "Task": "Equip an ogre bowman hat.",
+    "Information": "Equip an ogre bowman hat .",
+    "Requirements": "30 Ranged , 5 Fletching",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Complete the Easy Karamja Diary.",
+    "Information": "Complete the Easy Karamja achievements .",
+    "Requirements": "See Easy Karamja achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Craft 50 nature runes.",
+    "Information": "Craft 50 nature runes .",
+    "Requirements": "44 Runecrafting",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Catch a salmon on Karamja.",
+    "Information": "Catch a salmon on Karamja.",
+    "Requirements": "30 Fishing",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Get Stiles to exchange some of your fish for bank notes.",
+    "Information": "Get Stiles to exchange some of your fish for bank notes.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Convert 100 gleaming memories in an energy rift.",
+    "Information": "Convert 100 gleaming memories in an energy rift.",
+    "Requirements": "50 Divination",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Mine a drakolith rock in the Tai Bwo Wannai mine.",
+    "Information": "Mine a drakolith rock in the Tai Bwo Wannai mine .",
+    "Requirements": "60 Mining",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Mine a ruby from a gem rock in Shilo Village.",
+    "Information": "Mine a ruby from a gem rock in Shilo Village .",
+    "Requirements": "30 Mining",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Enter the Hardwood Grove in Tai Bwo Wannai.",
+    "Information": "Enter the hardwood grove in Tai Bwo Wannai.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Complete the quest: Dragon Slayer.",
+    "Information": "Complete Dragon Slayer .",
+    "Requirements": "Completion of Dragon Slayer",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Check a grown banana tree on Karamja.",
+    "Information": "Check a grown banana tree on Karamja.",
+    "Requirements": "33 Farming",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Defeat a TzHaar.",
+    "Information": "Defeat a TzHaar .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Equip an obsidian cape.",
+    "Information": "Equip an obsidian cape .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Kill a metal dragon in Brimhaven Dungeon.",
+    "Information": "Kill a metal dragon in Brimhaven Dungeon .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Catch 25 lobsters on Karamja.",
+    "Information": "Catch 25 lobsters on Karamja.",
+    "Requirements": "40 Fishing",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Equip a Toktz-Ket-Xil.",
+    "Information": "Equip a Toktz-ket-xil .",
+    "Requirements": "60 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Equip a Tzhaar-Ket-Om.",
+    "Information": "Equip a TzHaar-Ket-Om .",
+    "Requirements": "60 Strength",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Equip a Toktz-Xil-Ak.",
+    "Information": "Equip a Toktz-xil-ak .",
+    "Requirements": "60 Attack",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Equip a Toktz-Xil-Ek.",
+    "Information": "Equip a Toktz-xil-ek .",
+    "Requirements": "60 Attack",
+    "Pts": "30"
+  },
+  {
+    "Region": "Karamja",
+    "Task": "Complete the Medium Karamja Diary.",
+    "Information": "Complete the Medium Karamja achievements .",
+    "Requirements": "See Medium Karamja achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Kill the lesser demon in the Wizards' Tower.",
+    "Information": "Kill the lesser demon in the Wizards' Tower .",
+    "Requirements": "Cannot be attacked with short-range melee",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Hunt a yellow wizard in the RuneSpan and give them some items.",
+    "Information": "Hunt a yellow wizard in the Runespan and give them some items.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Siphon from a nature esshound in the Runespan.",
+    "Information": "Siphon from a nature esshound in the Runespan.",
+    "Requirements": "44 Runecrafting",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Siphon rune dust from a Runesphere in the Runespan.",
+    "Information": "Siphon rune dust from a Runesphere in the RuneSpan.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Fully complete the Stronghold of Player Safety.",
+    "Information": "Fully complete the Stronghold of Player Safety by pulling an old lever on the upper floor and then opening the treasure chest in the secure sector.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete this quest.",
+    "Information": "Complete New Foundations .",
+    "Requirements": "Completion of New Foundations",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the Beginner Lumbridge Diary.",
+    "Information": "Complete the Beginner Lumbridge achievements .",
+    "Requirements": "See Beginner Lumbridge achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Enter Zanaris via Lumbridge Swamp.",
+    "Information": "Enter Zanaris via Lumbridge Swamp .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the Easy Lumbridge Diary.",
+    "Information": "Complete the Easy Lumbridge achievements .",
+    "Requirements": "See Easy Lumbridge achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the Medium Lumbridge Diary.",
+    "Information": "Complete the Medium Lumbridge achievements .",
+    "Requirements": "See Medium Lumbridge achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Drink from the Tears of Guthix.",
+    "Information": "Drink from the Tears of Guthix .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Catch 20 implings in Puro-Puro.",
+    "Information": "Catch 20 implings in Puro-Puro .",
+    "Requirements": "17 Hunter",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the miniquest: Sheep Shearer.",
+    "Information": "Complete Sheep Shearer .",
+    "Requirements": "Completion of Sheep Shearer (miniquest)",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Cut a willow tree east of Lumbridge Castle.",
+    "Information": "Cut the willow tree east of Lumbridge Castle, by the bridge across the River Lum.",
+    "Requirements": "20 Woodcutting",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Craft 50 water runes.",
+    "Information": "Craft 50 water runes .",
+    "Requirements": "5 Runecrafting Water talisman or equivalent",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Pickpocket a H.A.M. member.",
+    "Information": "Pickpocket a H.A.M. Member .",
+    "Requirements": "15 Thieving",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Churn some butter.",
+    "Information": "Make a pat of butter by using a bucket of milk at a dairy churn",
+    "Requirements": "38 Cooking Bucket of milk",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Craft 50 cosmic runes.",
+    "Information": "Craft 50 cosmic runes .",
+    "Requirements": "27 Runecrafting Cosmic talisman or equivalent, Completion of Lost City quest",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Steal a lantern from a cave goblin.",
+    "Information": "Steal a lantern from a cave goblin (only the ones in Dorgesh-Kaan have the lantern as a possible loot from pickpocketting).",
+    "Requirements": "36 Thieving",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Use the range in Lumbridge Castle to bake a cake.",
+    "Information": "Use the range in Lumbridge Castle to bake a cake .",
+    "Requirements": "40 Cooking Completion of Cook's Assistant quest",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Smith a mithril platebody on the anvil in the jailhouse sewers.",
+    "Information": "Smith a mithril platebody on the anvil in Draynor Sewers .",
+    "Requirements": "30 Smithing",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Have either a putrid zombie or vengeful ghost conjured while fighting the matching creature.",
+    "Information": "Have either a Putrid Zombie or Vengeful Ghost conjured while fighting the matching creature.",
+    "Requirements": "40 Necromancy Unlock the ability to conjure at tier 3 of talents , conduit , ectoplasm",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Learn how to craft moonstone jewellery.",
+    "Information": "Complete the Mystical Moonstone achievement.",
+    "Requirements": "50 Necromancy Brown apron or keepsaked override",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Upgrade a piece of Death Skull or Deathwarden equipment to tier 50.",
+    "Information": "Upgrade a piece of Death Skull or Deathwarden equipment to tier 50.",
+    "Requirements": "20 Necromancy",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete a communion ritual using a memento.",
+    "Information": "Complete a communion ritual using a memento .",
+    "Requirements": "5 Necromancy",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Conjure a phantom guardian at the City of Um ritual site.",
+    "Information": "Conjure a Phantom Guardian at the Um ritual site .",
+    "Requirements": "70 Necromancy Conjure Phantom Guardian unlocked from the Well of Souls",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the Easy City of Um Diary.",
+    "Information": "Complete the Easy Underworld achievements .",
+    "Requirements": "See Easy Underworld achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the Medium City of Um Diary.",
+    "Information": "Complete the Medium Underworld achievements .",
+    "Requirements": "See Medium Underworld achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the Easy Varrock Diary.",
+    "Information": "Complete the Easy Varrock achievements .",
+    "Requirements": "See Easy Varrock achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the Medium Varrock Diary.",
+    "Information": "Complete the Medium Varrock achievements .",
+    "Requirements": "See Medium Varrock achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Browse through Oziach's Armour Shop.",
+    "Information": "Browse through Oziach's Armour Shop .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Enter the Cooks' Guild.",
+    "Information": "Enter the Cooks' Guild .",
+    "Requirements": "32 Cooking Chef's hat or equivalent, see Cooks' Guild for alternatives",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the quest: Demon Slayer.",
+    "Information": "Complete Demon Slayer .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Complete the quest: Vampire Slayer.",
+    "Information": "Complete Vampyre Slayer .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Mine 50 pure essence.",
+    "Information": "Mine 50 pure essence .",
+    "Requirements": "30 Mining",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Pickpocket a Varrock guard.",
+    "Information": "Pickpocket a Varrock guard .",
+    "Requirements": "40 Thieving",
+    "Pts": "30"
+  },
+  {
+    "Region": "Misthalin",
+    "Task": "Gather and convert 50 bright memories.",
+    "Information": "Gather and convert 50 bright memories .",
+    "Requirements": "20 Divination",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Complete the easy Morytania Diary.",
+    "Information": "Complete the Easy Morytania achievements .",
+    "Requirements": "See Easy Morytania achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Take a medium companion through a medium route of Temple Trekking.",
+    "Information": "Take a medium companion through a medium route of Temple Trekking .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Visit Mos Le'Harmless.",
+    "Information": "Visit Mos Le'Harmless .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Visit Harmony Island.",
+    "Information": "Visit Harmony Island .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Visit the Everlight dig site.",
+    "Information": "Visit the Everlight dig site .",
+    "Requirements": "42 Archaeology",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Defeat the six Barrows Brothers and loot their chest.",
+    "Information": "Defeat the six Barrows Brothers and loot their chest once.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Defeat the six Barrows Brothers and loot their chest 50 times.",
+    "Information": "Defeat the six Barrows Brothers and loot their chest 50 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Equip a Barrows weapon.",
+    "Information": "Equip a barrows weapon .",
+    "Requirements": "Either 70 Magic , 70 Attack , or 70 Ranged",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Equip a piece of Barrows armour.",
+    "Information": "Equip a piece of barrows armour .",
+    "Requirements": "70 Defence",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Equip a Salve Amulet (e).",
+    "Information": "Equip a salve amulet (e) .",
+    "Requirements": "Completion of Lair of Tarn Razorlor (miniquest)",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Catch 10 green salamanders.",
+    "Information": "Catch 10 green salamanders . They can only be caught at the Canifis Hunter area using net traps",
+    "Requirements": "29 Hunter",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Complete the quest: Haunted Mine.",
+    "Information": "Complete Haunted Mine .",
+    "Requirements": "See quest page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Harvest bittercap mushrooms in the farming patch near Canifis.",
+    "Information": "Harvest bittercap mushrooms in the farming patch near Canifis .",
+    "Requirements": "53 Farming",
+    "Pts": "30"
+  },
+  {
+    "Region": "Morytania",
+    "Task": "Complete the Medium Morytania Diary.",
+    "Information": "Complete the Medium Morytania achievements .",
+    "Requirements": "See Medium Morytania achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Complete the Easy Tirannwn Diary.",
+    "Information": "Complete the Easy Tirannwn achievements .",
+    "Requirements": "See Easy Tirannwn achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Check a grown papaya tree in Lletya.",
+    "Information": "Check a grown papaya tree in Lletya .",
+    "Requirements": "57 Farming",
+    "Pts": "30"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Craft 50 death runes.",
+    "Information": "Craft 50 death runes .",
+    "Requirements": "65 Runecrafting",
+    "Pts": "30"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Enter your player-owned house from Prifddinas.",
+    "Information": "Enter your player-owned house from Prifddinas .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Use an elven teleport crystal.",
+    "Information": "Use a crystal teleport seed .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Equip Iban's staff.",
+    "Information": "Equip Iban's staff .",
+    "Requirements": "50 Magic",
+    "Pts": "30"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Catch 10 pawyas in Isafdar.",
+    "Information": "Catch 10 pawyas in Isafdar .",
+    "Requirements": "66 Hunter",
+    "Pts": "30"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Mine 200 soft clay in Prifddinas.",
+    "Information": "Mine 200 soft clay in Prifddinas.",
+    "Requirements": "75 Mining",
+    "Pts": "30"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Use the fairy ring in the Amlodd district.",
+    "Information": "Use the fairy ring to teleport to the Amlodd district. Players may need to travel to the fairy ring using the code D J S to complete this achievement.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Complete the Medium Tirannwn Diary.",
+    "Information": "Complete the Medium Tirannwn achievements .",
+    "Requirements": "See Medium Tirannwn achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Tirannwn",
+    "Task": "Help Teelee with the wisps of the Grove.",
+    "Information": "Help Teelee with the wisps of the Grove .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Complete the Easy Wilderness Diary.",
+    "Information": "Complete the Easy Wilderness achievements .",
+    "Requirements": "See Easy Wilderness achievements page",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Defeat the King Black Dragon.",
+    "Information": "Defeat the King Black Dragon once.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Defeat the King Black Dragon 25 times.",
+    "Information": "Defeat the King Black Dragon 25 times.",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Sacrifice dragon bones on the Chaos Altar.",
+    "Information": "Sacrifice dragon bones on the Chaos Altar .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Cast the Claws of Guthix special attack.",
+    "Information": "Cast the Claws of Guthix special attack.",
+    "Requirements": "60 Magic Completion of Mage Arena",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Defeat 5 green dragons.",
+    "Information": "Defeat 5 green dragons .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Complete 10 laps of the Wilderness agility course.",
+    "Information": "Complete 10 laps of the Wilderness Agility Course .",
+    "Requirements": "52 Agility",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Equip a Saradomin, Zamorak, or Guthix cape.",
+    "Information": "Equip a Saradomin , Zamorak , or Guthix cape .",
+    "Requirements": "60 Magic Completion of Mage Arena",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Visit any Runecrafting altar through the Abyss.",
+    "Information": "Visit any Runecrafting altar through the Abyss .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Defeat 10 fetid zombies.",
+    "Information": "Defeat 10 fetid zombies .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Defeat 20 bound skeletons.",
+    "Information": "Defeat 20 bound skeletons .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Defeat the Rammernaut.",
+    "Information": "Defeat the Rammernaut .",
+    "Requirements": "35 Dungeoneering",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Defeat Bossy McBossFace.",
+    "Information": "Defeat Bossy McBossFace .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Activate and teleport from each of the Wilderness teleport obelisks.",
+    "Information": "Activate and teleport from each of the Wilderness teleport obelisks .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Defeat Bossy McBossface's first mate.",
+    "Information": "Defeat Bossy McBossFace's First mate .",
+    "Requirements": "N/A",
+    "Pts": "30"
+  },
+  {
+    "Region": "Wilderness",
+    "Task": "Complete the Medium Wilderness Diary.",
+    "Information": "Complete the Medium Wilderness achievements .",
+    "Requirements": "See Medium Wilderness achievements page",
+    "Pts": "30"
+  }
+]
