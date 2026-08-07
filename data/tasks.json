@@ -15,7 +15,9 @@
     "Information": "Complete the base camp tutorial.",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Anachronia",
@@ -23,7 +25,9 @@
     "Information": "Observe all the large dragonkin statues around Anachronia .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Anachronia",
@@ -32,8 +36,7 @@
     "Requirements": "5 Agility",
     "Pts": "10",
     "Tags": [
-      "Agility",
-      "Crafting"
+      "Agility"
     ]
   },
   {
@@ -102,7 +105,9 @@
     "Information": "Sit on the bench with Sir Tiffy Cashien in Falador Park .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Asgarnia",
@@ -110,7 +115,9 @@
     "Information": "Pray to Bandos's remains (just south-east of Goblin Village ).",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Asgarnia",
@@ -118,7 +125,9 @@
     "Information": "Dance in the Falador party room .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Asgarnia",
@@ -136,7 +145,9 @@
     "Information": "Build a God statue in Taverley .",
     "Requirements": "Completion of Let Them Eat Pie",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Construction"
+    ]
   },
   {
     "Region": "Asgarnia",
@@ -166,8 +177,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Fishing",
-      "Minigame"
+      "Fishing"
     ]
   },
   {
@@ -236,7 +246,9 @@
     "Information": "Squish 10 corrupted scarabs .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Desert",
@@ -245,8 +257,7 @@
     "Requirements": "30 Agility",
     "Pts": "10",
     "Tags": [
-      "Agility",
-      "Exploration"
+      "Agility"
     ]
   },
   {
@@ -266,8 +277,7 @@
     "Requirements": "30 Farming",
     "Pts": "10",
     "Tags": [
-      "Farming",
-      "Minigame"
+      "Farming"
     ]
   },
   {
@@ -277,7 +287,6 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Prayer",
       "Magic"
     ]
   },
@@ -289,8 +298,7 @@
     "Pts": "10",
     "Tags": [
       "Mining",
-      "Combat",
-      "Exploration"
+      "Combat"
     ]
   },
   {
@@ -301,8 +309,7 @@
     "Pts": "10",
     "Tags": [
       "Slayer",
-      "Combat",
-      "Exploration"
+      "Combat"
     ]
   },
   {
@@ -312,8 +319,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Combat",
-      "Exploration"
+      "Combat"
     ]
   },
   {
@@ -322,7 +328,9 @@
     "Information": "Deposit an item with Peer the Seer .",
     "Requirements": "Completion of the easy Fremennik achievements",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Fremennik",
@@ -341,7 +349,6 @@
     "Requirements": "25 Hunter A butterfly net and jar",
     "Pts": "10",
     "Tags": [
-      "Fishing",
       "Hunter"
     ]
   },
@@ -351,7 +358,9 @@
     "Information": "Level up any of your skills for the first time.",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -360,7 +369,7 @@
     "Requirements": "Any skill at level 5",
     "Pts": "10",
     "Tags": [
-      "Combat"
+      "Exploration"
     ]
   },
   {
@@ -370,7 +379,7 @@
     "Requirements": "Any skill at level 10",
     "Pts": "10",
     "Tags": [
-      "Combat"
+      "Exploration"
     ]
   },
   {
@@ -380,7 +389,7 @@
     "Requirements": "Any skill at level 20",
     "Pts": "10",
     "Tags": [
-      "Combat"
+      "Exploration"
     ]
   },
   {
@@ -409,7 +418,9 @@
     "Information": "Reach total level 50.",
     "Requirements": "50 total level",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -417,7 +428,9 @@
     "Information": "Reach total level 100.",
     "Requirements": "100 total level",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -466,7 +479,6 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Smithing"
     ]
   },
@@ -506,7 +518,9 @@
     "Information": "Make soft clay by using clay on a water source or with a container of water.",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Crafting"
+    ]
   },
   {
     "Region": "Global",
@@ -565,8 +579,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Firemaking",
-      "Woodcutting"
+      "Firemaking"
     ]
   },
   {
@@ -576,8 +589,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Firemaking",
-      "Woodcutting"
+      "Firemaking"
     ]
   },
   {
@@ -647,8 +659,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Cooking",
-      "Firemaking"
+      "Cooking"
     ]
   },
   {
@@ -688,7 +699,6 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Prayer"
     ]
   },
@@ -798,7 +808,9 @@
     "Information": "Add any compostable item to a compost bin .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Farming"
+    ]
   },
   {
     "Region": "Global",
@@ -806,7 +818,9 @@
     "Information": "Have a tool leprechaun note any produce.",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Farming"
+    ]
   },
   {
     "Region": "Global",
@@ -815,7 +829,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Magic"
+      "Exploration"
     ]
   },
   {
@@ -825,7 +839,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Exploration"
+      "Cooking"
     ]
   },
   {
@@ -835,8 +849,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Cooking",
-      "Exploration"
+      "Cooking"
     ]
   },
   {
@@ -846,7 +859,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Exploration"
+      "Cooking"
     ]
   },
   {
@@ -875,7 +888,9 @@
     "Information": "Claim a free item from any store e.g. a tinderbox from Lumbridge General Store",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -883,7 +898,9 @@
     "Information": "Return a free item to any store e.g. a tinderbox from Lumbridge General Store",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -891,7 +908,9 @@
     "Information": "Sell an item to any store .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -899,7 +918,9 @@
     "Information": "Listen to any musician .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -907,7 +928,9 @@
     "Information": "Pick wheat from a field.",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -925,7 +948,9 @@
     "Information": "View the skill guide .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -954,7 +979,6 @@
     "Requirements": "Giving a limpwurt root and red spiders' eggs to the Apothecary",
     "Pts": "10",
     "Tags": [
-      "Strength",
       "Herblore"
     ]
   },
@@ -975,8 +999,7 @@
     "Requirements": "11 Herblore A clean marrentill and cadava berries",
     "Pts": "10",
     "Tags": [
-      "Herblore",
-      "Necromancy"
+      "Herblore"
     ]
   },
   {
@@ -1026,10 +1049,7 @@
     "Requirements": "10 Fletching Oak logs",
     "Pts": "10",
     "Tags": [
-      "Ranged",
-      "Firemaking",
-      "Fletching",
-      "Woodcutting"
+      "Fletching"
     ]
   },
   {
@@ -1039,10 +1059,7 @@
     "Requirements": "Logs of any kind",
     "Pts": "10",
     "Tags": [
-      "Ranged",
-      "Firemaking",
-      "Fletching",
-      "Woodcutting"
+      "Fletching"
     ]
   },
   {
@@ -1072,9 +1089,7 @@
     "Requirements": "10 of any metal bar",
     "Pts": "10",
     "Tags": [
-      "Attack",
-      "Smithing",
-      "Defence"
+      "Smithing"
     ]
   },
   {
@@ -1104,7 +1119,6 @@
     "Requirements": "9 Farming Marrentill seed",
     "Pts": "10",
     "Tags": [
-      "Herblore",
       "Farming"
     ]
   },
@@ -1115,7 +1129,6 @@
     "Requirements": "19 Farming Tarromin seeds",
     "Pts": "10",
     "Tags": [
-      "Herblore",
       "Farming"
     ]
   },
@@ -1126,7 +1139,6 @@
     "Requirements": "5 of any raw fish",
     "Pts": "10",
     "Tags": [
-      "Fishing",
       "Cooking"
     ]
   },
@@ -1207,7 +1219,6 @@
     "Requirements": "16 Prayer",
     "Pts": "10",
     "Tags": [
-      "Strength",
       "Prayer"
     ]
   },
@@ -1218,7 +1229,6 @@
     "Requirements": "17 Hunter",
     "Pts": "10",
     "Tags": [
-      "Fishing",
       "Hunter"
     ]
   },
@@ -1229,7 +1239,6 @@
     "Requirements": "17 Hunter",
     "Pts": "10",
     "Tags": [
-      "Fishing",
       "Hunter"
     ]
   },
@@ -1240,7 +1249,6 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Fishing",
       "Hunter"
     ]
   },
@@ -1271,9 +1279,7 @@
     "Requirements": "5 flax",
     "Pts": "10",
     "Tags": [
-      "Ranged",
-      "Crafting",
-      "Fletching"
+      "Crafting"
     ]
   },
   {
@@ -1323,8 +1329,7 @@
     "Requirements": "10 Defence",
     "Pts": "10",
     "Tags": [
-      "Defence",
-      "Magic"
+      "Defence"
     ]
   },
   {
@@ -1334,8 +1339,7 @@
     "Requirements": "20 Defence",
     "Pts": "10",
     "Tags": [
-      "Defence",
-      "Magic"
+      "Defence"
     ]
   },
   {
@@ -1365,9 +1369,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Firemaking",
-      "Woodcutting",
-      "Exploration"
+      "Minigame"
     ]
   },
   {
@@ -1376,7 +1378,9 @@
     "Information": "Bring marigolds to Anya at her campsite.",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Havenhythe",
@@ -1384,7 +1388,9 @@
     "Information": "Use the outhouse on the cliffs north of Wendlewick .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Havenhythe",
@@ -1393,7 +1399,6 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Firemaking",
       "Exploration"
     ]
   },
@@ -1599,9 +1604,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Mining",
-      "Magic",
-      "Runecrafting"
+      "Exploration"
     ]
   },
   {
@@ -1799,8 +1802,6 @@
     "Requirements": "14 Runecrafting",
     "Pts": "10",
     "Tags": [
-      "Crafting",
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -1922,7 +1923,6 @@
     "Requirements": "20 Smithing",
     "Pts": "10",
     "Tags": [
-      "Mining",
       "Smithing"
     ]
   },
@@ -1953,9 +1953,6 @@
     "Requirements": "5 Runecrafting",
     "Pts": "10",
     "Tags": [
-      "Prayer",
-      "Crafting",
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -1976,7 +1973,6 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Necromancy",
       "Questing"
     ]
   },
@@ -1988,7 +1984,6 @@
     "Pts": "10",
     "Tags": [
       "Smithing",
-      "Defence",
       "Crafting",
       "Necromancy"
     ]
@@ -2000,9 +1995,6 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Prayer",
-      "Crafting",
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -2063,8 +2055,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Prayer",
-      "Exploration"
+      "Runecrafting"
     ]
   },
   {
@@ -2073,7 +2064,9 @@
     "Information": "Have Elsie tell you a story, she is found upstairs in the church in Varrock. You must give her a cup of tea",
     "Requirements": "A cup of tea",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Misthalin",
@@ -2112,7 +2105,6 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Firemaking",
       "Archaeology"
     ]
   },
@@ -2123,8 +2115,6 @@
     "Requirements": "Partial completion of New Foundations",
     "Pts": "10",
     "Tags": [
-      "Firemaking",
-      "Woodcutting",
       "Construction"
     ]
   },
@@ -2205,8 +2195,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Combat",
-      "Exploration"
+      "Combat"
     ]
   },
   {
@@ -2216,7 +2205,6 @@
     "Requirements": "Defeat a Ghoul (Paterdomus)",
     "Pts": "10",
     "Tags": [
-      "Combat",
       "Exploration"
     ]
   },
@@ -2247,7 +2235,9 @@
     "Information": "Using either a silver sickle or the Ivandis flail , grow some fungus in the swamp using Bloom .",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Morytania",
@@ -2336,8 +2326,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Firemaking",
-      "Woodcutting"
+      "Firemaking"
     ]
   },
   {
@@ -2406,7 +2395,9 @@
     "Information": "Complete the Ten-uous Link achievement.",
     "Requirements": "N/A",
     "Pts": "10",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Wilderness",
@@ -2445,8 +2436,6 @@
     "Requirements": "The gem bag is the cheapest reward at 2000 dungeoneering tokens",
     "Pts": "10",
     "Tags": [
-      "Herblore",
-      "Prayer",
       "Dungeoneering"
     ]
   },
@@ -2467,8 +2456,7 @@
     "Requirements": "N/A",
     "Pts": "10",
     "Tags": [
-      "Combat",
-      "Exploration"
+      "Combat"
     ]
   },
   {
@@ -2508,8 +2496,7 @@
     "Requirements": "42 Farming , 45 Construction",
     "Pts": "30",
     "Tags": [
-      "Farming",
-      "Construction"
+      "Farming"
     ]
   },
   {
@@ -2549,7 +2536,6 @@
     "Requirements": "Combined Attack and Strength level of 130, or 99 Attack , or 99 Strength",
     "Pts": "30",
     "Tags": [
-      "Strength",
       "Exploration"
     ]
   },
@@ -2560,8 +2546,7 @@
     "Requirements": "Combined Attack and Strength level of 130, or 99 Attack , or 99 Strength",
     "Pts": "30",
     "Tags": [
-      "Strength",
-      "Defence"
+      "Attack"
     ]
   },
   {
@@ -2571,10 +2556,7 @@
     "Requirements": "If not as a drop from revenant knights , 80 Crafting and 68 Magic to make it from scratch, or 83 Hunter to catch dragon implings",
     "Pts": "30",
     "Tags": [
-      "Fishing",
-      "Crafting",
-      "Magic",
-      "Hunter"
+      "Questing"
     ]
   },
   {
@@ -2584,8 +2566,7 @@
     "Requirements": "40 Crafting",
     "Pts": "30",
     "Tags": [
-      "Crafting",
-      "Exploration"
+      "Crafting"
     ]
   },
   {
@@ -2635,7 +2616,6 @@
     "Requirements": "33 Magic",
     "Pts": "30",
     "Tags": [
-      "Thieving",
       "Magic"
     ]
   },
@@ -2676,7 +2656,6 @@
     "Requirements": "9 Farming to plant the lowest Herb seed.",
     "Pts": "30",
     "Tags": [
-      "Herblore",
       "Farming"
     ]
   },
@@ -2687,8 +2666,6 @@
     "Requirements": "Dusty key or 70 Agility",
     "Pts": "30",
     "Tags": [
-      "Agility",
-      "Dungeoneering",
       "Combat"
     ]
   },
@@ -2709,7 +2686,6 @@
     "Requirements": "12 Archaeology",
     "Pts": "30",
     "Tags": [
-      "Firemaking",
       "Archaeology"
     ]
   },
@@ -2730,8 +2706,7 @@
     "Requirements": "65 Agility",
     "Pts": "30",
     "Tags": [
-      "Agility",
-      "Minigame"
+      "Agility"
     ]
   },
   {
@@ -2761,8 +2736,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Combat",
-      "Exploration"
+      "Combat"
     ]
   },
   {
@@ -2812,8 +2786,6 @@
     "Requirements": "58 Archaeology A cut dragonstone , which may require 55 Crafting",
     "Pts": "30",
     "Tags": [
-      "Crafting",
-      "Firemaking",
       "Archaeology"
     ]
   },
@@ -2894,8 +2866,6 @@
     "Requirements": "40 Runecrafting",
     "Pts": "30",
     "Tags": [
-      "Crafting",
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -2916,7 +2886,6 @@
     "Requirements": "35 Hunter A butterfly net and jar",
     "Pts": "30",
     "Tags": [
-      "Fishing",
       "Hunter"
     ]
   },
@@ -2927,10 +2896,8 @@
     "Requirements": "70 Slayer Leaf-bladed spear or other special weapon",
     "Pts": "30",
     "Tags": [
-      "Attack",
       "Slayer",
-      "Combat",
-      "Exploration"
+      "Combat"
     ]
   },
   {
@@ -2940,8 +2907,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Combat",
-      "Exploration"
+      "Combat"
     ]
   },
   {
@@ -2962,8 +2928,7 @@
     "Pts": "30",
     "Tags": [
       "Slayer",
-      "Combat",
-      "Exploration"
+      "Combat"
     ]
   },
   {
@@ -2983,7 +2948,6 @@
     "Requirements": "55 Defence , 55 Strength Either completion of Eadgar's Ruse or partial completion of The Fremennik Isles",
     "Pts": "30",
     "Tags": [
-      "Strength",
       "Defence"
     ]
   },
@@ -2994,8 +2958,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Combat",
-      "Exploration"
+      "Combat"
     ]
   },
   {
@@ -3005,8 +2968,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Combat",
-      "Exploration"
+      "Combat"
     ]
   },
   {
@@ -3036,7 +2998,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Magic",
       "Exploration"
     ]
   },
@@ -3047,7 +3008,6 @@
     "Requirements": "42 Thieving",
     "Pts": "30",
     "Tags": [
-      "Fishing",
       "Thieving"
     ]
   },
@@ -3118,7 +3078,7 @@
     "Requirements": "Any skill at level 50",
     "Pts": "30",
     "Tags": [
-      "Combat"
+      "Exploration"
     ]
   },
   {
@@ -3128,7 +3088,7 @@
     "Requirements": "All skills except Invention at level 5",
     "Pts": "30",
     "Tags": [
-      "Invention"
+      "Exploration"
     ]
   },
   {
@@ -3138,7 +3098,7 @@
     "Requirements": "All skills except Invention at level 10",
     "Pts": "30",
     "Tags": [
-      "Invention"
+      "Exploration"
     ]
   },
   {
@@ -3148,7 +3108,7 @@
     "Requirements": "All skills except Invention at level 20",
     "Pts": "30",
     "Tags": [
-      "Invention"
+      "Exploration"
     ]
   },
   {
@@ -3167,7 +3127,9 @@
     "Information": "Reach total level 500. This task is currently bugged and may complete before you have reached 500 total levels",
     "Requirements": "500 total level",
     "Pts": "30",
-    "Tags": []
+    "Tags": [
+      "Exploration"
+    ]
   },
   {
     "Region": "Global",
@@ -3206,8 +3168,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Firemaking",
-      "Woodcutting"
+      "Firemaking"
     ]
   },
   {
@@ -3267,8 +3228,6 @@
     "Requirements": "31 Hunter to hunt spined larupia",
     "Pts": "30",
     "Tags": [
-      "Defence",
-      "Crafting",
       "Hunter"
     ]
   },
@@ -3299,7 +3258,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Ranged",
       "Fletching"
     ]
   },
@@ -3320,9 +3278,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Attack",
-      "Smithing",
-      "Defence"
+      "Smithing"
     ]
   },
   {
@@ -3332,7 +3288,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Fishing",
       "Cooking"
     ]
   },
@@ -3373,7 +3328,6 @@
     "Requirements": "17 Hunter",
     "Pts": "30",
     "Tags": [
-      "Fishing",
       "Hunter"
     ]
   },
@@ -3384,7 +3338,6 @@
     "Requirements": "17 Hunter",
     "Pts": "30",
     "Tags": [
-      "Fishing",
       "Hunter"
     ]
   },
@@ -3395,7 +3348,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Fishing",
       "Hunter"
     ]
   },
@@ -3426,9 +3378,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Firemaking",
-      "Woodcutting",
-      "Exploration"
+      "Minigame"
     ]
   },
   {
@@ -3438,8 +3388,7 @@
     "Requirements": "38 Herblore",
     "Pts": "30",
     "Tags": [
-      "Herblore",
-      "Prayer"
+      "Herblore"
     ]
   },
   {
@@ -3449,8 +3398,7 @@
     "Requirements": "A botanist's amulet , Morytania legs 4 , Underworld Grimoire 1 , or a varanusaur pen with a farm totem at the Anachronia Dinosaur Farm",
     "Pts": "30",
     "Tags": [
-      "Herblore",
-      "Farming"
+      "Herblore"
     ]
   },
   {
@@ -3490,7 +3438,6 @@
     "Requirements": "32 Farming",
     "Pts": "30",
     "Tags": [
-      "Herblore",
       "Farming"
     ]
   },
@@ -3501,9 +3448,7 @@
     "Requirements": "10 Ranged",
     "Pts": "30",
     "Tags": [
-      "Defence",
-      "Ranged",
-      "Fletching"
+      "Ranged"
     ]
   },
   {
@@ -3513,9 +3458,7 @@
     "Requirements": "30 Ranged , 30 Defence",
     "Pts": "30",
     "Tags": [
-      "Defence",
-      "Ranged",
-      "Fletching"
+      "Ranged"
     ]
   },
   {
@@ -3525,7 +3468,6 @@
     "Requirements": "45 Fletching",
     "Pts": "30",
     "Tags": [
-      "Ranged",
       "Fletching"
     ]
   },
@@ -3536,7 +3478,6 @@
     "Requirements": "20 Fletching",
     "Pts": "30",
     "Tags": [
-      "Ranged",
       "Fletching"
     ]
   },
@@ -3557,9 +3498,7 @@
     "Requirements": "50 Mining",
     "Pts": "30",
     "Tags": [
-      "Mining",
-      "Magic",
-      "Runecrafting"
+      "Mining"
     ]
   },
   {
@@ -3669,9 +3608,7 @@
     "Requirements": "25 Cooking",
     "Pts": "30",
     "Tags": [
-      "Ranged",
-      "Cooking",
-      "Fletching"
+      "Cooking"
     ]
   },
   {
@@ -3721,7 +3658,6 @@
     "Requirements": "28 Hunter",
     "Pts": "30",
     "Tags": [
-      "Fishing",
       "Hunter"
     ]
   },
@@ -3732,11 +3668,7 @@
     "Requirements": "49 Firemaking Either 36 Thieving and completion of Death to the Dorgeshuun ; or 50 quest points and the Lorehound pet unlocked; or 20 Smithing and 49 Crafting to create from scratch",
     "Pts": "30",
     "Tags": [
-      "Smithing",
-      "Thieving",
-      "Crafting",
-      "Firemaking",
-      "Questing"
+      "Firemaking"
     ]
   },
   {
@@ -3746,8 +3678,7 @@
     "Requirements": "10 Magic",
     "Pts": "30",
     "Tags": [
-      "Magic",
-      "Runecrafting"
+      "Magic"
     ]
   },
   {
@@ -3757,9 +3688,6 @@
     "Requirements": "6 Runecrafting",
     "Pts": "30",
     "Tags": [
-      "Prayer",
-      "Crafting",
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -3770,8 +3698,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Crafting",
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -3782,8 +3708,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Crafting",
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -3824,9 +3748,7 @@
     "Requirements": "50 Defence",
     "Pts": "30",
     "Tags": [
-      "Defence",
-      "Magic",
-      "Runecrafting"
+      "Defence"
     ]
   },
   {
@@ -3856,8 +3778,7 @@
     "Requirements": "30 Defence",
     "Pts": "30",
     "Tags": [
-      "Defence",
-      "Magic"
+      "Defence"
     ]
   },
   {
@@ -3888,8 +3809,7 @@
     "Requirements": "30 Firemaking",
     "Pts": "30",
     "Tags": [
-      "Firemaking",
-      "Woodcutting"
+      "Firemaking"
     ]
   },
   {
@@ -3899,8 +3819,7 @@
     "Requirements": "45 Firemaking",
     "Pts": "30",
     "Tags": [
-      "Firemaking",
-      "Woodcutting"
+      "Firemaking"
     ]
   },
   {
@@ -3910,7 +3829,6 @@
     "Requirements": "30 Magic",
     "Pts": "30",
     "Tags": [
-      "Defence",
       "Magic"
     ]
   },
@@ -3921,7 +3839,6 @@
     "Requirements": "40 Magic",
     "Pts": "30",
     "Tags": [
-      "Defence",
       "Magic"
     ]
   },
@@ -3992,9 +3909,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Firemaking",
-      "Woodcutting",
-      "Exploration"
+      "Minigame"
     ]
   },
   {
@@ -4004,9 +3919,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Firemaking",
-      "Woodcutting",
-      "Exploration"
+      "Minigame"
     ]
   },
   {
@@ -4016,9 +3929,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Firemaking",
-      "Woodcutting",
-      "Exploration"
+      "Minigame"
     ]
   },
   {
@@ -4028,9 +3939,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Firemaking",
-      "Woodcutting",
-      "Exploration"
+      "Minigame"
     ]
   },
   {
@@ -4040,9 +3949,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Firemaking",
-      "Woodcutting",
-      "Exploration"
+      "Minigame"
     ]
   },
   {
@@ -4062,9 +3969,7 @@
     "Requirements": "20 Ranged",
     "Pts": "30",
     "Tags": [
-      "Defence",
-      "Ranged",
-      "Fletching"
+      "Ranged"
     ]
   },
   {
@@ -4074,8 +3979,7 @@
     "Requirements": "5 Attack or 5 Ranged or 5 Magic (claimed from Gudrik in Port Sarim )",
     "Pts": "30",
     "Tags": [
-      "Ranged",
-      "Magic"
+      "Combat"
     ]
   },
   {
@@ -4085,7 +3989,7 @@
     "Requirements": "Any skill at level 30",
     "Pts": "30",
     "Tags": [
-      "Combat"
+      "Exploration"
     ]
   },
   {
@@ -4095,7 +3999,7 @@
     "Requirements": "Any skill at level 40",
     "Pts": "30",
     "Tags": [
-      "Combat"
+      "Exploration"
     ]
   },
   {
@@ -4105,7 +4009,7 @@
     "Requirements": "Any skill at level 60",
     "Pts": "30",
     "Tags": [
-      "Combat"
+      "Exploration"
     ]
   },
   {
@@ -4115,7 +4019,7 @@
     "Requirements": "All skills except Invention at level 30",
     "Pts": "30",
     "Tags": [
-      "Invention"
+      "Exploration"
     ]
   },
   {
@@ -4513,8 +4417,6 @@
     "Requirements": "44 Runecrafting",
     "Pts": "30",
     "Tags": [
-      "Crafting",
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -4709,7 +4611,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -4720,8 +4621,6 @@
     "Requirements": "44 Runecrafting",
     "Pts": "30",
     "Tags": [
-      "Crafting",
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -4732,7 +4631,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -4813,7 +4711,6 @@
     "Requirements": "17 Hunter",
     "Pts": "30",
     "Tags": [
-      "Fishing",
       "Hunter"
     ]
   },
@@ -4844,8 +4741,6 @@
     "Requirements": "5 Runecrafting Water talisman or equivalent",
     "Pts": "30",
     "Tags": [
-      "Crafting",
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -4876,10 +4771,7 @@
     "Requirements": "27 Runecrafting Cosmic talisman or equivalent, Completion of Lost City quest",
     "Pts": "30",
     "Tags": [
-      "Crafting",
-      "Magic",
-      "Runecrafting",
-      "Questing"
+      "Runecrafting"
     ]
   },
   {
@@ -4899,8 +4791,7 @@
     "Requirements": "40 Cooking Completion of Cook's Assistant quest",
     "Pts": "30",
     "Tags": [
-      "Cooking",
-      "Questing"
+      "Cooking"
     ]
   },
   {
@@ -5022,8 +4913,7 @@
     "Requirements": "32 Cooking Chef's hat or equivalent, see Cooks' Guild for alternatives",
     "Pts": "30",
     "Tags": [
-      "Cooking",
-      "Exploration"
+      "Cooking"
     ]
   },
   {
@@ -5033,7 +4923,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Slayer",
       "Questing"
     ]
   },
@@ -5044,7 +4933,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Slayer",
       "Questing"
     ]
   },
@@ -5125,9 +5013,7 @@
     "Requirements": "42 Archaeology",
     "Pts": "30",
     "Tags": [
-      "Firemaking",
-      "Archaeology",
-      "Exploration"
+      "Archaeology"
     ]
   },
   {
@@ -5137,8 +5023,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Ranged",
-      "Fletching",
       "Combat"
     ]
   },
@@ -5149,8 +5033,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Ranged",
-      "Fletching",
       "Combat"
     ]
   },
@@ -5162,10 +5044,8 @@
     "Pts": "30",
     "Tags": [
       "Attack",
-      "Defence",
       "Ranged",
-      "Magic",
-      "Fletching"
+      "Magic"
     ]
   },
   {
@@ -5175,9 +5055,7 @@
     "Requirements": "70 Defence",
     "Pts": "30",
     "Tags": [
-      "Defence",
-      "Ranged",
-      "Fletching"
+      "Defence"
     ]
   },
   {
@@ -5187,7 +5065,6 @@
     "Requirements": "Completion of Lair of Tarn Razorlor (miniquest)",
     "Pts": "30",
     "Tags": [
-      "Defence",
       "Questing"
     ]
   },
@@ -5198,7 +5075,6 @@
     "Requirements": "29 Hunter",
     "Pts": "30",
     "Tags": [
-      "Fishing",
       "Hunter"
     ]
   },
@@ -5209,7 +5085,6 @@
     "Requirements": "See quest page",
     "Pts": "30",
     "Tags": [
-      "Mining",
       "Questing"
     ]
   },
@@ -5260,8 +5135,6 @@
     "Requirements": "65 Runecrafting",
     "Pts": "30",
     "Tags": [
-      "Crafting",
-      "Magic",
       "Runecrafting"
     ]
   },
@@ -5282,8 +5155,7 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Magic",
-      "Farming"
+      "Exploration"
     ]
   },
   {
@@ -5293,7 +5165,6 @@
     "Requirements": "50 Magic",
     "Pts": "30",
     "Tags": [
-      "Defence",
       "Magic"
     ]
   },
@@ -5304,7 +5175,6 @@
     "Requirements": "66 Hunter",
     "Pts": "30",
     "Tags": [
-      "Fishing",
       "Hunter"
     ]
   },
@@ -5325,7 +5195,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Magic",
       "Exploration"
     ]
   },
@@ -5426,7 +5295,6 @@
     "Requirements": "60 Magic Completion of Mage Arena",
     "Pts": "30",
     "Tags": [
-      "Defence",
       "Magic"
     ]
   },
@@ -5437,10 +5305,6 @@
     "Requirements": "N/A",
     "Pts": "30",
     "Tags": [
-      "Prayer",
-      "Crafting",
-      "Magic",
-      "Runecrafting",
       "Exploration"
     ]
   },
@@ -5471,8 +5335,7 @@
     "Requirements": "35 Dungeoneering",
     "Pts": "30",
     "Tags": [
-      "Dungeoneering",
-      "Combat"
+      "Dungeoneering"
     ]
   },
   {
